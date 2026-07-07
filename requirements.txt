@@ -106,3 +106,5 @@ pycountry
 streamlit
 plotly
 statsmodels
+scikit-learn
+joblib
