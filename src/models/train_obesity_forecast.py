@@ -114,6 +114,23 @@ def train_models(df: pd.DataFrame):
     X_test = test_df[FEATURE_COLUMNS]
     y_test = test_df[TARGET_COLUMN]
 
+        # Naive baseline:
+    # Predict next year's obesity as equal to this year's obesity.
+    baseline_predictions = test_df["obesity_pct"]
+
+    baseline_metrics = {
+        "model": "naive_baseline",
+        "mae": mean_absolute_error(y_test, baseline_predictions),
+        "rmse": mean_squared_error(y_test, baseline_predictions) ** 0.5,
+        "r2": r2_score(y_test, baseline_predictions),
+    }
+
+    print(
+        "\nNaive baseline | "
+        f"MAE: {baseline_metrics['mae']:.3f} | "
+        f"RMSE: {baseline_metrics['rmse']:.3f} | "
+        f"R2: {baseline_metrics['r2']:.3f}"
+    )
     preprocessor = build_preprocessor()
 
     models = {
@@ -126,7 +143,7 @@ def train_models(df: pd.DataFrame):
         ),
     }
 
-    results = []
+    results = [baseline_metrics]
     trained_models = {}
 
     for name, regressor in models.items():
