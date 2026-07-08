@@ -1,6 +1,12 @@
 # Sugar Belly  
 ## Global Obesity Analytics & Sugar-Sensitivity Forecasting Platform
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Analytics%20Layer-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Project-brightgreen)
+
 Sugar Belly is an end-to-end data analytics and machine learning application that explores global obesity trends, country-level sugar and sweeteners availability, and forward-looking obesity risk scenarios across countries and WHO regions.
 
 The project combines data engineering, PostgreSQL analytics, SQL-based feature engineering, interactive dashboarding, machine learning model benchmarking, and sugar-sensitivity forecasting to 2030.
