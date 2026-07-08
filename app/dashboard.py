@@ -10,8 +10,8 @@ from sqlalchemy import create_engine
 
 DATABASE_URL = "postgresql+psycopg2:///sugarbelly"
 
-FORECAST_PATH = Path("reports/obesity_forecasts_2030.csv")
-METRICS_PATH = Path("reports/model_metrics.csv")
+SENSITIVITY_FORECAST_PATH = Path("reports/sugar_sensitivity_forecasts_2030.csv")
+SENSITIVITY_METRICS_PATH = Path("reports/sugar_sensitivity_metrics.csv")
 LOGO_PATH = Path("assets/sugarbelly_logo.png")
 
 
@@ -43,6 +43,7 @@ CUSTOM_CSS = """
     footer {
         visibility: hidden;
     }
+
     .block-container {
         padding-top: 1rem;
         padding-bottom: 2rem;
@@ -114,6 +115,7 @@ CUSTOM_CSS = """
         background: #FFFFFF;
         border: 1px solid #E2E8F0;
         box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+        min-height: 120px;
     }
 
     .metric-label {
@@ -222,9 +224,11 @@ def clean_numeric_columns(df: pd.DataFrame) -> pd.DataFrame:
         "forecast_year",
         "forecast_obesity_pct",
         "input_year",
+        "predicted_obesity_change_3yr",
+        "predicted_annualized_change",
         "sugar_supply_kg_per_capita_assumption",
         "sugar_supply_kcal_per_capita_day_assumption",
-        "annual_sugar_change_rate",
+        "total_sugar_change_by_2030",
         "mae",
         "rmse",
         "r2",
@@ -273,23 +277,23 @@ def load_data():
         engine,
     )
 
-    if FORECAST_PATH.exists():
-        forecasts = pd.read_csv(FORECAST_PATH)
+    if SENSITIVITY_FORECAST_PATH.exists():
+        sensitivity_forecasts = pd.read_csv(SENSITIVITY_FORECAST_PATH)
     else:
-        forecasts = pd.DataFrame()
+        sensitivity_forecasts = pd.DataFrame()
 
-    if METRICS_PATH.exists():
-        model_metrics = pd.read_csv(METRICS_PATH)
+    if SENSITIVITY_METRICS_PATH.exists():
+        sensitivity_metrics = pd.read_csv(SENSITIVITY_METRICS_PATH)
     else:
-        model_metrics = pd.DataFrame()
+        sensitivity_metrics = pd.DataFrame()
 
     return (
         clean_numeric_columns(latest),
         clean_numeric_columns(country_year),
         clean_numeric_columns(region_summary),
         clean_numeric_columns(country_change),
-        clean_numeric_columns(forecasts),
-        clean_numeric_columns(model_metrics),
+        clean_numeric_columns(sensitivity_forecasts),
+        clean_numeric_columns(sensitivity_metrics),
     )
 
 
@@ -310,8 +314,8 @@ def metric_card(label: str, value: str):
     country_year_df,
     region_summary_df,
     country_change_df,
-    forecast_df,
-    model_metrics_df,
+    sensitivity_forecast_df,
+    sensitivity_metrics_df,
 ) = load_data()
 
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
@@ -339,14 +343,14 @@ with hero_text_col:
                 Sugar Belly is an end-to-end analytics product that combines WHO obesity estimates
                 and FAOSTAT sugar availability data into a PostgreSQL-backed intelligence layer.
                 The platform uses SQL feature engineering, country-year trend analysis, ML model
-                benchmarking, and scenario-based forecasting to surface public-health risk signals
+                benchmarking, and sugar-sensitivity forecasting to surface public-health risk signals
                 across countries and WHO regions.
             </p>
             <div class="badge-row">
                 <div class="hero-badge">PostgreSQL analytics layer</div>
                 <div class="hero-badge">SQL feature engineering</div>
-                <div class="hero-badge">Naive baseline vs ML model</div>
-                <div class="hero-badge">2030 obesity forecast</div>
+                <div class="hero-badge">Sugar sensitivity model</div>
+                <div class="hero-badge">2030 obesity scenario forecast</div>
             </div>
         </div>
         """,
@@ -408,8 +412,8 @@ with kpi_3:
 
 with kpi_4:
     metric_card(
-        "Average sugar availability",
-        f"{latest_filtered['sugar_supply_kg_per_capita'].mean():.2f} kg",
+        "Average sugar availability (kg/capita/year)",
+        f"{latest_filtered['sugar_supply_kg_per_capita'].mean():.2f}",
     )
 
 
@@ -554,38 +558,48 @@ st.plotly_chart(trend_fig, use_container_width=True)
 
 
 st.markdown(
-    '<div class="section-title">ML scenario forecast to 2030</div>',
+    '<div class="section-title">ML sugar-sensitivity forecast to 2030</div>',
     unsafe_allow_html=True,
 )
 
-if forecast_df.empty:
+if sensitivity_forecast_df.empty:
     st.warning(
-        "Forecast file not found. Run src/models/forecast_obesity_to_2030.py to generate forecasts."
+        "Sugar sensitivity forecast file not found. "
+        "Run src/models/forecast_sugar_sensitivity_to_2030.py to generate forecasts."
     )
 else:
-    if "scenario" not in forecast_df.columns:
-        forecast_df["scenario"] = "Constant sugar scenario"
-
-    forecast_scenarios = sorted(forecast_df["scenario"].dropna().unique().tolist())
-
-    default_scenario = (
-        "Constant sugar scenario"
-        if "Constant sugar scenario" in forecast_scenarios
-        else forecast_scenarios[0]
+    scenario_change_pct = st.radio(
+        "Sugar availability change by 2030",
+        options=[2, 5, 10],
+        index=1,
+        horizontal=True,
+        format_func=lambda value: f"±{value}%",
     )
+
+    scenario_decrease = f"Sugar -{scenario_change_pct}% by 2030"
+    scenario_constant = "Constant sugar"
+    scenario_increase = f"Sugar +{scenario_change_pct}% by 2030"
+
+    scenario_options_for_plot = [
+        scenario_decrease,
+        scenario_constant,
+        scenario_increase,
+    ]
 
     selected_forecast_scenario = st.selectbox(
-        "Choose forecast scenario for 2030 ranking",
-        options=forecast_scenarios,
-        index=forecast_scenarios.index(default_scenario),
+        "Choose scenario for 2030 ranking",
+        options=scenario_options_for_plot,
+        index=1,
     )
 
-    forecast_filtered = forecast_df[
-        forecast_df["who_region"].isin(selected_regions)
+    forecast_filtered = sensitivity_forecast_df[
+        (sensitivity_forecast_df["who_region"].isin(selected_regions))
+        & (sensitivity_forecast_df["scenario"].isin(scenario_options_for_plot))
     ].copy()
 
-    selected_forecast_all = forecast_df[
-        forecast_df["iso3"] == selected_iso3
+    selected_forecast_all = sensitivity_forecast_df[
+        (sensitivity_forecast_df["iso3"] == selected_iso3)
+        & (sensitivity_forecast_df["scenario"].isin(scenario_options_for_plot))
     ].sort_values(["scenario", "forecast_year"])
 
     forecast_col_1, forecast_col_2 = st.columns([1.2, 1])
@@ -603,13 +617,18 @@ else:
         )
 
         scenario_dash_map = {
-            "Reduced sugar scenario": "dot",
-            "Constant sugar scenario": "dash",
-            "Increased sugar scenario": "longdash",
+            scenario_decrease: "dot",
+            scenario_constant: "dash",
+            scenario_increase: "longdash",
         }
 
-        for scenario_name, scenario_data in selected_forecast_all.groupby("scenario"):
-            scenario_data = scenario_data.sort_values("forecast_year")
+        for scenario_name in scenario_options_for_plot:
+            scenario_data = selected_forecast_all[
+                selected_forecast_all["scenario"] == scenario_name
+            ].sort_values("forecast_year")
+
+            if scenario_data.empty:
+                continue
 
             forecast_fig.add_trace(
                 go.Scatter(
@@ -624,12 +643,15 @@ else:
             )
 
         forecast_fig.update_layout(
-            title=f"{selected_country}: historical obesity and ML scenario forecast to 2030",
+            title=(
+                f"{selected_country}: obesity forecast under ±{scenario_change_pct}% "
+                "sugar availability scenarios"
+            ),
             height=480,
-            margin=dict(l=0, r=0, t=50, b=0),
+            margin=dict(l=0, r=0, t=55, b=0),
             xaxis_title="Year",
             yaxis_title="Adult obesity prevalence (%)",
-            legend_title_text="Forecast scenario",
+            legend_title_text="Scenario",
         )
 
         st.plotly_chart(forecast_fig, use_container_width=True)
@@ -659,7 +681,7 @@ else:
 
         fig_2030.update_layout(
             height=480,
-            margin=dict(l=0, r=0, t=50, b=0),
+            margin=dict(l=0, r=0, t=55, b=0),
         )
 
         st.plotly_chart(fig_2030, use_container_width=True)
@@ -677,8 +699,8 @@ else:
 
     with forecast_metric_col_1:
         metric_card(
-            "Selected scenario",
-            selected_forecast_scenario.replace(" scenario", ""),
+            "Scenario range",
+            f"±{scenario_change_pct}%",
         )
 
     if not selected_country_2030.empty:
@@ -688,18 +710,31 @@ else:
                 f"{selected_country_2030['forecast_obesity_pct'].iloc[0]:.2f}%",
             )
 
-    if not model_metrics_df.empty:
-        best_model_row = model_metrics_df.sort_values("mae").iloc[0]
+    selected_metric_row = pd.DataFrame()
+
+    if not sensitivity_metrics_df.empty:
+        if "selected_for_scenarios" in sensitivity_metrics_df.columns:
+            selected_metric_row = sensitivity_metrics_df[
+                sensitivity_metrics_df["selected_for_scenarios"]
+                .astype(str)
+                .str.lower()
+                .isin(["true", "1"])
+            ]
+
+        if selected_metric_row.empty:
+            selected_metric_row = sensitivity_metrics_df.sort_values("mae").head(1)
+
+        best_model_row = selected_metric_row.iloc[0]
 
         with forecast_metric_col_3:
             metric_card(
-                "Best forecast model",
+                "Sensitivity model",
                 str(best_model_row["model"]),
             )
 
         with forecast_metric_col_4:
             metric_card(
-                "Best model MAE",
+                "MAE: 3yr change",
                 f"{best_model_row['mae']:.3f}",
             )
 
@@ -710,13 +745,44 @@ else:
         )
 
         st.caption(
-            f"For {selected_country}, the 2030 forecast spread across sugar scenarios is "
-            f"{scenario_range:.3f} percentage points."
+            f"For {selected_country}, the 2030 forecast spread across the ±{scenario_change_pct}% "
+            f"sugar scenarios is {scenario_range:.3f} percentage points."
         )
 
-    with st.expander("View selected country scenario forecasts"):
+        constant_rows = selected_country_2030_all[
+            selected_country_2030_all["scenario"] == scenario_constant
+        ]
+
+        if not constant_rows.empty:
+            constant_forecast = constant_rows["forecast_obesity_pct"].iloc[0]
+
+            impact_df = selected_country_2030_all.copy()
+            impact_df["impact_vs_constant_pp"] = (
+                impact_df["forecast_obesity_pct"] - constant_forecast
+            )
+
+            fig_impact = px.bar(
+                impact_df.sort_values("impact_vs_constant_pp"),
+                x="impact_vs_constant_pp",
+                y="scenario",
+                orientation="h",
+                title=f"{selected_country}: 2030 scenario impact vs constant sugar",
+                labels={
+                    "impact_vs_constant_pp": "Difference vs constant sugar forecast (percentage points)",
+                    "scenario": "",
+                },
+            )
+
+            fig_impact.update_layout(
+                height=320,
+                margin=dict(l=0, r=0, t=50, b=0),
+            )
+
+            st.plotly_chart(fig_impact, use_container_width=True)
+
+    with st.expander("View selected country sugar-sensitivity forecasts"):
         if selected_forecast_all.empty:
-            st.info("No scenario forecast data available for this country.")
+            st.info("No sugar-sensitivity forecast data available for this country.")
         else:
             display_forecast = selected_forecast_all[
                 [
@@ -724,43 +790,49 @@ else:
                     "scenario",
                     "forecast_year",
                     "forecast_obesity_pct",
+                    "predicted_obesity_change_3yr",
+                    "predicted_annualized_change",
                     "sugar_supply_kg_per_capita_assumption",
-                    "annual_sugar_change_rate",
+                    "total_sugar_change_by_2030",
                 ]
             ].copy()
 
             display_forecast = display_forecast.round(
                 {
                     "forecast_obesity_pct": 2,
+                    "predicted_obesity_change_3yr": 3,
+                    "predicted_annualized_change": 3,
                     "sugar_supply_kg_per_capita_assumption": 2,
-                    "annual_sugar_change_rate": 3,
+                    "total_sugar_change_by_2030": 3,
                 }
             )
 
             st.dataframe(display_forecast, use_container_width=True)
 
-    with st.expander("View model evaluation results"):
-        if model_metrics_df.empty:
-            st.info("Model metrics file not found.")
+    with st.expander("View sugar sensitivity model evaluation results"):
+        if sensitivity_metrics_df.empty:
+            st.info("Sugar sensitivity model metrics file not found.")
         else:
             st.dataframe(
-                model_metrics_df.round(3),
+                sensitivity_metrics_df.round(3),
                 use_container_width=True,
             )
 
     st.markdown(
-        """
+        f"""
         <div class="note">
-            <strong>Scenario forecast note:</strong> The 2030 forecast uses the trained Linear Regression
-            model selected during model evaluation. Three sugar-availability scenarios are generated:
-            reduced sugar availability (-1% per year), constant sugar availability, and increased sugar
-            availability (+1% per year). These forecasts are scenario estimates, not guaranteed future
-            outcomes. Because the model is strongly influenced by lagged obesity trends, scenario lines may
-            appear close together for some countries.
+            <strong>Sugar sensitivity forecast note:</strong> This model predicts future
+            <strong>3-year obesity change</strong> using current obesity, sugar availability,
+            sugar trend features, year, and WHO region. The predicted 3-year change is annualized
+            to create yearly forecasts through 2030. This section compares the constant-sugar
+            baseline against matched sugar increase and decrease scenarios of {scenario_change_pct}%
+            by 2030. These are association-based what-if estimates, not causal claims or guaranteed
+            future outcomes.
         </div>
         """,
         unsafe_allow_html=True,
     )
+
 
 st.markdown(
     '<div class="section-title">Rankings</div>',

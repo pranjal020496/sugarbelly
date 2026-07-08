@@ -7,11 +7,12 @@ from sqlalchemy import create_engine
 
 DATABASE_URL = "postgresql+psycopg2:///sugarbelly"
 
-MODEL_PATH = Path("models/obesity_forecast_model.joblib")
-OUTPUT_PATH = Path("reports/obesity_forecasts_2030.csv")
+MODEL_PATH = Path("models/sugar_sensitivity_model.joblib")
+OUTPUT_PATH = Path("reports/sugar_sensitivity_forecasts_2030.csv")
 
 FORECAST_START_YEAR = 2024
 FORECAST_END_YEAR = 2030
+HORIZON_YEARS = 3
 
 
 SCENARIOS = {
@@ -28,9 +29,6 @@ SCENARIOS = {
 FEATURE_COLUMNS = [
     "year",
     "obesity_pct",
-    "obesity_lag_1",
-    "obesity_lag_2",
-    "obesity_lag_3",
     "obesity_change_1yr",
     "obesity_change_3yr",
     "sugar_supply_kg_per_capita",
@@ -43,18 +41,25 @@ FEATURE_COLUMNS = [
 ]
 
 
-def load_model():
+def load_model_bundle():
     """
-    Load the trained machine learning model.
+    Load the trained sugar sensitivity model bundle.
     """
 
     if not MODEL_PATH.exists():
         raise FileNotFoundError(
             f"Model file not found: {MODEL_PATH}. "
-            "Run src/models/train_obesity_forecast.py first."
+            "Run src/models/train_sugar_sensitivity_model.py first."
         )
 
-    return joblib.load(MODEL_PATH)
+    bundle = joblib.load(MODEL_PATH)
+
+    if not isinstance(bundle, dict) or "model" not in bundle:
+        raise ValueError(
+            "Model file is not a valid sugar sensitivity model bundle."
+        )
+
+    return bundle
 
 
 def load_historical_data() -> pd.DataFrame:
@@ -112,11 +117,38 @@ def load_historical_data() -> pd.DataFrame:
     return df
 
 
+def apply_sugar_scenario(
+    latest_value: float,
+    total_change_by_2030: float,
+    forecast_year: int,
+    latest_actual_year: int,
+    forecast_end_year: int,
+) -> float:
+    """
+    Apply a total sugar availability change by 2030.
+
+    Example:
+    - -0.10 means sugar availability is 10% lower by 2030.
+    -  0.00 means sugar availability stays constant.
+    -  0.10 means sugar availability is 10% higher by 2030.
+    """
+
+    total_years = forecast_end_year - latest_actual_year
+
+    if total_years <= 0:
+        return latest_value
+
+    progress = (forecast_year - latest_actual_year) / total_years
+    progress = max(0.0, min(1.0, progress))
+
+    return latest_value * (1 + total_change_by_2030 * progress)
+
+
 def build_feature_row(country_history: pd.DataFrame, input_year: int) -> dict | None:
     """
-    Build one ML input row.
+    Build one ML input row for the sugar sensitivity model.
 
-    The model uses the input year to predict obesity in input_year + 1.
+    The model predicts 3-year obesity change from the current country-year state.
     """
 
     by_year = country_history.set_index("year")
@@ -124,7 +156,6 @@ def build_feature_row(country_history: pd.DataFrame, input_year: int) -> dict | 
     required_years = [
         input_year,
         input_year - 1,
-        input_year - 2,
         input_year - 3,
     ]
 
@@ -134,15 +165,11 @@ def build_feature_row(country_history: pd.DataFrame, input_year: int) -> dict | 
 
     current = by_year.loc[input_year]
     lag_1 = by_year.loc[input_year - 1]
-    lag_2 = by_year.loc[input_year - 2]
     lag_3 = by_year.loc[input_year - 3]
 
     return {
         "year": input_year,
         "obesity_pct": current["obesity_pct"],
-        "obesity_lag_1": lag_1["obesity_pct"],
-        "obesity_lag_2": lag_2["obesity_pct"],
-        "obesity_lag_3": lag_3["obesity_pct"],
         "obesity_change_1yr": current["obesity_pct"] - lag_1["obesity_pct"],
         "obesity_change_3yr": current["obesity_pct"] - lag_3["obesity_pct"],
         "sugar_supply_kg_per_capita": current["sugar_supply_kg_per_capita"],
@@ -159,37 +186,9 @@ def build_feature_row(country_history: pd.DataFrame, input_year: int) -> dict | 
     }
 
 
-def apply_sugar_scenario(
-    latest_value: float,
-    total_change_by_2030: float,
-    forecast_year: int,
-    latest_actual_year: int,
-    forecast_end_year: int,
-) -> float:
-    """
-    Apply a total sugar availability change by 2030.
-
-    Example:
-    - total_change_by_2030 = -0.10 means sugar is 10% lower by 2030.
-    - total_change_by_2030 = 0.00 means sugar stays constant.
-    - total_change_by_2030 = 0.10 means sugar is 10% higher by 2030.
-
-    The change is applied gradually from the latest actual year to 2030.
-    """
-
-    total_years = forecast_end_year - latest_actual_year
-
-    if total_years <= 0:
-        return latest_value
-
-    progress = (forecast_year - latest_actual_year) / total_years
-    progress = max(0.0, min(1.0, progress))
-
-    return latest_value * (1 + total_change_by_2030 * progress)
-
-
 def forecast_country_scenario(
     model,
+    selected_model_name: str,
     country_history: pd.DataFrame,
     forecast_end_year: int,
     scenario_name: str,
@@ -197,6 +196,9 @@ def forecast_country_scenario(
 ) -> list[dict]:
     """
     Forecast one country under one sugar availability scenario.
+
+    The model predicts a 3-year obesity change.
+    For yearly forecasts, the predicted 3-year change is annualized.
     """
 
     country_history = country_history.sort_values("year").copy()
@@ -230,8 +232,12 @@ def forecast_country_scenario(
 
         X_forecast = pd.DataFrame([feature_row], columns=FEATURE_COLUMNS)
 
-        prediction = float(model.predict(X_forecast)[0])
-        prediction = max(0.0, min(100.0, prediction))
+        predicted_obesity_change_3yr = float(model.predict(X_forecast)[0])
+        predicted_annualized_change = predicted_obesity_change_3yr / HORIZON_YEARS
+
+        current_obesity = float(feature_row["obesity_pct"])
+        forecast_obesity_pct = current_obesity + predicted_annualized_change
+        forecast_obesity_pct = max(0.0, min(100.0, forecast_obesity_pct))
 
         scenario_sugar_kg = apply_sugar_scenario(
             latest_value=latest_sugar_kg,
@@ -258,10 +264,14 @@ def forecast_country_scenario(
                 "scenario": scenario_name,
                 "total_sugar_change_by_2030": total_sugar_change_by_2030,
                 "forecast_year": forecast_year,
-                "forecast_obesity_pct": prediction,
+                "forecast_obesity_pct": forecast_obesity_pct,
                 "input_year": input_year,
+                "predicted_obesity_change_3yr": predicted_obesity_change_3yr,
+                "predicted_annualized_change": predicted_annualized_change,
                 "sugar_supply_kg_per_capita_assumption": scenario_sugar_kg,
                 "sugar_supply_kcal_per_capita_day_assumption": scenario_sugar_kcal,
+                "model_name": selected_model_name,
+                "model_type": "sugar_sensitivity_model",
             }
         )
 
@@ -269,7 +279,7 @@ def forecast_country_scenario(
             "iso3": iso3,
             "country": country,
             "year": forecast_year,
-            "obesity_pct": prediction,
+            "obesity_pct": forecast_obesity_pct,
             "sugar_supply_kg_per_capita": scenario_sugar_kg,
             "sugar_supply_kcal_per_capita_day": scenario_sugar_kcal,
             "who_region": who_region,
@@ -286,10 +296,16 @@ def forecast_country_scenario(
 
 def run_forecasts() -> pd.DataFrame:
     """
-    Run forecasts for all countries and all sugar availability scenarios.
+    Run sugar sensitivity forecasts for all countries and scenarios.
     """
 
-    model = load_model()
+    model_bundle = load_model_bundle()
+    model = model_bundle["model"]
+    selected_model_name = model_bundle.get(
+        "selected_model_name",
+        "sugar_sensitivity_model",
+    )
+
     historical_df = load_historical_data()
 
     all_forecasts = []
@@ -298,6 +314,7 @@ def run_forecasts() -> pd.DataFrame:
         for scenario_name, total_sugar_change_by_2030 in SCENARIOS.items():
             scenario_forecasts = forecast_country_scenario(
                 model=model,
+                selected_model_name=selected_model_name,
                 country_history=country_history,
                 forecast_end_year=FORECAST_END_YEAR,
                 scenario_name=scenario_name,
@@ -319,7 +336,7 @@ def run_forecasts() -> pd.DataFrame:
         ["iso3", "scenario", "forecast_year"]
     )
 
-    print("\nCreated scenario forecasts.")
+    print("\nCreated sugar sensitivity forecasts.")
     print(f"Rows: {len(forecast_df)}")
     print(f"Countries: {forecast_df['iso3'].nunique()}")
     print(f"Scenarios: {forecast_df['scenario'].nunique()}")
@@ -333,7 +350,7 @@ def run_forecasts() -> pd.DataFrame:
 
 def save_forecasts(forecast_df: pd.DataFrame) -> None:
     """
-    Save scenario forecasts to CSV.
+    Save sugar sensitivity forecasts to CSV.
     """
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -354,6 +371,7 @@ def save_forecasts(forecast_df: pd.DataFrame) -> None:
                 "total_sugar_change_by_2030",
                 "forecast_year",
                 "forecast_obesity_pct",
+                "predicted_obesity_change_3yr",
                 "sugar_supply_kg_per_capita_assumption",
             ]
         ].head(30)
