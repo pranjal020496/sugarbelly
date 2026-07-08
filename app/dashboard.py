@@ -44,7 +44,7 @@ CUSTOM_CSS = """
         visibility: hidden;
     }
     .block-container {
-        padding-top: 2rem;
+        padding-top: 1rem;
         padding-bottom: 2rem;
         max-width: 1400px;
     }
@@ -224,6 +224,7 @@ def clean_numeric_columns(df: pd.DataFrame) -> pd.DataFrame:
         "input_year",
         "sugar_supply_kg_per_capita_assumption",
         "sugar_supply_kcal_per_capita_day_assumption",
+        "annual_sugar_change_rate",
         "mae",
         "rmse",
         "r2",
@@ -553,7 +554,7 @@ st.plotly_chart(trend_fig, use_container_width=True)
 
 
 st.markdown(
-    '<div class="section-title">ML forecast to 2030</div>',
+    '<div class="section-title">ML scenario forecast to 2030</div>',
     unsafe_allow_html=True,
 )
 
@@ -562,13 +563,30 @@ if forecast_df.empty:
         "Forecast file not found. Run src/models/forecast_obesity_to_2030.py to generate forecasts."
     )
 else:
+    if "scenario" not in forecast_df.columns:
+        forecast_df["scenario"] = "Constant sugar scenario"
+
+    forecast_scenarios = sorted(forecast_df["scenario"].dropna().unique().tolist())
+
+    default_scenario = (
+        "Constant sugar scenario"
+        if "Constant sugar scenario" in forecast_scenarios
+        else forecast_scenarios[0]
+    )
+
+    selected_forecast_scenario = st.selectbox(
+        "Choose forecast scenario for 2030 ranking",
+        options=forecast_scenarios,
+        index=forecast_scenarios.index(default_scenario),
+    )
+
     forecast_filtered = forecast_df[
         forecast_df["who_region"].isin(selected_regions)
     ].copy()
 
-    selected_forecast = forecast_df[
+    selected_forecast_all = forecast_df[
         forecast_df["iso3"] == selected_iso3
-    ].sort_values("forecast_year")
+    ].sort_values(["scenario", "forecast_year"])
 
     forecast_col_1, forecast_col_2 = st.columns([1.2, 1])
 
@@ -584,30 +602,42 @@ else:
             )
         )
 
-        if not selected_forecast.empty:
+        scenario_dash_map = {
+            "Reduced sugar scenario": "dot",
+            "Constant sugar scenario": "dash",
+            "Increased sugar scenario": "longdash",
+        }
+
+        for scenario_name, scenario_data in selected_forecast_all.groupby("scenario"):
+            scenario_data = scenario_data.sort_values("forecast_year")
+
             forecast_fig.add_trace(
                 go.Scatter(
-                    x=selected_forecast["forecast_year"],
-                    y=selected_forecast["forecast_obesity_pct"],
+                    x=scenario_data["forecast_year"],
+                    y=scenario_data["forecast_obesity_pct"],
                     mode="lines+markers",
-                    name="ML forecast",
-                    line=dict(dash="dash"),
+                    name=scenario_name,
+                    line=dict(
+                        dash=scenario_dash_map.get(scenario_name, "dash")
+                    ),
                 )
             )
 
         forecast_fig.update_layout(
-            title=f"{selected_country}: historical obesity and ML forecast to 2030",
-            height=460,
+            title=f"{selected_country}: historical obesity and ML scenario forecast to 2030",
+            height=480,
             margin=dict(l=0, r=0, t=50, b=0),
             xaxis_title="Year",
             yaxis_title="Adult obesity prevalence (%)",
+            legend_title_text="Forecast scenario",
         )
 
         st.plotly_chart(forecast_fig, use_container_width=True)
 
     with forecast_col_2:
         forecast_2030 = forecast_filtered[
-            forecast_filtered["forecast_year"] == 2030
+            (forecast_filtered["forecast_year"] == 2030)
+            & (forecast_filtered["scenario"] == selected_forecast_scenario)
         ].copy()
 
         top_2030 = forecast_2030.sort_values(
@@ -620,7 +650,7 @@ else:
             x="forecast_obesity_pct",
             y="country",
             orientation="h",
-            title="Highest forecast obesity prevalence, 2030",
+            title=f"Highest forecast obesity prevalence, 2030<br>{selected_forecast_scenario}",
             labels={
                 "forecast_obesity_pct": "Forecast obesity prevalence (%)",
                 "country": "",
@@ -628,40 +658,86 @@ else:
         )
 
         fig_2030.update_layout(
-            height=460,
+            height=480,
             margin=dict(l=0, r=0, t=50, b=0),
         )
 
         st.plotly_chart(fig_2030, use_container_width=True)
 
-    forecast_metric_col_1, forecast_metric_col_2, forecast_metric_col_3 = st.columns(3)
+    forecast_metric_col_1, forecast_metric_col_2, forecast_metric_col_3, forecast_metric_col_4 = st.columns(4)
 
-    if not selected_forecast.empty:
-        selected_2030_value = selected_forecast[
-            selected_forecast["forecast_year"] == 2030
-        ]["forecast_obesity_pct"]
+    selected_country_2030 = selected_forecast_all[
+        (selected_forecast_all["forecast_year"] == 2030)
+        & (selected_forecast_all["scenario"] == selected_forecast_scenario)
+    ]
 
-        if not selected_2030_value.empty:
-            with forecast_metric_col_1:
-                metric_card(
-                    f"{selected_country} forecast obesity in 2030",
-                    f"{selected_2030_value.iloc[0]:.2f}%",
-                )
+    selected_country_2030_all = selected_forecast_all[
+        selected_forecast_all["forecast_year"] == 2030
+    ]
+
+    with forecast_metric_col_1:
+        metric_card(
+            "Selected scenario",
+            selected_forecast_scenario.replace(" scenario", ""),
+        )
+
+    if not selected_country_2030.empty:
+        with forecast_metric_col_2:
+            metric_card(
+                f"{selected_country} 2030 forecast",
+                f"{selected_country_2030['forecast_obesity_pct'].iloc[0]:.2f}%",
+            )
 
     if not model_metrics_df.empty:
         best_model_row = model_metrics_df.sort_values("mae").iloc[0]
 
-        with forecast_metric_col_2:
+        with forecast_metric_col_3:
             metric_card(
                 "Best forecast model",
                 str(best_model_row["model"]),
             )
 
-        with forecast_metric_col_3:
+        with forecast_metric_col_4:
             metric_card(
                 "Best model MAE",
                 f"{best_model_row['mae']:.3f}",
             )
+
+    if not selected_country_2030_all.empty:
+        scenario_range = (
+            selected_country_2030_all["forecast_obesity_pct"].max()
+            - selected_country_2030_all["forecast_obesity_pct"].min()
+        )
+
+        st.caption(
+            f"For {selected_country}, the 2030 forecast spread across sugar scenarios is "
+            f"{scenario_range:.3f} percentage points."
+        )
+
+    with st.expander("View selected country scenario forecasts"):
+        if selected_forecast_all.empty:
+            st.info("No scenario forecast data available for this country.")
+        else:
+            display_forecast = selected_forecast_all[
+                [
+                    "country",
+                    "scenario",
+                    "forecast_year",
+                    "forecast_obesity_pct",
+                    "sugar_supply_kg_per_capita_assumption",
+                    "annual_sugar_change_rate",
+                ]
+            ].copy()
+
+            display_forecast = display_forecast.round(
+                {
+                    "forecast_obesity_pct": 2,
+                    "sugar_supply_kg_per_capita_assumption": 2,
+                    "annual_sugar_change_rate": 3,
+                }
+            )
+
+            st.dataframe(display_forecast, use_container_width=True)
 
     with st.expander("View model evaluation results"):
         if model_metrics_df.empty:
@@ -675,15 +751,16 @@ else:
     st.markdown(
         """
         <div class="note">
-            <strong>Forecast note:</strong> The 2030 forecast uses the trained Linear Regression
-            model selected during model evaluation. Future sugar availability is held constant at
-            the latest observed country-level value, creating a baseline constant-sugar scenario.
-            Forecasts are scenario estimates, not guaranteed future outcomes.
+            <strong>Scenario forecast note:</strong> The 2030 forecast uses the trained Linear Regression
+            model selected during model evaluation. Three sugar-availability scenarios are generated:
+            reduced sugar availability (-1% per year), constant sugar availability, and increased sugar
+            availability (+1% per year). These forecasts are scenario estimates, not guaranteed future
+            outcomes. Because the model is strongly influenced by lagged obesity trends, scenario lines may
+            appear close together for some countries.
         </div>
         """,
         unsafe_allow_html=True,
     )
-
 
 st.markdown(
     '<div class="section-title">Rankings</div>',
