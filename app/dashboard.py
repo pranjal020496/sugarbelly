@@ -9,81 +9,182 @@ from sqlalchemy import create_engine
 
 
 DATABASE_URL = "postgresql+psycopg2:///sugarbelly"
+
 FORECAST_PATH = Path("reports/obesity_forecasts_2030.csv")
 METRICS_PATH = Path("reports/model_metrics.csv")
+LOGO_PATH = Path("assets/sugarbelly_logo.png")
 
 
 st.set_page_config(
     page_title="Sugar Belly",
-    page_icon="🍬",
+    page_icon="📊",
     layout="wide",
 )
 
 
 CUSTOM_CSS = """
 <style>
+    header[data-testid="stHeader"] {
+        display: none;
+    }
+
+    div[data-testid="stToolbar"] {
+        display: none;
+    }
+
+    div[data-testid="stDecoration"] {
+        display: none;
+    }
+
+    #MainMenu {
+        visibility: hidden;
+    }
+
+    footer {
+        visibility: hidden;
+    }
     .block-container {
         padding-top: 2rem;
         padding-bottom: 2rem;
+        max-width: 1400px;
     }
 
-    .hero {
-        padding: 1.6rem 2rem;
+    .stApp {
+        background-color: #F8FAFC;
+    }
+
+    .hero-text-card {
+        padding: 1.8rem 2rem;
         border-radius: 24px;
-        background: linear-gradient(135deg, #fff7ed 0%, #ffe4e6 45%, #eef2ff 100%);
-        border: 1px solid rgba(0,0,0,0.06);
+        background:
+            radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 32%),
+            linear-gradient(135deg, #020617 0%, #0F172A 52%, #1E293B 100%);
+        border: 1px solid rgba(148, 163, 184, 0.22);
         margin-bottom: 1.5rem;
+        box-shadow: 0 18px 42px rgba(2, 6, 23, 0.24);
+        height: 390px;
     }
 
-    .hero h1 {
-        font-size: 3.1rem;
-        margin-bottom: 0.25rem;
-        color: #111827;
+    .hero-eyebrow {
+        color: #38BDF8;
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-bottom: 0.7rem;
     }
 
-    .hero p {
-        font-size: 1.05rem;
-        color: #4b5563;
-        max-width: 1000px;
-        line-height: 1.6;
+    .hero-text-card h1 {
+        font-size: 2.6rem;
+        margin-bottom: 0.75rem;
+        color: #F8FAFC;
+        font-weight: 850;
+        letter-spacing: -0.04em;
+        line-height: 1.05;
+    }
+
+    .hero-text-card p {
+        font-size: 1.02rem;
+        color: #CBD5E1;
+        max-width: 880px;
+        line-height: 1.75;
+        margin-bottom: 1rem;
+    }
+
+    .badge-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        margin-top: 1rem;
+    }
+
+    .hero-badge {
+        padding: 0.42rem 0.68rem;
+        border-radius: 999px;
+        background: rgba(15, 23, 42, 0.72);
+        border: 1px solid rgba(148, 163, 184, 0.28);
+        color: #E2E8F0;
+        font-size: 0.78rem;
+        font-weight: 700;
     }
 
     .metric-card {
         padding: 1.15rem;
         border-radius: 18px;
-        background: white;
-        border: 1px solid rgba(0,0,0,0.06);
-        box-shadow: 0 8px 28px rgba(0,0,0,0.05);
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
     }
 
     .metric-label {
-        font-size: 0.85rem;
-        color: #6b7280;
+        font-size: 0.83rem;
+        color: #64748B;
         margin-bottom: 0.35rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        font-weight: 600;
     }
 
     .metric-value {
-        font-size: 1.8rem;
-        font-weight: 750;
-        color: #111827;
+        font-size: 1.85rem;
+        font-weight: 800;
+        color: #0F172A;
     }
 
     .section-title {
-        font-size: 1.45rem;
-        font-weight: 750;
-        color: #111827;
+        font-size: 1.35rem;
+        font-weight: 800;
+        color: #0F172A;
         margin-top: 1.4rem;
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.7rem;
+        letter-spacing: -0.01em;
     }
 
     .note {
         font-size: 0.92rem;
-        color: #4b5563;
-        background: #ffffff;
-        border-left: 4px solid #f59e0b;
-        padding: 0.9rem 1rem;
+        color: #334155;
+        background: #FFFFFF;
+        border-left: 4px solid #2563EB;
+        padding: 0.95rem 1rem;
         border-radius: 12px;
         margin-top: 1rem;
+        border: 1px solid #E2E8F0;
+    }
+
+    div[data-testid="stImage"] {
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        border-radius: 24px;
+        padding: 1rem;
+        box-shadow: 0 18px 36px rgba(15, 23, 42, 0.12);
+        height: 390px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+
+    div[data-testid="stImage"] img {
+        border-radius: 18px;
+        object-fit: contain;
+        max-height: 340px;
+        width: 100%;
+    }
+
+    @media (max-width: 900px) {
+        .hero-text-card {
+            height: auto;
+            min-height: 360px;
+        }
+
+        .hero-text-card h1 {
+            font-size: 2.3rem;
+        }
+
+        div[data-testid="stImage"] {
+            height: auto;
+            min-height: 320px;
+        }
     }
 </style>
 """
@@ -214,19 +315,43 @@ def metric_card(label: str, value: str):
 
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
-st.markdown(
-    """
-    <div class="hero">
-        <h1>🍬 Sugar Belly</h1>
-        <p>
-            Global Sugar & Obesity Trend Intelligence. Explore how sugar and sweeteners
-            availability relates to adult obesity prevalence across countries, WHO regions,
-            and time. Built with Python, PostgreSQL, SQL views, Streamlit, and Plotly.
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+
+hero_logo_col, hero_text_col = st.columns([1.0, 2.2])
+
+with hero_logo_col:
+    if LOGO_PATH.exists():
+        st.image(str(LOGO_PATH), use_container_width=True)
+    else:
+        st.info("Add logo at assets/sugarbelly_logo.png")
+
+with hero_text_col:
+    st.markdown(
+        """
+        <div class="hero-text-card">
+            <div class="hero-eyebrow">
+                Sugar Belly / Public Health Intelligence System
+            </div>
+            <h1>
+                Global obesity analytics with ML-SQL forecasting.
+            </h1>
+            <p>
+                Sugar Belly is an end-to-end analytics product that combines WHO obesity estimates
+                and FAOSTAT sugar availability data into a PostgreSQL-backed intelligence layer.
+                The platform uses SQL feature engineering, country-year trend analysis, ML model
+                benchmarking, and scenario-based forecasting to surface public-health risk signals
+                across countries and WHO regions.
+            </p>
+            <div class="badge-row">
+                <div class="hero-badge">PostgreSQL analytics layer</div>
+                <div class="hero-badge">SQL feature engineering</div>
+                <div class="hero-badge">Naive baseline vs ML model</div>
+                <div class="hero-badge">2030 obesity forecast</div>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
 
 latest_year = int(latest_df["year"].max())
 
@@ -315,7 +440,7 @@ with map_col:
             "sugar_supply_kg_per_capita": ":.2f",
             "who_region": True,
         },
-        color_continuous_scale="Reds",
+        color_continuous_scale="Blues",
         projection="natural earth",
         title=title,
         labels={color_col: label},
@@ -425,6 +550,7 @@ trend_fig.update_yaxes(
 trend_fig.update_xaxes(title_text="Year")
 
 st.plotly_chart(trend_fig, use_container_width=True)
+
 
 st.markdown(
     '<div class="section-title">ML forecast to 2030</div>',
@@ -557,7 +683,8 @@ else:
         """,
         unsafe_allow_html=True,
     )
-    
+
+
 st.markdown(
     '<div class="section-title">Rankings</div>',
     unsafe_allow_html=True,
