@@ -10,6 +10,7 @@ DATABASE_URL = "postgresql+psycopg2:///sugarbelly"
 MODEL_PATH = Path("models/obesity_forecast_model.joblib")
 OUTPUT_PATH = Path("reports/obesity_forecasts_2030.csv")
 
+FORECAST_START_YEAR = 2024
 FORECAST_END_YEAR = 2030
 
 
@@ -247,6 +248,10 @@ def run_forecasts() -> pd.DataFrame:
 
     if forecast_df.empty:
         raise ValueError("No forecasts were created. Check historical data coverage.")
+
+    forecast_df = forecast_df[
+    forecast_df["forecast_year"] >= FORECAST_START_YEAR
+    ].copy()
 
     forecast_df = forecast_df.sort_values(["iso3", "forecast_year"])
 
