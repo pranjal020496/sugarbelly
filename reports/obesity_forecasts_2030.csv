@@ -1,0 +1,1228 @@
+iso3,country,who_region,who_region_code,forecast_year,forecast_obesity_pct,input_year,sugar_supply_kg_per_capita_assumption,sugar_supply_kcal_per_capita_day_assumption,sugar_assumption
+AFG,Afghanistan,Eastern Mediterranean,EMR,2024,20.56208236239853,2023,10.6,106.75,Held constant at latest observed country value
+AFG,Afghanistan,Eastern Mediterranean,EMR,2025,21.513470693750946,2024,10.6,106.75,Held constant at latest observed country value
+AFG,Afghanistan,Eastern Mediterranean,EMR,2026,22.472313834267283,2025,10.6,106.75,Held constant at latest observed country value
+AFG,Afghanistan,Eastern Mediterranean,EMR,2027,23.439263583787028,2026,10.6,106.75,Held constant at latest observed country value
+AFG,Afghanistan,Eastern Mediterranean,EMR,2028,24.41518410520997,2027,10.6,106.75,Held constant at latest observed country value
+AFG,Afghanistan,Eastern Mediterranean,EMR,2029,25.401038164410295,2028,10.6,106.75,Held constant at latest observed country value
+AFG,Afghanistan,Eastern Mediterranean,EMR,2030,26.397831840495098,2029,10.6,106.75,Held constant at latest observed country value
+AGO,Angola,Africa,AFR,2024,12.69315852138637,2023,14.66,96.04,Held constant at latest observed country value
+AGO,Angola,Africa,AFR,2025,13.144902082768896,2024,14.66,96.04,Held constant at latest observed country value
+AGO,Angola,Africa,AFR,2026,13.623022617169267,2025,14.66,96.04,Held constant at latest observed country value
+AGO,Angola,Africa,AFR,2027,14.129869386018068,2026,14.66,96.04,Held constant at latest observed country value
+AGO,Angola,Africa,AFR,2028,14.667351897168047,2027,14.66,96.04,Held constant at latest observed country value
+AGO,Angola,Africa,AFR,2029,15.237154816565848,2028,14.66,96.04,Held constant at latest observed country value
+AGO,Angola,Africa,AFR,2030,15.8408572100447,2029,14.66,96.04,Held constant at latest observed country value
+ALB,Albania,Europe,EUR,2024,24.12551635839453,2023,53.65,262.97,Held constant at latest observed country value
+ALB,Albania,Europe,EUR,2025,24.728560929412673,2024,53.65,262.97,Held constant at latest observed country value
+ALB,Albania,Europe,EUR,2026,25.3442318120701,2025,53.65,262.97,Held constant at latest observed country value
+ALB,Albania,Europe,EUR,2027,25.9727980190909,2026,53.65,262.97,Held constant at latest observed country value
+ALB,Albania,Europe,EUR,2028,26.61505662856839,2027,53.65,262.97,Held constant at latest observed country value
+ALB,Albania,Europe,EUR,2029,27.272077580842943,2028,53.65,262.97,Held constant at latest observed country value
+ALB,Albania,Europe,EUR,2030,27.94505811102872,2029,53.65,262.97,Held constant at latest observed country value
+ARE,United Arab Emirates,Eastern Mediterranean,EMR,2024,31.574360945220487,2023,31.43,268.36,Held constant at latest observed country value
+ARE,United Arab Emirates,Eastern Mediterranean,EMR,2025,31.426768757322776,2024,31.43,268.36,Held constant at latest observed country value
+ARE,United Arab Emirates,Eastern Mediterranean,EMR,2026,31.26847847661271,2025,31.43,268.36,Held constant at latest observed country value
+ARE,United Arab Emirates,Eastern Mediterranean,EMR,2027,31.101713093100027,2026,31.43,268.36,Held constant at latest observed country value
+ARE,United Arab Emirates,Eastern Mediterranean,EMR,2028,30.92817801881062,2027,31.43,268.36,Held constant at latest observed country value
+ARE,United Arab Emirates,Eastern Mediterranean,EMR,2029,30.74945413601992,2028,31.43,268.36,Held constant at latest observed country value
+ARE,United Arab Emirates,Eastern Mediterranean,EMR,2030,30.56711778507917,2029,31.43,268.36,Held constant at latest observed country value
+ARG,Argentina,Americas,AMR,2024,37.198371284931355,2023,39.06,386.07,Held constant at latest observed country value
+ARG,Argentina,Americas,AMR,2025,38.17927418650598,2024,39.06,386.07,Held constant at latest observed country value
+ARG,Argentina,Americas,AMR,2026,39.170406683497056,2025,39.06,386.07,Held constant at latest observed country value
+ARG,Argentina,Americas,AMR,2027,40.17247426095839,2026,39.06,386.07,Held constant at latest observed country value
+ARG,Argentina,Americas,AMR,2028,41.18635167908833,2027,39.06,386.07,Held constant at latest observed country value
+ARG,Argentina,Americas,AMR,2029,42.2130020689563,2028,39.06,386.07,Held constant at latest observed country value
+ARG,Argentina,Americas,AMR,2030,43.2534303647147,2029,39.06,386.07,Held constant at latest observed country value
+ARM,Armenia,Europe,EUR,2024,24.979000374567185,2023,57.33,289.09,Held constant at latest observed country value
+ARM,Armenia,Europe,EUR,2025,25.43544790912886,2024,57.33,289.09,Held constant at latest observed country value
+ARM,Armenia,Europe,EUR,2026,25.90217521030566,2025,57.33,289.09,Held constant at latest observed country value
+ARM,Armenia,Europe,EUR,2027,26.379865981428612,2026,57.33,289.09,Held constant at latest observed country value
+ARM,Armenia,Europe,EUR,2028,26.86951451663755,2027,57.33,289.09,Held constant at latest observed country value
+ARM,Armenia,Europe,EUR,2029,27.37230704977019,2028,57.33,289.09,Held constant at latest observed country value
+ARM,Armenia,Europe,EUR,2030,27.889530492953092,2029,57.33,289.09,Held constant at latest observed country value
+ATG,Antigua and Barbuda,Americas,AMR,2024,34.58454887625514,2023,47.98,234.04,Held constant at latest observed country value
+ATG,Antigua and Barbuda,Americas,AMR,2025,35.26767573077637,2024,47.98,234.04,Held constant at latest observed country value
+ATG,Antigua and Barbuda,Americas,AMR,2026,35.960152266854124,2025,47.98,234.04,Held constant at latest observed country value
+ATG,Antigua and Barbuda,Americas,AMR,2027,36.663152125639115,2026,47.98,234.04,Held constant at latest observed country value
+ATG,Antigua and Barbuda,Americas,AMR,2028,37.377858218945946,2027,47.98,234.04,Held constant at latest observed country value
+ATG,Antigua and Barbuda,Americas,AMR,2029,38.10546928804612,2028,47.98,234.04,Held constant at latest observed country value
+ATG,Antigua and Barbuda,Americas,AMR,2030,38.847196215938,2029,47.98,234.04,Held constant at latest observed country value
+AUS,Australia,Western Pacific,WPR,2024,30.588997453262362,2023,43.17,431.92,Held constant at latest observed country value
+AUS,Australia,Western Pacific,WPR,2025,31.001027220014116,2024,43.17,431.92,Held constant at latest observed country value
+AUS,Australia,Western Pacific,WPR,2026,31.42660049213768,2025,43.17,431.92,Held constant at latest observed country value
+AUS,Australia,Western Pacific,WPR,2027,31.86731058826703,2026,43.17,431.92,Held constant at latest observed country value
+AUS,Australia,Western Pacific,WPR,2028,32.32464588289908,2027,43.17,431.92,Held constant at latest observed country value
+AUS,Australia,Western Pacific,WPR,2029,32.8000545902256,2028,43.17,431.92,Held constant at latest observed country value
+AUS,Australia,Western Pacific,WPR,2030,33.294971645803756,2029,43.17,431.92,Held constant at latest observed country value
+AUT,Austria,Europe,EUR,2024,16.530091391283403,2023,37.47,377.53,Held constant at latest observed country value
+AUT,Austria,Europe,EUR,2025,16.79720504419076,2024,37.47,377.53,Held constant at latest observed country value
+AUT,Austria,Europe,EUR,2026,17.07583718913476,2025,37.47,377.53,Held constant at latest observed country value
+AUT,Austria,Europe,EUR,2027,17.367384349114488,2026,37.47,377.53,Held constant at latest observed country value
+AUT,Austria,Europe,EUR,2028,17.673307737787525,2027,37.47,377.53,Held constant at latest observed country value
+AUT,Austria,Europe,EUR,2029,17.99509519101226,2028,37.47,377.53,Held constant at latest observed country value
+AUT,Austria,Europe,EUR,2030,18.334246209046338,2029,37.47,377.53,Held constant at latest observed country value
+AZE,Azerbaijan,Europe,EUR,2024,27.549292914564433,2023,47.83,242.09,Held constant at latest observed country value
+AZE,Azerbaijan,Europe,EUR,2025,28.115216890981763,2024,47.83,242.09,Held constant at latest observed country value
+AZE,Azerbaijan,Europe,EUR,2026,28.689821990633632,2025,47.83,242.09,Held constant at latest observed country value
+AZE,Azerbaijan,Europe,EUR,2027,29.274014028679016,2026,47.83,242.09,Held constant at latest observed country value
+AZE,Azerbaijan,Europe,EUR,2028,29.86893835132465,2027,47.83,242.09,Held constant at latest observed country value
+AZE,Azerbaijan,Europe,EUR,2029,30.475834058606097,2028,47.83,242.09,Held constant at latest observed country value
+AZE,Azerbaijan,Europe,EUR,2030,31.095975638139592,2029,47.83,242.09,Held constant at latest observed country value
+BEL,Belgium,Europe,EUR,2024,20.843824853136447,2023,57.51,564.25,Held constant at latest observed country value
+BEL,Belgium,Europe,EUR,2025,21.170924715526983,2024,57.51,564.25,Held constant at latest observed country value
+BEL,Belgium,Europe,EUR,2026,21.507985213984863,2025,57.51,564.25,Held constant at latest observed country value
+BEL,Belgium,Europe,EUR,2027,21.856265139938586,2026,57.51,564.25,Held constant at latest observed country value
+BEL,Belgium,Europe,EUR,2028,22.217084861685997,2027,57.51,564.25,Held constant at latest observed country value
+BEL,Belgium,Europe,EUR,2029,22.591824427436244,2028,57.51,564.25,Held constant at latest observed country value
+BEL,Belgium,Europe,EUR,2030,22.981902326261864,2029,57.51,564.25,Held constant at latest observed country value
+BFA,Burkina Faso,Africa,AFR,2024,7.690755142809799,2023,8.69,79.12,Held constant at latest observed country value
+BFA,Burkina Faso,Africa,AFR,2025,8.17465764346203,2024,8.69,79.12,Held constant at latest observed country value
+BFA,Burkina Faso,Africa,AFR,2026,8.688594300223468,2025,8.69,79.12,Held constant at latest observed country value
+BFA,Burkina Faso,Africa,AFR,2027,9.234699794552062,2026,8.69,79.12,Held constant at latest observed country value
+BFA,Burkina Faso,Africa,AFR,2028,9.814776018873825,2027,8.69,79.12,Held constant at latest observed country value
+BFA,Burkina Faso,Africa,AFR,2029,10.430460283596592,2028,8.69,79.12,Held constant at latest observed country value
+BFA,Burkina Faso,Africa,AFR,2030,11.083313030815502,2029,8.69,79.12,Held constant at latest observed country value
+BGD,Bangladesh,South-East Asia,SEAR,2024,5.765026511410262,2023,9.95,73.19,Held constant at latest observed country value
+BGD,Bangladesh,South-East Asia,SEAR,2025,6.123204253068815,2024,9.95,73.19,Held constant at latest observed country value
+BGD,Bangladesh,South-East Asia,SEAR,2026,6.506651534234106,2025,9.95,73.19,Held constant at latest observed country value
+BGD,Bangladesh,South-East Asia,SEAR,2027,6.917169140322114,2026,9.95,73.19,Held constant at latest observed country value
+BGD,Bangladesh,South-East Asia,SEAR,2028,7.356424709426875,2027,9.95,73.19,Held constant at latest observed country value
+BGD,Bangladesh,South-East Asia,SEAR,2029,7.826020453281853,2028,9.95,73.19,Held constant at latest observed country value
+BGD,Bangladesh,South-East Asia,SEAR,2030,8.327527691394776,2029,9.95,73.19,Held constant at latest observed country value
+BGR,Bulgaria,Europe,EUR,2024,20.322074448119743,2023,48.45,325.56,Held constant at latest observed country value
+BGR,Bulgaria,Europe,EUR,2025,20.52687969982498,2024,48.45,325.56,Held constant at latest observed country value
+BGR,Bulgaria,Europe,EUR,2026,20.74156116073597,2025,48.45,325.56,Held constant at latest observed country value
+BGR,Bulgaria,Europe,EUR,2027,20.967161949181104,2026,48.45,325.56,Held constant at latest observed country value
+BGR,Bulgaria,Europe,EUR,2028,21.20497250647302,2027,48.45,325.56,Held constant at latest observed country value
+BGR,Bulgaria,Europe,EUR,2029,21.456413535019863,2028,48.45,325.56,Held constant at latest observed country value
+BGR,Bulgaria,Europe,EUR,2030,21.722968961471835,2029,48.45,325.56,Held constant at latest observed country value
+BHR,Bahrain,Eastern Mediterranean,EMR,2024,34.86799288093192,2023,51.93,455.06,Held constant at latest observed country value
+BHR,Bahrain,Eastern Mediterranean,EMR,2025,34.98035183300565,2024,51.93,455.06,Held constant at latest observed country value
+BHR,Bahrain,Eastern Mediterranean,EMR,2026,35.08819619630876,2025,51.93,455.06,Held constant at latest observed country value
+BHR,Bahrain,Eastern Mediterranean,EMR,2027,35.19066184221949,2026,51.93,455.06,Held constant at latest observed country value
+BHR,Bahrain,Eastern Mediterranean,EMR,2028,35.2878623066232,2027,51.93,455.06,Held constant at latest observed country value
+BHR,Bahrain,Eastern Mediterranean,EMR,2029,35.3805796591764,2028,51.93,455.06,Held constant at latest observed country value
+BHR,Bahrain,Eastern Mediterranean,EMR,2030,35.469964279162745,2029,51.93,455.06,Held constant at latest observed country value
+BHS,Bahamas,Americas,AMR,2024,48.29036835235605,2023,70.36,197.46,Held constant at latest observed country value
+BHS,Bahamas,Americas,AMR,2025,48.96859910673733,2024,70.36,197.46,Held constant at latest observed country value
+BHS,Bahamas,Americas,AMR,2026,49.6487911199694,2025,70.36,197.46,Held constant at latest observed country value
+BHS,Bahamas,Americas,AMR,2027,50.33206361581668,2026,70.36,197.46,Held constant at latest observed country value
+BHS,Bahamas,Americas,AMR,2028,51.01946569800846,2027,70.36,197.46,Held constant at latest observed country value
+BHS,Bahamas,Americas,AMR,2029,51.71207907261324,2028,70.36,197.46,Held constant at latest observed country value
+BHS,Bahamas,Americas,AMR,2030,52.41102565795034,2029,70.36,197.46,Held constant at latest observed country value
+BIH,Bosnia and Herzegovina,Europe,EUR,2024,20.969762148459548,2023,53.72,258.09,Held constant at latest observed country value
+BIH,Bosnia and Herzegovina,Europe,EUR,2025,21.29694513972174,2024,53.72,258.09,Held constant at latest observed country value
+BIH,Bosnia and Herzegovina,Europe,EUR,2026,21.635553801129614,2025,53.72,258.09,Held constant at latest observed country value
+BIH,Bosnia and Herzegovina,Europe,EUR,2027,21.98631170326177,2026,53.72,258.09,Held constant at latest observed country value
+BIH,Bosnia and Herzegovina,Europe,EUR,2028,22.35034433819537,2027,53.72,258.09,Held constant at latest observed country value
+BIH,Bosnia and Herzegovina,Europe,EUR,2029,22.728969515696928,2028,53.72,258.09,Held constant at latest observed country value
+BIH,Bosnia and Herzegovina,Europe,EUR,2030,23.123590750761487,2029,53.72,258.09,Held constant at latest observed country value
+BLR,Belarus,Europe,EUR,2024,20.636506792404248,2023,65.45,366.47,Held constant at latest observed country value
+BLR,Belarus,Europe,EUR,2025,20.518516596596108,2024,65.45,366.47,Held constant at latest observed country value
+BLR,Belarus,Europe,EUR,2026,20.40773110653601,2025,65.45,366.47,Held constant at latest observed country value
+BLR,Belarus,Europe,EUR,2027,20.305450102126315,2026,65.45,366.47,Held constant at latest observed country value
+BLR,Belarus,Europe,EUR,2028,20.213132719972776,2027,65.45,366.47,Held constant at latest observed country value
+BLR,Belarus,Europe,EUR,2029,20.132360289279806,2028,65.45,366.47,Held constant at latest observed country value
+BLR,Belarus,Europe,EUR,2030,20.064786863556694,2029,65.45,366.47,Held constant at latest observed country value
+BLZ,Belize,Americas,AMR,2024,43.39585977684281,2023,40.01,347.93,Held constant at latest observed country value
+BLZ,Belize,Americas,AMR,2025,44.061888937891176,2024,40.01,347.93,Held constant at latest observed country value
+BLZ,Belize,Americas,AMR,2026,44.732483350325985,2025,40.01,347.93,Held constant at latest observed country value
+BLZ,Belize,Americas,AMR,2027,45.40803975569253,2026,40.01,347.93,Held constant at latest observed country value
+BLZ,Belize,Americas,AMR,2028,46.089293197347885,2027,40.01,347.93,Held constant at latest observed country value
+BLZ,Belize,Americas,AMR,2029,46.7772055070147,2028,40.01,347.93,Held constant at latest observed country value
+BLZ,Belize,Americas,AMR,2030,47.472862858489165,2029,40.01,347.93,Held constant at latest observed country value
+BOL,Bolivia (Plurinational State of),Americas,AMR,2024,29.69524748502976,2023,86.86,276.86,Held constant at latest observed country value
+BOL,Bolivia (Plurinational State of),Americas,AMR,2025,30.42653001433957,2024,86.86,276.86,Held constant at latest observed country value
+BOL,Bolivia (Plurinational State of),Americas,AMR,2026,31.1692578730745,2025,86.86,276.86,Held constant at latest observed country value
+BOL,Bolivia (Plurinational State of),Americas,AMR,2027,31.926261918373715,2026,86.86,276.86,Held constant at latest observed country value
+BOL,Bolivia (Plurinational State of),Americas,AMR,2028,32.69945153537022,2027,86.86,276.86,Held constant at latest observed country value
+BOL,Bolivia (Plurinational State of),Americas,AMR,2029,33.490323233813335,2028,86.86,276.86,Held constant at latest observed country value
+BOL,Bolivia (Plurinational State of),Americas,AMR,2030,34.300203057894706,2029,86.86,276.86,Held constant at latest observed country value
+BRA,Brazil,Americas,AMR,2024,30.136803189266075,2023,38.9,381.29,Held constant at latest observed country value
+BRA,Brazil,Americas,AMR,2025,31.14577369073495,2024,38.9,381.29,Held constant at latest observed country value
+BRA,Brazil,Americas,AMR,2026,32.169159401602215,2025,38.9,381.29,Held constant at latest observed country value
+BRA,Brazil,Americas,AMR,2027,33.20793475854545,2026,38.9,381.29,Held constant at latest observed country value
+BRA,Brazil,Americas,AMR,2028,34.263124367946354,2027,38.9,381.29,Held constant at latest observed country value
+BRA,Brazil,Americas,AMR,2029,35.33577112128454,2028,38.9,381.29,Held constant at latest observed country value
+BRA,Brazil,Americas,AMR,2030,36.42692347318149,2029,38.9,381.29,Held constant at latest observed country value
+BRB,Barbados,Americas,AMR,2024,39.41972265693295,2023,50.73,426.23,Held constant at latest observed country value
+BRB,Barbados,Americas,AMR,2025,40.15257799640855,2024,50.73,426.23,Held constant at latest observed country value
+BRB,Barbados,Americas,AMR,2026,40.89158383354764,2025,50.73,426.23,Held constant at latest observed country value
+BRB,Barbados,Americas,AMR,2027,41.637849383288795,2026,50.73,426.23,Held constant at latest observed country value
+BRB,Barbados,Americas,AMR,2028,42.39258756864471,2027,50.73,426.23,Held constant at latest observed country value
+BRB,Barbados,Americas,AMR,2029,43.15701084392736,2028,50.73,426.23,Held constant at latest observed country value
+BRB,Barbados,Americas,AMR,2030,43.93231579691627,2029,50.73,426.23,Held constant at latest observed country value
+BTN,Bhutan,South-East Asia,SEAR,2024,13.068310873651807,2023,19.48,127.51,Held constant at latest observed country value
+BTN,Bhutan,South-East Asia,SEAR,2025,13.675956978300782,2024,19.48,127.51,Held constant at latest observed country value
+BTN,Bhutan,South-East Asia,SEAR,2026,14.30697396135125,2025,19.48,127.51,Held constant at latest observed country value
+BTN,Bhutan,South-East Asia,SEAR,2027,14.963014025746304,2026,19.48,127.51,Held constant at latest observed country value
+BTN,Bhutan,South-East Asia,SEAR,2028,15.645538296451711,2027,19.48,127.51,Held constant at latest observed country value
+BTN,Bhutan,South-East Asia,SEAR,2029,16.355944908651722,2028,19.48,127.51,Held constant at latest observed country value
+BTN,Bhutan,South-East Asia,SEAR,2030,17.09561266051948,2029,19.48,127.51,Held constant at latest observed country value
+BWA,Botswana,Africa,AFR,2024,19.80086483861009,2023,78.41,298.14,Held constant at latest observed country value
+BWA,Botswana,Africa,AFR,2025,20.326517558648472,2024,78.41,298.14,Held constant at latest observed country value
+BWA,Botswana,Africa,AFR,2026,20.87836462780246,2025,78.41,298.14,Held constant at latest observed country value
+BWA,Botswana,Africa,AFR,2027,21.45811764651244,2026,78.41,298.14,Held constant at latest observed country value
+BWA,Botswana,Africa,AFR,2028,22.067165915506777,2027,78.41,298.14,Held constant at latest observed country value
+BWA,Botswana,Africa,AFR,2029,22.706868038534168,2028,78.41,298.14,Held constant at latest observed country value
+BWA,Botswana,Africa,AFR,2030,23.378610168274296,2029,78.41,298.14,Held constant at latest observed country value
+CAN,Canada,Americas,AMR,2024,25.982078149287602,2023,49.71,443.46,Held constant at latest observed country value
+CAN,Canada,Americas,AMR,2025,26.089581021848698,2024,49.71,443.46,Held constant at latest observed country value
+CAN,Canada,Americas,AMR,2026,26.206316863440424,2025,49.71,443.46,Held constant at latest observed country value
+CAN,Canada,Americas,AMR,2027,26.33356011080843,2026,49.71,443.46,Held constant at latest observed country value
+CAN,Canada,Americas,AMR,2028,26.47273661685403,2027,49.71,443.46,Held constant at latest observed country value
+CAN,Canada,Americas,AMR,2029,26.62535770597728,2028,49.71,443.46,Held constant at latest observed country value
+CAN,Canada,Americas,AMR,2030,26.792978996282347,2029,49.71,443.46,Held constant at latest observed country value
+CHE,Switzerland,Europe,EUR,2024,11.29102340447211,2023,36.9,360.77,Held constant at latest observed country value
+CHE,Switzerland,Europe,EUR,2025,11.438142687528266,2024,36.9,360.77,Held constant at latest observed country value
+CHE,Switzerland,Europe,EUR,2026,11.598046665643976,2025,36.9,360.77,Held constant at latest observed country value
+CHE,Switzerland,Europe,EUR,2027,11.772712428345189,2026,36.9,360.77,Held constant at latest observed country value
+CHE,Switzerland,Europe,EUR,2028,11.963925891925017,2027,36.9,360.77,Held constant at latest observed country value
+CHE,Switzerland,Europe,EUR,2029,12.173368961198651,2028,36.9,360.77,Held constant at latest observed country value
+CHE,Switzerland,Europe,EUR,2030,12.402675033884453,2029,36.9,360.77,Held constant at latest observed country value
+CHL,Chile,Americas,AMR,2024,40.465126238998394,2023,45.45,445.27,Held constant at latest observed country value
+CHL,Chile,Americas,AMR,2025,41.400699838693285,2024,45.45,445.27,Held constant at latest observed country value
+CHL,Chile,Americas,AMR,2026,42.343114513242796,2025,45.45,445.27,Held constant at latest observed country value
+CHL,Chile,Americas,AMR,2027,43.29361349279324,2026,45.45,445.27,Held constant at latest observed country value
+CHL,Chile,Americas,AMR,2028,44.25334912499291,2027,45.45,445.27,Held constant at latest observed country value
+CHL,Chile,Americas,AMR,2029,45.22341741928894,2028,45.45,445.27,Held constant at latest observed country value
+CHL,Chile,Americas,AMR,2030,46.204886520443864,2029,45.45,445.27,Held constant at latest observed country value
+CHN,"China, mainland",Western Pacific,WPR,2024,9.284248085596797,2023,9.2,88.1,Held constant at latest observed country value
+CHN,"China, mainland",Western Pacific,WPR,2025,9.856555368310636,2024,9.2,88.1,Held constant at latest observed country value
+CHN,"China, mainland",Western Pacific,WPR,2026,10.458427406645395,2025,9.2,88.1,Held constant at latest observed country value
+CHN,"China, mainland",Western Pacific,WPR,2027,11.090534800807129,2026,9.2,88.1,Held constant at latest observed country value
+CHN,"China, mainland",Western Pacific,WPR,2028,11.753968682188662,2027,9.2,88.1,Held constant at latest observed country value
+CHN,"China, mainland",Western Pacific,WPR,2029,12.450021332320876,2028,9.2,88.1,Held constant at latest observed country value
+CHN,"China, mainland",Western Pacific,WPR,2030,13.18007023038107,2029,9.2,88.1,Held constant at latest observed country value
+CIV,Côte d'Ivoire,Africa,AFR,2024,12.797066190216166,2023,12.97,112.72,Held constant at latest observed country value
+CIV,Côte d'Ivoire,Africa,AFR,2025,13.328947661823596,2024,12.97,112.72,Held constant at latest observed country value
+CIV,Côte d'Ivoire,Africa,AFR,2026,13.887726189025198,2025,12.97,112.72,Held constant at latest observed country value
+CIV,Côte d'Ivoire,Africa,AFR,2027,14.475753840794752,2026,12.97,112.72,Held constant at latest observed country value
+CIV,Côte d'Ivoire,Africa,AFR,2028,15.094904581120218,2027,12.97,112.72,Held constant at latest observed country value
+CIV,Côte d'Ivoire,Africa,AFR,2029,15.746816822952603,2028,12.97,112.72,Held constant at latest observed country value
+CIV,Côte d'Ivoire,Africa,AFR,2030,16.433021097003945,2029,12.97,112.72,Held constant at latest observed country value
+CMR,Cameroon,Africa,AFR,2024,16.044255693245603,2023,16.06,155.92,Held constant at latest observed country value
+CMR,Cameroon,Africa,AFR,2025,16.50269495641375,2024,16.06,155.92,Held constant at latest observed country value
+CMR,Cameroon,Africa,AFR,2026,16.98476566036003,2025,16.06,155.92,Held constant at latest observed country value
+CMR,Cameroon,Africa,AFR,2027,17.49318500917189,2026,16.06,155.92,Held constant at latest observed country value
+CMR,Cameroon,Africa,AFR,2028,18.029986447993778,2027,16.06,155.92,Held constant at latest observed country value
+CMR,Cameroon,Africa,AFR,2029,18.59688295264006,2028,16.06,155.92,Held constant at latest observed country value
+CMR,Cameroon,Africa,AFR,2030,19.195447945679515,2029,16.06,155.92,Held constant at latest observed country value
+COD,Democratic Republic of the Congo,Africa,AFR,2024,6.692673629551296,2023,3.18,31.59,Held constant at latest observed country value
+COD,Democratic Republic of the Congo,Africa,AFR,2025,6.98287120414,2024,3.18,31.59,Held constant at latest observed country value
+COD,Democratic Republic of the Congo,Africa,AFR,2026,7.300647611231533,2025,3.18,31.59,Held constant at latest observed country value
+COD,Democratic Republic of the Congo,Africa,AFR,2027,7.648912833536066,2026,3.18,31.59,Held constant at latest observed country value
+COD,Democratic Republic of the Congo,Africa,AFR,2028,8.029876575848014,2027,3.18,31.59,Held constant at latest observed country value
+COD,Democratic Republic of the Congo,Africa,AFR,2029,8.445411044862114,2028,3.18,31.59,Held constant at latest observed country value
+COD,Democratic Republic of the Congo,Africa,AFR,2030,8.897237697908427,2029,3.18,31.59,Held constant at latest observed country value
+COG,Congo,Africa,AFR,2024,12.19983111717127,2023,15.21,145.73,Held constant at latest observed country value
+COG,Congo,Africa,AFR,2025,12.643531513408885,2024,15.21,145.73,Held constant at latest observed country value
+COG,Congo,Africa,AFR,2026,13.114233093833674,2025,15.21,145.73,Held constant at latest observed country value
+COG,Congo,Africa,AFR,2027,13.614053656442149,2026,15.21,145.73,Held constant at latest observed country value
+COG,Congo,Africa,AFR,2028,14.144768701616178,2027,15.21,145.73,Held constant at latest observed country value
+COG,Congo,Africa,AFR,2029,14.707998333653297,2028,15.21,145.73,Held constant at latest observed country value
+COG,Congo,Africa,AFR,2030,15.305295336130179,2029,15.21,145.73,Held constant at latest observed country value
+COL,Colombia,Americas,AMR,2024,24.893540003377293,2023,51.87,519.71,Held constant at latest observed country value
+COL,Colombia,Americas,AMR,2025,25.471864633345206,2024,51.87,519.71,Held constant at latest observed country value
+COL,Colombia,Americas,AMR,2026,26.063523638748613,2025,51.87,519.71,Held constant at latest observed country value
+COL,Colombia,Americas,AMR,2027,26.6700068717528,2026,51.87,519.71,Held constant at latest observed country value
+COL,Colombia,Americas,AMR,2028,27.29271350126932,2027,51.87,519.71,Held constant at latest observed country value
+COL,Colombia,Americas,AMR,2029,27.93299793556938,2028,51.87,519.71,Held constant at latest observed country value
+COL,Colombia,Americas,AMR,2030,28.592195045020127,2029,51.87,519.71,Held constant at latest observed country value
+COM,Comoros,Africa,AFR,2024,16.770442062364,2023,18.31,105.41,Held constant at latest observed country value
+COM,Comoros,Africa,AFR,2025,17.37895694817641,2024,18.31,105.41,Held constant at latest observed country value
+COM,Comoros,Africa,AFR,2026,18.013488110611387,2025,18.31,105.41,Held constant at latest observed country value
+COM,Comoros,Africa,AFR,2027,18.675916087508792,2026,18.31,105.41,Held constant at latest observed country value
+COM,Comoros,Africa,AFR,2028,19.36790121133315,2027,18.31,105.41,Held constant at latest observed country value
+COM,Comoros,Africa,AFR,2029,20.09096944660211,2028,18.31,105.41,Held constant at latest observed country value
+COM,Comoros,Africa,AFR,2030,20.846575513663836,2029,18.31,105.41,Held constant at latest observed country value
+CPV,Cabo Verde,Africa,AFR,2024,16.727528149332617,2023,31.85,192.93,Held constant at latest observed country value
+CPV,Cabo Verde,Africa,AFR,2025,17.32079771756657,2024,31.85,192.93,Held constant at latest observed country value
+CPV,Cabo Verde,Africa,AFR,2026,17.9390784450756,2025,31.85,192.93,Held constant at latest observed country value
+CPV,Cabo Verde,Africa,AFR,2027,18.58500372684848,2026,31.85,192.93,Held constant at latest observed country value
+CPV,Cabo Verde,Africa,AFR,2028,19.26053271349258,2027,31.85,192.93,Held constant at latest observed country value
+CPV,Cabo Verde,Africa,AFR,2029,19.96730511367464,2028,31.85,192.93,Held constant at latest observed country value
+CPV,Cabo Verde,Africa,AFR,2030,20.70681976167349,2029,31.85,192.93,Held constant at latest observed country value
+CRI,Costa Rica,Americas,AMR,2024,32.69300265045324,2023,51.69,473.05,Held constant at latest observed country value
+CRI,Costa Rica,Americas,AMR,2025,33.35152902078056,2024,51.69,473.05,Held constant at latest observed country value
+CRI,Costa Rica,Americas,AMR,2026,34.02011157304356,2025,51.69,473.05,Held constant at latest observed country value
+CRI,Costa Rica,Americas,AMR,2027,34.69980139024591,2026,51.69,473.05,Held constant at latest observed country value
+CRI,Costa Rica,Americas,AMR,2028,35.39172619972091,2027,51.69,473.05,Held constant at latest observed country value
+CRI,Costa Rica,Americas,AMR,2029,36.09706897794,2028,51.69,473.05,Held constant at latest observed country value
+CRI,Costa Rica,Americas,AMR,2030,36.81704451821197,2029,51.69,473.05,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2020,20.609691914551956,2019,48.61,476.25,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2021,21.17901448841042,2020,48.61,476.25,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2022,21.758258901358325,2021,48.61,476.25,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2023,22.34875566176945,2022,48.61,476.25,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2024,22.951834966754348,2023,48.61,476.25,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2025,23.568815277888298,2024,48.61,476.25,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2026,24.201007177216212,2025,48.61,476.25,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2027,24.849718006989864,2026,48.61,476.25,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2028,25.51625457159647,2027,48.61,476.25,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2029,26.201924182927208,2028,48.61,476.25,Held constant at latest observed country value
+CUB,Cuba,Americas,AMR,2030,26.90803472445361,2029,48.61,476.25,Held constant at latest observed country value
+CYP,Cyprus,Europe,EUR,2024,21.56036304944012,2023,66.3,248.81,Held constant at latest observed country value
+CYP,Cyprus,Europe,EUR,2025,21.548107376861132,2024,66.3,248.81,Held constant at latest observed country value
+CYP,Cyprus,Europe,EUR,2026,21.54375785225773,2025,66.3,248.81,Held constant at latest observed country value
+CYP,Cyprus,Europe,EUR,2027,21.54854459702558,2026,66.3,248.81,Held constant at latest observed country value
+CYP,Cyprus,Europe,EUR,2028,21.563898308339223,2027,66.3,248.81,Held constant at latest observed country value
+CYP,Cyprus,Europe,EUR,2029,21.59136614581555,2028,66.3,248.81,Held constant at latest observed country value
+CYP,Cyprus,Europe,EUR,2030,21.632556254060447,2029,66.3,248.81,Held constant at latest observed country value
+CZE,Czechia,Europe,EUR,2024,26.32900491154032,2023,42.54,366.42,Held constant at latest observed country value
+CZE,Czechia,Europe,EUR,2025,26.719536342104295,2024,42.54,366.42,Held constant at latest observed country value
+CZE,Czechia,Europe,EUR,2026,27.118069440684284,2025,42.54,366.42,Held constant at latest observed country value
+CZE,Czechia,Europe,EUR,2027,27.52523000097539,2026,42.54,366.42,Held constant at latest observed country value
+CZE,Czechia,Europe,EUR,2028,27.942054407064077,2027,42.54,366.42,Held constant at latest observed country value
+CZE,Czechia,Europe,EUR,2029,28.369781141446758,2028,42.54,366.42,Held constant at latest observed country value
+CZE,Czechia,Europe,EUR,2030,28.809741268768022,2029,42.54,366.42,Held constant at latest observed country value
+DEU,Germany,Europe,EUR,2024,20.63984538249374,2023,41.23,410.82,Held constant at latest observed country value
+DEU,Germany,Europe,EUR,2025,20.674841411026165,2024,41.23,410.82,Held constant at latest observed country value
+DEU,Germany,Europe,EUR,2026,20.716765174926213,2025,41.23,410.82,Held constant at latest observed country value
+DEU,Germany,Europe,EUR,2027,20.76702014634443,2026,41.23,410.82,Held constant at latest observed country value
+DEU,Germany,Europe,EUR,2028,20.82716043499951,2027,41.23,410.82,Held constant at latest observed country value
+DEU,Germany,Europe,EUR,2029,20.898788663059552,2028,41.23,410.82,Held constant at latest observed country value
+DEU,Germany,Europe,EUR,2030,20.983523403898026,2029,41.23,410.82,Held constant at latest observed country value
+DJI,Djibouti,Eastern Mediterranean,EMR,2024,11.646524480845823,2023,34.12,319.29,Held constant at latest observed country value
+DJI,Djibouti,Eastern Mediterranean,EMR,2025,12.113638748442856,2024,34.12,319.29,Held constant at latest observed country value
+DJI,Djibouti,Eastern Mediterranean,EMR,2026,12.590663138672237,2025,34.12,319.29,Held constant at latest observed country value
+DJI,Djibouti,Eastern Mediterranean,EMR,2027,13.07787654316439,2026,34.12,319.29,Held constant at latest observed country value
+DJI,Djibouti,Eastern Mediterranean,EMR,2028,13.57619120742778,2027,34.12,319.29,Held constant at latest observed country value
+DJI,Djibouti,Eastern Mediterranean,EMR,2029,14.086791560016545,2028,34.12,319.29,Held constant at latest observed country value
+DJI,Djibouti,Eastern Mediterranean,EMR,2030,14.610972031913818,2029,34.12,319.29,Held constant at latest observed country value
+DNK,Denmark,Europe,EUR,2024,14.330770175513802,2023,53.27,474.11,Held constant at latest observed country value
+DNK,Denmark,Europe,EUR,2025,14.530156915559992,2024,53.27,474.11,Held constant at latest observed country value
+DNK,Denmark,Europe,EUR,2026,14.741816246474919,2025,53.27,474.11,Held constant at latest observed country value
+DNK,Denmark,Europe,EUR,2027,14.967378817642974,2026,53.27,474.11,Held constant at latest observed country value
+DNK,Denmark,Europe,EUR,2028,15.208447326202137,2027,53.27,474.11,Held constant at latest observed country value
+DNK,Denmark,Europe,EUR,2029,15.466601519957283,2028,53.27,474.11,Held constant at latest observed country value
+DNK,Denmark,Europe,EUR,2030,15.74340921555681,2029,53.27,474.11,Held constant at latest observed country value
+DOM,Dominican Republic,Americas,AMR,2024,30.773916003022883,2023,44.53,400.69,Held constant at latest observed country value
+DOM,Dominican Republic,Americas,AMR,2025,31.52029890489193,2024,44.53,400.69,Held constant at latest observed country value
+DOM,Dominican Republic,Americas,AMR,2026,32.278184032490515,2025,44.53,400.69,Held constant at latest observed country value
+DOM,Dominican Republic,Americas,AMR,2027,33.04880505735308,2026,44.53,400.69,Held constant at latest observed country value
+DOM,Dominican Republic,Americas,AMR,2028,33.833386787937656,2027,44.53,400.69,Held constant at latest observed country value
+DOM,Dominican Republic,Americas,AMR,2029,34.633142409938245,2028,44.53,400.69,Held constant at latest observed country value
+DOM,Dominican Republic,Americas,AMR,2030,35.449278086778804,2029,44.53,400.69,Held constant at latest observed country value
+DZA,Algeria,Africa,AFR,2024,23.57189787563531,2023,31.07,289.65,Held constant at latest observed country value
+DZA,Algeria,Africa,AFR,2025,23.95590496787227,2024,31.07,289.65,Held constant at latest observed country value
+DZA,Algeria,Africa,AFR,2026,24.359839693279817,2025,31.07,289.65,Held constant at latest observed country value
+DZA,Algeria,Africa,AFR,2027,24.78562331572989,2026,31.07,289.65,Held constant at latest observed country value
+DZA,Algeria,Africa,AFR,2028,25.234917265106986,2027,31.07,289.65,Held constant at latest observed country value
+DZA,Algeria,Africa,AFR,2029,25.709277698358317,2028,31.07,289.65,Held constant at latest observed country value
+DZA,Algeria,Africa,AFR,2030,26.21022077443978,2029,31.07,289.65,Held constant at latest observed country value
+ECU,Ecuador,Americas,AMR,2024,28.926133955054794,2023,97.37,322.58,Held constant at latest observed country value
+ECU,Ecuador,Americas,AMR,2025,29.68942241625883,2024,97.37,322.58,Held constant at latest observed country value
+ECU,Ecuador,Americas,AMR,2026,30.46832210728796,2025,97.37,322.58,Held constant at latest observed country value
+ECU,Ecuador,Americas,AMR,2027,31.26396297760467,2026,97.37,322.58,Held constant at latest observed country value
+ECU,Ecuador,Americas,AMR,2028,32.077443949351505,2027,97.37,322.58,Held constant at latest observed country value
+ECU,Ecuador,Americas,AMR,2029,32.90990287159993,2028,97.37,322.58,Held constant at latest observed country value
+ECU,Ecuador,Americas,AMR,2030,33.76251315843682,2029,97.37,322.58,Held constant at latest observed country value
+EGY,Egypt,Eastern Mediterranean,EMR,2024,43.92622138856993,2023,21.33,217.05,Held constant at latest observed country value
+EGY,Egypt,Eastern Mediterranean,EMR,2025,44.330153217687,2024,21.33,217.05,Held constant at latest observed country value
+EGY,Egypt,Eastern Mediterranean,EMR,2026,44.72394456820697,2025,21.33,217.05,Held constant at latest observed country value
+EGY,Egypt,Eastern Mediterranean,EMR,2027,45.10733202499463,2026,21.33,217.05,Held constant at latest observed country value
+EGY,Egypt,Eastern Mediterranean,EMR,2028,45.48085108180803,2027,21.33,217.05,Held constant at latest observed country value
+EGY,Egypt,Eastern Mediterranean,EMR,2029,45.84543486253329,2028,21.33,217.05,Held constant at latest observed country value
+EGY,Egypt,Eastern Mediterranean,EMR,2030,46.202202047916316,2029,21.33,217.05,Held constant at latest observed country value
+ESP,Spain,Europe,EUR,2024,15.307210156265718,2023,32.89,312.13,Held constant at latest observed country value
+ESP,Spain,Europe,EUR,2025,14.922729581947664,2024,32.89,312.13,Held constant at latest observed country value
+ESP,Spain,Europe,EUR,2026,14.546267220379253,2025,32.89,312.13,Held constant at latest observed country value
+ESP,Spain,Europe,EUR,2027,14.178555457067448,2026,32.89,312.13,Held constant at latest observed country value
+ESP,Spain,Europe,EUR,2028,13.820941363937411,2027,32.89,312.13,Held constant at latest observed country value
+ESP,Spain,Europe,EUR,2029,13.475076548035958,2028,32.89,312.13,Held constant at latest observed country value
+ESP,Spain,Europe,EUR,2030,13.142753154102222,2029,32.89,312.13,Held constant at latest observed country value
+EST,Estonia,Europe,EUR,2024,20.31458705934111,2023,80.28,352.0,Held constant at latest observed country value
+EST,Estonia,Europe,EUR,2025,20.254336011727027,2024,80.28,352.0,Held constant at latest observed country value
+EST,Estonia,Europe,EUR,2026,20.20242330931008,2025,80.28,352.0,Held constant at latest observed country value
+EST,Estonia,Europe,EUR,2027,20.16017352464929,2026,80.28,352.0,Held constant at latest observed country value
+EST,Estonia,Europe,EUR,2028,20.129101502590583,2027,80.28,352.0,Held constant at latest observed country value
+EST,Estonia,Europe,EUR,2029,20.110818263819073,2028,80.28,352.0,Held constant at latest observed country value
+EST,Estonia,Europe,EUR,2030,20.106981555546813,2029,80.28,352.0,Held constant at latest observed country value
+ETH,Ethiopia,Africa,AFR,2024,2.9251610725745323,2023,9.0,89.84,Held constant at latest observed country value
+ETH,Ethiopia,Africa,AFR,2025,3.132190051409779,2024,9.0,89.84,Held constant at latest observed country value
+ETH,Ethiopia,Africa,AFR,2026,3.36895392696956,2025,9.0,89.84,Held constant at latest observed country value
+ETH,Ethiopia,Africa,AFR,2027,3.638143814162479,2026,9.0,89.84,Held constant at latest observed country value
+ETH,Ethiopia,Africa,AFR,2028,3.9419010115710513,2027,9.0,89.84,Held constant at latest observed country value
+ETH,Ethiopia,Africa,AFR,2029,4.28210535898371,2028,9.0,89.84,Held constant at latest observed country value
+ETH,Ethiopia,Africa,AFR,2030,4.660520368356321,2029,9.0,89.84,Held constant at latest observed country value
+FIN,Finland,Europe,EUR,2024,24.200239376223372,2023,48.62,326.34,Held constant at latest observed country value
+FIN,Finland,Europe,EUR,2025,24.696562699795265,2024,48.62,326.34,Held constant at latest observed country value
+FIN,Finland,Europe,EUR,2026,25.2035363127128,2025,48.62,326.34,Held constant at latest observed country value
+FIN,Finland,Europe,EUR,2027,25.721737566332266,2026,48.62,326.34,Held constant at latest observed country value
+FIN,Finland,Europe,EUR,2028,26.25216973275903,2027,48.62,326.34,Held constant at latest observed country value
+FIN,Finland,Europe,EUR,2029,26.79603537455821,2028,48.62,326.34,Held constant at latest observed country value
+FIN,Finland,Europe,EUR,2030,27.354624102724586,2029,48.62,326.34,Held constant at latest observed country value
+FJI,Fiji,Western Pacific,WPR,2024,39.03450603980163,2023,113.67,345.28,Held constant at latest observed country value
+FJI,Fiji,Western Pacific,WPR,2025,39.90894998747924,2024,113.67,345.28,Held constant at latest observed country value
+FJI,Fiji,Western Pacific,WPR,2026,40.79708737367598,2025,113.67,345.28,Held constant at latest observed country value
+FJI,Fiji,Western Pacific,WPR,2027,41.70122369313067,2026,113.67,345.28,Held constant at latest observed country value
+FJI,Fiji,Western Pacific,WPR,2028,42.62311532282641,2027,113.67,345.28,Held constant at latest observed country value
+FJI,Fiji,Western Pacific,WPR,2029,43.56419647527092,2028,113.67,345.28,Held constant at latest observed country value
+FJI,Fiji,Western Pacific,WPR,2030,44.52573937579547,2029,113.67,345.28,Held constant at latest observed country value
+FRA,France,Europe,EUR,2024,11.195256320866568,2023,34.05,341.41,Held constant at latest observed country value
+FRA,France,Europe,EUR,2025,11.060330021628024,2024,34.05,341.41,Held constant at latest observed country value
+FRA,France,Europe,EUR,2026,10.936278391408944,2025,34.05,341.41,Held constant at latest observed country value
+FRA,France,Europe,EUR,2027,10.82481623711562,2026,34.05,341.41,Held constant at latest observed country value
+FRA,France,Europe,EUR,2028,10.727695681338508,2027,34.05,341.41,Held constant at latest observed country value
+FRA,France,Europe,EUR,2029,10.646676647743535,2028,34.05,341.41,Held constant at latest observed country value
+FRA,France,Europe,EUR,2030,10.583521342153643,2029,34.05,341.41,Held constant at latest observed country value
+FSM,Micronesia (Federated States of),Western Pacific,WPR,2024,48.65281850618938,2023,55.43,254.4,Held constant at latest observed country value
+FSM,Micronesia (Federated States of),Western Pacific,WPR,2025,49.15109665351733,2024,55.43,254.4,Held constant at latest observed country value
+FSM,Micronesia (Federated States of),Western Pacific,WPR,2026,49.65394585247685,2025,55.43,254.4,Held constant at latest observed country value
+FSM,Micronesia (Federated States of),Western Pacific,WPR,2027,50.16256334841533,2026,55.43,254.4,Held constant at latest observed country value
+FSM,Micronesia (Federated States of),Western Pacific,WPR,2028,50.678179916627286,2027,55.43,254.4,Held constant at latest observed country value
+FSM,Micronesia (Federated States of),Western Pacific,WPR,2029,51.20205879321483,2028,55.43,254.4,Held constant at latest observed country value
+FSM,Micronesia (Federated States of),Western Pacific,WPR,2030,51.73548576226264,2029,55.43,254.4,Held constant at latest observed country value
+GAB,Gabon,Africa,AFR,2024,22.66626637562457,2023,22.85,164.38,Held constant at latest observed country value
+GAB,Gabon,Africa,AFR,2025,23.367074493669133,2024,22.85,164.38,Held constant at latest observed country value
+GAB,Gabon,Africa,AFR,2026,24.091028349038965,2025,22.85,164.38,Held constant at latest observed country value
+GAB,Gabon,Africa,AFR,2027,24.840066048638633,2026,22.85,164.38,Held constant at latest observed country value
+GAB,Gabon,Africa,AFR,2028,25.615768730963907,2027,22.85,164.38,Held constant at latest observed country value
+GAB,Gabon,Africa,AFR,2029,26.419559904883908,2028,22.85,164.38,Held constant at latest observed country value
+GAB,Gabon,Africa,AFR,2030,27.252796818260272,2029,22.85,164.38,Held constant at latest observed country value
+GBR,United Kingdom of Great Britain and Northern Ireland,Europe,EUR,2024,27.375911152075986,2023,47.3,327.01,Held constant at latest observed country value
+GBR,United Kingdom of Great Britain and Northern Ireland,Europe,EUR,2025,27.57465491187646,2024,47.3,327.01,Held constant at latest observed country value
+GBR,United Kingdom of Great Britain and Northern Ireland,Europe,EUR,2026,27.77913897365017,2025,47.3,327.01,Held constant at latest observed country value
+GBR,United Kingdom of Great Britain and Northern Ireland,Europe,EUR,2027,27.99023059113582,2026,47.3,327.01,Held constant at latest observed country value
+GBR,United Kingdom of Great Britain and Northern Ireland,Europe,EUR,2028,28.209080270632224,2027,47.3,327.01,Held constant at latest observed country value
+GBR,United Kingdom of Great Britain and Northern Ireland,Europe,EUR,2029,28.437016351583747,2028,47.3,327.01,Held constant at latest observed country value
+GBR,United Kingdom of Great Britain and Northern Ireland,Europe,EUR,2030,28.675462755099904,2029,47.3,327.01,Held constant at latest observed country value
+GEO,Georgia,Europe,EUR,2024,35.70996451498562,2023,37.88,375.67,Held constant at latest observed country value
+GEO,Georgia,Europe,EUR,2025,36.426230644946195,2024,37.88,375.67,Held constant at latest observed country value
+GEO,Georgia,Europe,EUR,2026,37.146237425954766,2025,37.88,375.67,Held constant at latest observed country value
+GEO,Georgia,Europe,EUR,2027,37.871058495907,2026,37.88,375.67,Held constant at latest observed country value
+GEO,Georgia,Europe,EUR,2028,38.60183052997323,2027,37.88,375.67,Held constant at latest observed country value
+GEO,Georgia,Europe,EUR,2029,39.33970839449289,2028,37.88,375.67,Held constant at latest observed country value
+GEO,Georgia,Europe,EUR,2030,40.08585312502815,2029,37.88,375.67,Held constant at latest observed country value
+GHA,Ghana,Africa,AFR,2024,14.552102141890966,2023,11.03,108.03,Held constant at latest observed country value
+GHA,Ghana,Africa,AFR,2025,15.026752523205246,2024,11.03,108.03,Held constant at latest observed country value
+GHA,Ghana,Africa,AFR,2026,15.52563209994125,2025,11.03,108.03,Held constant at latest observed country value
+GHA,Ghana,Africa,AFR,2027,16.051632965851606,2026,11.03,108.03,Held constant at latest observed country value
+GHA,Ghana,Africa,AFR,2028,16.606904837407708,2027,11.03,108.03,Held constant at latest observed country value
+GHA,Ghana,Africa,AFR,2029,17.19322202287728,2028,11.03,108.03,Held constant at latest observed country value
+GHA,Ghana,Africa,AFR,2030,17.812185654187203,2029,11.03,108.03,Held constant at latest observed country value
+GIN,Guinea,Africa,AFR,2024,10.617529469972654,2023,20.43,198.03,Held constant at latest observed country value
+GIN,Guinea,Africa,AFR,2025,11.173794770558654,2024,20.43,198.03,Held constant at latest observed country value
+GIN,Guinea,Africa,AFR,2026,11.759211196399347,2025,20.43,198.03,Held constant at latest observed country value
+GIN,Guinea,Africa,AFR,2027,12.37580137473378,2026,20.43,198.03,Held constant at latest observed country value
+GIN,Guinea,Africa,AFR,2028,13.025280192725933,2027,20.43,198.03,Held constant at latest observed country value
+GIN,Guinea,Africa,AFR,2029,13.709214693607727,2028,20.43,198.03,Held constant at latest observed country value
+GIN,Guinea,Africa,AFR,2030,14.429104106807284,2029,20.43,198.03,Held constant at latest observed country value
+GMB,Gambia,Africa,AFR,2024,12.398815723672605,2023,63.18,488.3,Held constant at latest observed country value
+GMB,Gambia,Africa,AFR,2025,12.90821798605067,2024,63.18,488.3,Held constant at latest observed country value
+GMB,Gambia,Africa,AFR,2026,13.444410308272836,2025,63.18,488.3,Held constant at latest observed country value
+GMB,Gambia,Africa,AFR,2027,14.010268258289468,2026,63.18,488.3,Held constant at latest observed country value
+GMB,Gambia,Africa,AFR,2028,14.607995999538584,2027,63.18,488.3,Held constant at latest observed country value
+GMB,Gambia,Africa,AFR,2029,15.23941283952664,2028,63.18,488.3,Held constant at latest observed country value
+GMB,Gambia,Africa,AFR,2030,15.906144999764933,2029,63.18,488.3,Held constant at latest observed country value
+GNB,Guinea-Bissau,Africa,AFR,2024,12.715904398952695,2023,7.03,17.98,Held constant at latest observed country value
+GNB,Guinea-Bissau,Africa,AFR,2025,13.2704493372922,2024,7.03,17.98,Held constant at latest observed country value
+GNB,Guinea-Bissau,Africa,AFR,2026,13.85227309517015,2025,7.03,17.98,Held constant at latest observed country value
+GNB,Guinea-Bissau,Africa,AFR,2027,14.463617250907031,2026,7.03,17.98,Held constant at latest observed country value
+GNB,Guinea-Bissau,Africa,AFR,2028,15.1063302151927,2027,7.03,17.98,Held constant at latest observed country value
+GNB,Guinea-Bissau,Africa,AFR,2029,15.78204407520025,2028,7.03,17.98,Held constant at latest observed country value
+GNB,Guinea-Bissau,Africa,AFR,2030,16.49228386307402,2029,7.03,17.98,Held constant at latest observed country value
+GRC,Greece,Europe,EUR,2024,27.429013890168896,2023,38.72,334.5,Held constant at latest observed country value
+GRC,Greece,Europe,EUR,2025,27.66593540237333,2024,38.72,334.5,Held constant at latest observed country value
+GRC,Greece,Europe,EUR,2026,27.907818479467096,2025,38.72,334.5,Held constant at latest observed country value
+GRC,Greece,Europe,EUR,2027,28.155836543357573,2026,38.72,334.5,Held constant at latest observed country value
+GRC,Greece,Europe,EUR,2028,28.411321966490675,2027,38.72,334.5,Held constant at latest observed country value
+GRC,Greece,Europe,EUR,2029,28.675685754172964,2028,38.72,334.5,Held constant at latest observed country value
+GRC,Greece,Europe,EUR,2030,28.950377249847694,2029,38.72,334.5,Held constant at latest observed country value
+GRD,Grenada,Americas,AMR,2024,31.515922287165402,2023,50.34,346.97,Held constant at latest observed country value
+GRD,Grenada,Americas,AMR,2025,32.20805686321789,2024,50.34,346.97,Held constant at latest observed country value
+GRD,Grenada,Americas,AMR,2026,32.91164497164195,2025,50.34,346.97,Held constant at latest observed country value
+GRD,Grenada,Americas,AMR,2027,33.62773315996649,2026,50.34,346.97,Held constant at latest observed country value
+GRD,Grenada,Americas,AMR,2028,34.357419641659106,2027,50.34,346.97,Held constant at latest observed country value
+GRD,Grenada,Americas,AMR,2029,35.101860652581436,2028,50.34,346.97,Held constant at latest observed country value
+GRD,Grenada,Americas,AMR,2030,35.86225023972237,2029,50.34,346.97,Held constant at latest observed country value
+GTM,Guatemala,Americas,AMR,2024,27.98082430887413,2023,82.49,593.75,Held constant at latest observed country value
+GTM,Guatemala,Americas,AMR,2025,28.73141846523591,2024,82.49,593.75,Held constant at latest observed country value
+GTM,Guatemala,Americas,AMR,2026,29.497010098601145,2025,82.49,593.75,Held constant at latest observed country value
+GTM,Guatemala,Americas,AMR,2027,30.278586024183802,2026,82.49,593.75,Held constant at latest observed country value
+GTM,Guatemala,Americas,AMR,2028,31.077174661813665,2027,82.49,593.75,Held constant at latest observed country value
+GTM,Guatemala,Americas,AMR,2029,31.893882779394065,2028,82.49,593.75,Held constant at latest observed country value
+GTM,Guatemala,Americas,AMR,2030,32.72987177091255,2029,82.49,593.75,Held constant at latest observed country value
+GUY,Guyana,Americas,AMR,2024,30.133617132271265,2023,75.56,350.97,Held constant at latest observed country value
+GUY,Guyana,Americas,AMR,2025,30.91945100940941,2024,75.56,350.97,Held constant at latest observed country value
+GUY,Guyana,Americas,AMR,2026,31.719069969647308,2025,75.56,350.97,Held constant at latest observed country value
+GUY,Guyana,Americas,AMR,2027,32.533705816764126,2026,75.56,350.97,Held constant at latest observed country value
+GUY,Guyana,Americas,AMR,2028,33.364527415755745,2027,75.56,350.97,Held constant at latest observed country value
+GUY,Guyana,Americas,AMR,2029,34.21270087034836,2028,75.56,350.97,Held constant at latest observed country value
+GUY,Guyana,Americas,AMR,2030,35.07940070919557,2029,75.56,350.97,Held constant at latest observed country value
+HND,Honduras,Americas,AMR,2024,31.755363460782043,2023,57.51,416.95,Held constant at latest observed country value
+HND,Honduras,Americas,AMR,2025,32.51054278757643,2024,57.51,416.95,Held constant at latest observed country value
+HND,Honduras,Americas,AMR,2026,33.27698206051434,2025,57.51,416.95,Held constant at latest observed country value
+HND,Honduras,Americas,AMR,2027,34.056088488345075,2026,57.51,416.95,Held constant at latest observed country value
+HND,Honduras,Americas,AMR,2028,34.849114015673045,2027,57.51,416.95,Held constant at latest observed country value
+HND,Honduras,Americas,AMR,2029,35.6572619138957,2028,57.51,416.95,Held constant at latest observed country value
+HND,Honduras,Americas,AMR,2030,36.481723752388206,2029,57.51,416.95,Held constant at latest observed country value
+HRV,Croatia,Europe,EUR,2024,30.78095042250149,2023,58.26,415.84,Held constant at latest observed country value
+HRV,Croatia,Europe,EUR,2025,31.45530099571011,2024,58.26,415.84,Held constant at latest observed country value
+HRV,Croatia,Europe,EUR,2026,32.13739428526078,2025,58.26,415.84,Held constant at latest observed country value
+HRV,Croatia,Europe,EUR,2027,32.82780808794638,2026,58.26,415.84,Held constant at latest observed country value
+HRV,Croatia,Europe,EUR,2028,33.527616592762946,2027,58.26,415.84,Held constant at latest observed country value
+HRV,Croatia,Europe,EUR,2029,34.23802826566119,2028,58.26,415.84,Held constant at latest observed country value
+HRV,Croatia,Europe,EUR,2030,34.96027596506108,2029,58.26,415.84,Held constant at latest observed country value
+HTI,Haiti,Americas,AMR,2024,11.13798550311661,2023,21.95,216.45,Held constant at latest observed country value
+HTI,Haiti,Americas,AMR,2025,11.462105015050074,2024,21.95,216.45,Held constant at latest observed country value
+HTI,Haiti,Americas,AMR,2026,11.804691623510397,2025,21.95,216.45,Held constant at latest observed country value
+HTI,Haiti,Americas,AMR,2027,12.167815665510144,2026,21.95,216.45,Held constant at latest observed country value
+HTI,Haiti,Americas,AMR,2028,12.553265858642298,2027,21.95,216.45,Held constant at latest observed country value
+HTI,Haiti,Americas,AMR,2029,12.962684960685934,2028,21.95,216.45,Held constant at latest observed country value
+HTI,Haiti,Americas,AMR,2030,13.397647758046237,2029,21.95,216.45,Held constant at latest observed country value
+HUN,Hungary,Europe,EUR,2024,31.36382476955345,2023,59.75,492.68,Held constant at latest observed country value
+HUN,Hungary,Europe,EUR,2025,31.860895461926606,2024,59.75,492.68,Held constant at latest observed country value
+HUN,Hungary,Europe,EUR,2026,32.36387223113144,2025,59.75,492.68,Held constant at latest observed country value
+HUN,Hungary,Europe,EUR,2027,32.87361117493574,2026,59.75,492.68,Held constant at latest observed country value
+HUN,Hungary,Europe,EUR,2028,33.39111301653132,2027,59.75,492.68,Held constant at latest observed country value
+HUN,Hungary,Europe,EUR,2029,33.91751861193782,2028,59.75,492.68,Held constant at latest observed country value
+HUN,Hungary,Europe,EUR,2030,34.45405729858261,2029,59.75,492.68,Held constant at latest observed country value
+IDN,Indonesia,Western Pacific,WPR,2024,11.801816240192357,2023,28.05,279.98,Held constant at latest observed country value
+IDN,Indonesia,Western Pacific,WPR,2025,12.472485074476944,2024,28.05,279.98,Held constant at latest observed country value
+IDN,Indonesia,Western Pacific,WPR,2026,13.170636594899229,2025,28.05,279.98,Held constant at latest observed country value
+IDN,Indonesia,Western Pacific,WPR,2027,13.8978076036522,2026,28.05,279.98,Held constant at latest observed country value
+IDN,Indonesia,Western Pacific,WPR,2028,14.65544711658762,2027,28.05,279.98,Held constant at latest observed country value
+IDN,Indonesia,Western Pacific,WPR,2029,15.444959390297019,2028,28.05,279.98,Held constant at latest observed country value
+IDN,Indonesia,Western Pacific,WPR,2030,16.267725443433264,2029,28.05,279.98,Held constant at latest observed country value
+IND,India,South-East Asia,SEAR,2024,8.017089676585943,2023,19.63,196.64,Held constant at latest observed country value
+IND,India,South-East Asia,SEAR,2025,8.431870096890227,2024,19.63,196.64,Held constant at latest observed country value
+IND,India,South-East Asia,SEAR,2026,8.870185596466978,2025,19.63,196.64,Held constant at latest observed country value
+IND,India,South-East Asia,SEAR,2027,9.334312239396118,2026,19.63,196.64,Held constant at latest observed country value
+IND,India,South-East Asia,SEAR,2028,9.826104960366166,2027,19.63,196.64,Held constant at latest observed country value
+IND,India,South-East Asia,SEAR,2029,10.347217906034802,2028,19.63,196.64,Held constant at latest observed country value
+IND,India,South-East Asia,SEAR,2030,10.899216130479132,2029,19.63,196.64,Held constant at latest observed country value
+IRL,Ireland,Europe,EUR,2024,27.882118648135044,2023,98.78,486.67,Held constant at latest observed country value
+IRL,Ireland,Europe,EUR,2025,28.12785550381983,2024,98.78,486.67,Held constant at latest observed country value
+IRL,Ireland,Europe,EUR,2026,28.380579764024038,2025,98.78,486.67,Held constant at latest observed country value
+IRL,Ireland,Europe,EUR,2027,28.641501282261693,2026,98.78,486.67,Held constant at latest observed country value
+IRL,Ireland,Europe,EUR,2028,28.911866626840627,2027,98.78,486.67,Held constant at latest observed country value
+IRL,Ireland,Europe,EUR,2029,29.193016182551027,2028,98.78,486.67,Held constant at latest observed country value
+IRL,Ireland,Europe,EUR,2030,29.486360594130684,2029,98.78,486.67,Held constant at latest observed country value
+IRN,Iran (Islamic Republic of),Eastern Mediterranean,EMR,2024,24.553772417588718,2023,31.61,281.63,Held constant at latest observed country value
+IRN,Iran (Islamic Republic of),Eastern Mediterranean,EMR,2025,24.84143825638661,2024,31.61,281.63,Held constant at latest observed country value
+IRN,Iran (Islamic Republic of),Eastern Mediterranean,EMR,2026,25.129102826655913,2025,31.61,281.63,Held constant at latest observed country value
+IRN,Iran (Islamic Republic of),Eastern Mediterranean,EMR,2027,25.41728488200431,2026,31.61,281.63,Held constant at latest observed country value
+IRN,Iran (Islamic Republic of),Eastern Mediterranean,EMR,2028,25.70695583969663,2027,31.61,281.63,Held constant at latest observed country value
+IRN,Iran (Islamic Republic of),Eastern Mediterranean,EMR,2029,25.999322075614884,2028,31.61,281.63,Held constant at latest observed country value
+IRN,Iran (Islamic Republic of),Eastern Mediterranean,EMR,2030,26.29570330367291,2029,31.61,281.63,Held constant at latest observed country value
+IRQ,Iraq,Eastern Mediterranean,EMR,2024,39.682973341056666,2023,67.64,305.99,Held constant at latest observed country value
+IRQ,Iraq,Eastern Mediterranean,EMR,2025,40.01620710285927,2024,67.64,305.99,Held constant at latest observed country value
+IRQ,Iraq,Eastern Mediterranean,EMR,2026,40.34532000621472,2025,67.64,305.99,Held constant at latest observed country value
+IRQ,Iraq,Eastern Mediterranean,EMR,2027,40.66900068739673,2026,67.64,305.99,Held constant at latest observed country value
+IRQ,Iraq,Eastern Mediterranean,EMR,2028,40.98718800555085,2027,67.64,305.99,Held constant at latest observed country value
+IRQ,Iraq,Eastern Mediterranean,EMR,2029,41.300547927403215,2028,67.64,305.99,Held constant at latest observed country value
+IRQ,Iraq,Eastern Mediterranean,EMR,2030,41.61011483447669,2029,67.64,305.99,Held constant at latest observed country value
+ISL,Iceland,Europe,EUR,2024,22.198558574710127,2023,97.2,333.52,Held constant at latest observed country value
+ISL,Iceland,Europe,EUR,2025,22.528183187749164,2024,97.2,333.52,Held constant at latest observed country value
+ISL,Iceland,Europe,EUR,2026,22.869141852525143,2025,97.2,333.52,Held constant at latest observed country value
+ISL,Iceland,Europe,EUR,2027,23.222684601932162,2026,97.2,333.52,Held constant at latest observed country value
+ISL,Iceland,Europe,EUR,2028,23.59016191541573,2027,97.2,333.52,Held constant at latest observed country value
+ISL,Iceland,Europe,EUR,2029,23.972982501259292,2028,97.2,333.52,Held constant at latest observed country value
+ISL,Iceland,Europe,EUR,2030,24.372585572232996,2029,97.2,333.52,Held constant at latest observed country value
+ISR,Israel,Europe,EUR,2024,22.223941664814625,2023,55.25,419.45,Held constant at latest observed country value
+ISR,Israel,Europe,EUR,2025,22.172662263519687,2024,55.25,419.45,Held constant at latest observed country value
+ISR,Israel,Europe,EUR,2026,22.127514904884293,2025,55.25,419.45,Held constant at latest observed country value
+ISR,Israel,Europe,EUR,2027,22.089817000630063,2026,55.25,419.45,Held constant at latest observed country value
+ISR,Israel,Europe,EUR,2028,22.06102119316078,2027,55.25,419.45,Held constant at latest observed country value
+ISR,Israel,Europe,EUR,2029,22.042681892546884,2028,55.25,419.45,Held constant at latest observed country value
+ISR,Israel,Europe,EUR,2030,22.036414292423363,2029,55.25,419.45,Held constant at latest observed country value
+ITA,Italy,Europe,EUR,2024,13.992959146527841,2023,40.12,388.13,Held constant at latest observed country value
+ITA,Italy,Europe,EUR,2025,13.81959827127317,2024,40.12,388.13,Held constant at latest observed country value
+ITA,Italy,Europe,EUR,2026,13.655056109112895,2025,40.12,388.13,Held constant at latest observed country value
+ITA,Italy,Europe,EUR,2027,13.501174249209123,2026,40.12,388.13,Held constant at latest observed country value
+ITA,Italy,Europe,EUR,2028,13.359711948443575,2027,40.12,388.13,Held constant at latest observed country value
+ITA,Italy,Europe,EUR,2029,13.232417136911259,2028,40.12,388.13,Held constant at latest observed country value
+ITA,Italy,Europe,EUR,2030,13.12104546594231,2029,40.12,388.13,Held constant at latest observed country value
+JAM,Jamaica,Americas,AMR,2024,35.191991314473654,2023,50.38,404.37,Held constant at latest observed country value
+JAM,Jamaica,Americas,AMR,2025,35.95081660427963,2024,50.38,404.37,Held constant at latest observed country value
+JAM,Jamaica,Americas,AMR,2026,36.718698610859136,2025,50.38,404.37,Held constant at latest observed country value
+JAM,Jamaica,Americas,AMR,2027,37.49686538821704,2026,50.38,404.37,Held constant at latest observed country value
+JAM,Jamaica,Americas,AMR,2028,38.286522066844284,2027,50.38,404.37,Held constant at latest observed country value
+JAM,Jamaica,Americas,AMR,2029,39.088857275287054,2028,50.38,404.37,Held constant at latest observed country value
+JAM,Jamaica,Americas,AMR,2030,39.90505163175385,2029,50.38,404.37,Held constant at latest observed country value
+JOR,Jordan,Eastern Mediterranean,EMR,2024,35.344405513989216,2023,81.12,377.08,Held constant at latest observed country value
+JOR,Jordan,Eastern Mediterranean,EMR,2025,35.14021865644771,2024,81.12,377.08,Held constant at latest observed country value
+JOR,Jordan,Eastern Mediterranean,EMR,2026,34.92978924094205,2025,81.12,377.08,Held constant at latest observed country value
+JOR,Jordan,Eastern Mediterranean,EMR,2027,34.71207253172294,2026,81.12,377.08,Held constant at latest observed country value
+JOR,Jordan,Eastern Mediterranean,EMR,2028,34.48738256002255,2027,81.12,377.08,Held constant at latest observed country value
+JOR,Jordan,Eastern Mediterranean,EMR,2029,34.25676084417067,2028,81.12,377.08,Held constant at latest observed country value
+JOR,Jordan,Eastern Mediterranean,EMR,2030,34.021600910651145,2029,81.12,377.08,Held constant at latest observed country value
+KAZ,Kazakhstan,Europe,EUR,2024,21.098934520237286,2023,26.3,262.02,Held constant at latest observed country value
+KAZ,Kazakhstan,Europe,EUR,2025,21.540991043238545,2024,26.3,262.02,Held constant at latest observed country value
+KAZ,Kazakhstan,Europe,EUR,2026,21.993191328446024,2025,26.3,262.02,Held constant at latest observed country value
+KAZ,Kazakhstan,Europe,EUR,2027,22.45675622685379,2026,26.3,262.02,Held constant at latest observed country value
+KAZ,Kazakhstan,Europe,EUR,2028,22.933054739611897,2027,26.3,262.02,Held constant at latest observed country value
+KAZ,Kazakhstan,Europe,EUR,2029,23.423485119658206,2028,26.3,262.02,Held constant at latest observed country value
+KAZ,Kazakhstan,Europe,EUR,2030,23.929445393808646,2029,26.3,262.02,Held constant at latest observed country value
+KEN,Kenya,Africa,AFR,2024,11.2857592706305,2023,21.23,209.22,Held constant at latest observed country value
+KEN,Kenya,Africa,AFR,2025,11.678506456079324,2024,21.23,209.22,Held constant at latest observed country value
+KEN,Kenya,Africa,AFR,2026,12.098315375036007,2025,21.23,209.22,Held constant at latest observed country value
+KEN,Kenya,Africa,AFR,2027,12.547368376520193,2026,21.23,209.22,Held constant at latest observed country value
+KEN,Kenya,Africa,AFR,2028,13.027502702282586,2027,21.23,209.22,Held constant at latest observed country value
+KEN,Kenya,Africa,AFR,2029,13.540389106935184,2028,21.23,209.22,Held constant at latest observed country value
+KEN,Kenya,Africa,AFR,2030,14.08762283981882,2029,21.23,209.22,Held constant at latest observed country value
+KGZ,Kyrgyzstan,Europe,EUR,2024,22.024532715655504,2023,54.33,201.98,Held constant at latest observed country value
+KGZ,Kyrgyzstan,Europe,EUR,2025,22.69609742052735,2024,54.33,201.98,Held constant at latest observed country value
+KGZ,Kyrgyzstan,Europe,EUR,2026,23.37801405290699,2025,54.33,201.98,Held constant at latest observed country value
+KGZ,Kyrgyzstan,Europe,EUR,2027,24.073064271938076,2026,54.33,201.98,Held constant at latest observed country value
+KGZ,Kyrgyzstan,Europe,EUR,2028,24.78313916977927,2027,54.33,201.98,Held constant at latest observed country value
+KGZ,Kyrgyzstan,Europe,EUR,2029,25.50973993028461,2028,54.33,201.98,Held constant at latest observed country value
+KGZ,Kyrgyzstan,Europe,EUR,2030,26.254210536100373,2029,54.33,201.98,Held constant at latest observed country value
+KHM,Cambodia,Western Pacific,WPR,2024,4.921944481496347,2023,38.12,155.53,Held constant at latest observed country value
+KHM,Cambodia,Western Pacific,WPR,2025,5.2352394452973545,2024,38.12,155.53,Held constant at latest observed country value
+KHM,Cambodia,Western Pacific,WPR,2026,5.576151600530292,2025,38.12,155.53,Held constant at latest observed country value
+KHM,Cambodia,Western Pacific,WPR,2027,5.9474821716102255,2026,38.12,155.53,Held constant at latest observed country value
+KHM,Cambodia,Western Pacific,WPR,2028,6.351280763221485,2027,38.12,155.53,Held constant at latest observed country value
+KHM,Cambodia,Western Pacific,WPR,2029,6.789304937159828,2028,38.12,155.53,Held constant at latest observed country value
+KHM,Cambodia,Western Pacific,WPR,2030,7.2632058225453715,2029,38.12,155.53,Held constant at latest observed country value
+KIR,Kiribati,Western Pacific,WPR,2024,45.59070266628843,2023,50.42,442.6,Held constant at latest observed country value
+KIR,Kiribati,Western Pacific,WPR,2025,45.78600308261778,2024,50.42,442.6,Held constant at latest observed country value
+KIR,Kiribati,Western Pacific,WPR,2026,45.98397010340124,2025,50.42,442.6,Held constant at latest observed country value
+KIR,Kiribati,Western Pacific,WPR,2027,46.18612670939996,2026,50.42,442.6,Held constant at latest observed country value
+KIR,Kiribati,Western Pacific,WPR,2028,46.39393771251942,2027,50.42,442.6,Held constant at latest observed country value
+KIR,Kiribati,Western Pacific,WPR,2029,46.60886495362009,2028,50.42,442.6,Held constant at latest observed country value
+KIR,Kiribati,Western Pacific,WPR,2030,46.83238119894753,2029,50.42,442.6,Held constant at latest observed country value
+KNA,Saint Kitts and Nevis,Americas,AMR,2024,46.71584210853235,2023,74.91,441.05,Held constant at latest observed country value
+KNA,Saint Kitts and Nevis,Americas,AMR,2025,47.33206688429975,2024,74.91,441.05,Held constant at latest observed country value
+KNA,Saint Kitts and Nevis,Americas,AMR,2026,47.9482972476883,2025,74.91,441.05,Held constant at latest observed country value
+KNA,Saint Kitts and Nevis,Americas,AMR,2027,48.566532857023454,2026,74.91,441.05,Held constant at latest observed country value
+KNA,Saint Kitts and Nevis,Americas,AMR,2028,49.188375716943874,2027,74.91,441.05,Held constant at latest observed country value
+KNA,Saint Kitts and Nevis,Americas,AMR,2029,49.815210560553936,2028,74.91,441.05,Held constant at latest observed country value
+KNA,Saint Kitts and Nevis,Americas,AMR,2030,50.44832083825749,2029,74.91,441.05,Held constant at latest observed country value
+KOR,Republic of Korea,Western Pacific,WPR,2024,8.370503401220175,2023,54.48,489.09,Held constant at latest observed country value
+KOR,Republic of Korea,Western Pacific,WPR,2025,8.904737831215431,2024,54.48,489.09,Held constant at latest observed country value
+KOR,Republic of Korea,Western Pacific,WPR,2026,9.46917182478181,2025,54.48,489.09,Held constant at latest observed country value
+KOR,Republic of Korea,Western Pacific,WPR,2027,10.064709428265866,2026,54.48,489.09,Held constant at latest observed country value
+KOR,Republic of Korea,Western Pacific,WPR,2028,10.692532564568179,2027,54.48,489.09,Held constant at latest observed country value
+KOR,Republic of Korea,Western Pacific,WPR,2029,11.353977874607473,2028,54.48,489.09,Held constant at latest observed country value
+KOR,Republic of Korea,Western Pacific,WPR,2030,12.050454399937962,2029,54.48,489.09,Held constant at latest observed country value
+KWT,Kuwait,Eastern Mediterranean,EMR,2024,40.00219678033558,2023,39.05,277.93,Held constant at latest observed country value
+KWT,Kuwait,Eastern Mediterranean,EMR,2025,39.27597932909404,2024,39.05,277.93,Held constant at latest observed country value
+KWT,Kuwait,Eastern Mediterranean,EMR,2026,38.43860441075537,2025,39.05,277.93,Held constant at latest observed country value
+KWT,Kuwait,Eastern Mediterranean,EMR,2027,37.54105745568687,2026,39.05,277.93,Held constant at latest observed country value
+KWT,Kuwait,Eastern Mediterranean,EMR,2028,36.60874505007157,2027,39.05,277.93,Held constant at latest observed country value
+KWT,Kuwait,Eastern Mediterranean,EMR,2029,35.65387426101574,2028,39.05,277.93,Held constant at latest observed country value
+KWT,Kuwait,Eastern Mediterranean,EMR,2030,34.68256195621781,2029,39.05,277.93,Held constant at latest observed country value
+LAO,Lao People's Democratic Republic,Western Pacific,WPR,2024,9.17984988879813,2023,13.75,138.5,Held constant at latest observed country value
+LAO,Lao People's Democratic Republic,Western Pacific,WPR,2025,9.665269618943517,2024,13.75,138.5,Held constant at latest observed country value
+LAO,Lao People's Democratic Republic,Western Pacific,WPR,2026,10.176642776755935,2025,13.75,138.5,Held constant at latest observed country value
+LAO,Lao People's Democratic Republic,Western Pacific,WPR,2027,10.716229057254793,2026,13.75,138.5,Held constant at latest observed country value
+LAO,Lao People's Democratic Republic,Western Pacific,WPR,2028,11.285927492182726,2027,13.75,138.5,Held constant at latest observed country value
+LAO,Lao People's Democratic Republic,Western Pacific,WPR,2029,11.887420064169497,2028,13.75,138.5,Held constant at latest observed country value
+LAO,Lao People's Democratic Republic,Western Pacific,WPR,2030,12.522276110123727,2029,13.75,138.5,Held constant at latest observed country value
+LBN,Lebanon,Eastern Mediterranean,EMR,2024,30.731105923854514,2023,67.08,437.41,Held constant at latest observed country value
+LBN,Lebanon,Eastern Mediterranean,EMR,2025,31.00764646820379,2024,67.08,437.41,Held constant at latest observed country value
+LBN,Lebanon,Eastern Mediterranean,EMR,2026,31.2815384725509,2025,67.08,437.41,Held constant at latest observed country value
+LBN,Lebanon,Eastern Mediterranean,EMR,2027,31.552976169283884,2026,67.08,437.41,Held constant at latest observed country value
+LBN,Lebanon,Eastern Mediterranean,EMR,2028,31.822858240826406,2027,67.08,437.41,Held constant at latest observed country value
+LBN,Lebanon,Eastern Mediterranean,EMR,2029,32.09238212052957,2028,67.08,437.41,Held constant at latest observed country value
+LBN,Lebanon,Eastern Mediterranean,EMR,2030,32.362867337911325,2029,67.08,437.41,Held constant at latest observed country value
+LBR,Liberia,Africa,AFR,2024,17.771113492477568,2023,6.49,55.01,Held constant at latest observed country value
+LBR,Liberia,Africa,AFR,2025,18.920497270903493,2024,6.49,55.01,Held constant at latest observed country value
+LBR,Liberia,Africa,AFR,2026,20.10402705039995,2025,6.49,55.01,Held constant at latest observed country value
+LBR,Liberia,Africa,AFR,2027,21.321022857468893,2026,6.49,55.01,Held constant at latest observed country value
+LBR,Liberia,Africa,AFR,2028,22.57181844691462,2027,6.49,55.01,Held constant at latest observed country value
+LBR,Liberia,Africa,AFR,2029,23.85720361903288,2028,6.49,55.01,Held constant at latest observed country value
+LBR,Liberia,Africa,AFR,2030,25.178152946425,2029,6.49,55.01,Held constant at latest observed country value
+LBY,Libya,Eastern Mediterranean,EMR,2024,33.65093312678569,2023,41.3,337.19,Held constant at latest observed country value
+LBY,Libya,Eastern Mediterranean,EMR,2025,33.73315845292936,2024,41.3,337.19,Held constant at latest observed country value
+LBY,Libya,Eastern Mediterranean,EMR,2026,33.80814088849726,2025,41.3,337.19,Held constant at latest observed country value
+LBY,Libya,Eastern Mediterranean,EMR,2027,33.87642372959084,2026,41.3,337.19,Held constant at latest observed country value
+LBY,Libya,Eastern Mediterranean,EMR,2028,33.93900954377794,2027,41.3,337.19,Held constant at latest observed country value
+LBY,Libya,Eastern Mediterranean,EMR,2029,33.99715369860918,2028,41.3,337.19,Held constant at latest observed country value
+LBY,Libya,Eastern Mediterranean,EMR,2030,34.05223977552621,2029,41.3,337.19,Held constant at latest observed country value
+LCA,Saint Lucia,Americas,AMR,2024,34.778330395700856,2023,49.71,307.75,Held constant at latest observed country value
+LCA,Saint Lucia,Americas,AMR,2025,35.552380365986245,2024,49.71,307.75,Held constant at latest observed country value
+LCA,Saint Lucia,Americas,AMR,2026,36.336541688456286,2025,49.71,307.75,Held constant at latest observed country value
+LCA,Saint Lucia,Americas,AMR,2027,37.1315353485824,2026,49.71,307.75,Held constant at latest observed country value
+LCA,Saint Lucia,Americas,AMR,2028,37.9385132146268,2027,49.71,307.75,Held constant at latest observed country value
+LCA,Saint Lucia,Americas,AMR,2029,38.75870485116364,2028,49.71,307.75,Held constant at latest observed country value
+LCA,Saint Lucia,Americas,AMR,2030,39.593329918199096,2029,49.71,307.75,Held constant at latest observed country value
+LKA,Sri Lanka,South-East Asia,SEAR,2024,11.223860455507417,2023,38.11,382.98,Held constant at latest observed country value
+LKA,Sri Lanka,South-East Asia,SEAR,2025,11.766249475288447,2024,38.11,382.98,Held constant at latest observed country value
+LKA,Sri Lanka,South-East Asia,SEAR,2026,12.33234340762361,2025,38.11,382.98,Held constant at latest observed country value
+LKA,Sri Lanka,South-East Asia,SEAR,2027,12.923997076024383,2026,38.11,382.98,Held constant at latest observed country value
+LKA,Sri Lanka,South-East Asia,SEAR,2028,13.542772200083292,2027,38.11,382.98,Held constant at latest observed country value
+LKA,Sri Lanka,South-East Asia,SEAR,2029,14.190129765516748,2028,38.11,382.98,Held constant at latest observed country value
+LKA,Sri Lanka,South-East Asia,SEAR,2030,14.867498791576528,2029,38.11,382.98,Held constant at latest observed country value
+LSO,Lesotho,Africa,AFR,2024,22.227958779480655,2023,26.29,119.22,Held constant at latest observed country value
+LSO,Lesotho,Africa,AFR,2025,22.75923862383733,2024,26.29,119.22,Held constant at latest observed country value
+LSO,Lesotho,Africa,AFR,2026,23.310587496443212,2025,26.29,119.22,Held constant at latest observed country value
+LSO,Lesotho,Africa,AFR,2027,23.885122570086722,2026,26.29,119.22,Held constant at latest observed country value
+LSO,Lesotho,Africa,AFR,2028,24.485049777766584,2027,26.29,119.22,Held constant at latest observed country value
+LSO,Lesotho,Africa,AFR,2029,25.1121257184086,2028,26.29,119.22,Held constant at latest observed country value
+LSO,Lesotho,Africa,AFR,2030,25.767904610970508,2029,26.29,119.22,Held constant at latest observed country value
+LTU,Lithuania,Europe,EUR,2024,21.314920659341652,2023,101.44,420.91,Held constant at latest observed country value
+LTU,Lithuania,Europe,EUR,2025,21.219710085029643,2024,101.44,420.91,Held constant at latest observed country value
+LTU,Lithuania,Europe,EUR,2026,21.13310067877187,2025,101.44,420.91,Held constant at latest observed country value
+LTU,Lithuania,Europe,EUR,2027,21.056282656100986,2026,101.44,420.91,Held constant at latest observed country value
+LTU,Lithuania,Europe,EUR,2028,20.99061500232285,2027,101.44,420.91,Held constant at latest observed country value
+LTU,Lithuania,Europe,EUR,2029,20.937616096704364,2028,101.44,420.91,Held constant at latest observed country value
+LTU,Lithuania,Europe,EUR,2030,20.89890441935643,2029,101.44,420.91,Held constant at latest observed country value
+LUX,Luxembourg,Europe,EUR,2024,19.049158976179655,2023,178.82,304.8,Held constant at latest observed country value
+LUX,Luxembourg,Europe,EUR,2025,19.181482659468298,2024,178.82,304.8,Held constant at latest observed country value
+LUX,Luxembourg,Europe,EUR,2026,19.3283242420122,2025,178.82,304.8,Held constant at latest observed country value
+LUX,Luxembourg,Europe,EUR,2027,19.491417547580944,2026,178.82,304.8,Held constant at latest observed country value
+LUX,Luxembourg,Europe,EUR,2028,19.672300975211073,2027,178.82,304.8,Held constant at latest observed country value
+LUX,Luxembourg,Europe,EUR,2029,19.87250831051831,2028,178.82,304.8,Held constant at latest observed country value
+LUX,Luxembourg,Europe,EUR,2030,20.093603458093398,2029,178.82,304.8,Held constant at latest observed country value
+LVA,Latvia,Europe,EUR,2024,22.30812757546713,2023,62.49,362.54,Held constant at latest observed country value
+LVA,Latvia,Europe,EUR,2025,22.359959299112152,2024,62.49,362.54,Held constant at latest observed country value
+LVA,Latvia,Europe,EUR,2026,22.4194503382264,2025,62.49,362.54,Held constant at latest observed country value
+LVA,Latvia,Europe,EUR,2027,22.487670495695696,2026,62.49,362.54,Held constant at latest observed country value
+LVA,Latvia,Europe,EUR,2028,22.565999047849218,2027,62.49,362.54,Held constant at latest observed country value
+LVA,Latvia,Europe,EUR,2029,22.65595291832119,2028,62.49,362.54,Held constant at latest observed country value
+LVA,Latvia,Europe,EUR,2030,22.759108442362553,2029,62.49,362.54,Held constant at latest observed country value
+MAR,Morocco,Eastern Mediterranean,EMR,2024,21.558609257521173,2023,38.87,387.0,Held constant at latest observed country value
+MAR,Morocco,Eastern Mediterranean,EMR,2025,21.924079607123268,2024,38.87,387.0,Held constant at latest observed country value
+MAR,Morocco,Eastern Mediterranean,EMR,2026,22.292814811846505,2025,38.87,387.0,Held constant at latest observed country value
+MAR,Morocco,Eastern Mediterranean,EMR,2027,22.6650061833952,2026,38.87,387.0,Held constant at latest observed country value
+MAR,Morocco,Eastern Mediterranean,EMR,2028,23.041410225100645,2027,38.87,387.0,Held constant at latest observed country value
+MAR,Morocco,Eastern Mediterranean,EMR,2029,23.423107411679222,2028,38.87,387.0,Held constant at latest observed country value
+MAR,Morocco,Eastern Mediterranean,EMR,2030,23.811341999414445,2029,38.87,387.0,Held constant at latest observed country value
+MDA,Republic of Moldova,Europe,EUR,2024,22.291646248835548,2023,39.61,366.16,Held constant at latest observed country value
+MDA,Republic of Moldova,Europe,EUR,2025,22.1592873603616,2024,39.61,366.16,Held constant at latest observed country value
+MDA,Republic of Moldova,Europe,EUR,2026,22.031308744975547,2025,39.61,366.16,Held constant at latest observed country value
+MDA,Republic of Moldova,Europe,EUR,2027,21.90920793467374,2026,39.61,366.16,Held constant at latest observed country value
+MDA,Republic of Moldova,Europe,EUR,2028,21.79462306438607,2027,39.61,366.16,Held constant at latest observed country value
+MDA,Republic of Moldova,Europe,EUR,2029,21.689240481401722,2028,39.61,366.16,Held constant at latest observed country value
+MDA,Republic of Moldova,Europe,EUR,2030,21.594764775337065,2029,39.61,366.16,Held constant at latest observed country value
+MDG,Madagascar,Africa,AFR,2024,4.518508626134373,2023,7.71,75.86,Held constant at latest observed country value
+MDG,Madagascar,Africa,AFR,2025,4.802246959602041,2024,7.71,75.86,Held constant at latest observed country value
+MDG,Madagascar,Africa,AFR,2026,5.115417653216779,2025,7.71,75.86,Held constant at latest observed country value
+MDG,Madagascar,Africa,AFR,2027,5.460652758406367,2026,7.71,75.86,Held constant at latest observed country value
+MDG,Madagascar,Africa,AFR,2028,5.84005146670841,2027,7.71,75.86,Held constant at latest observed country value
+MDG,Madagascar,Africa,AFR,2029,6.255450880274651,2028,7.71,75.86,Held constant at latest observed country value
+MDG,Madagascar,Africa,AFR,2030,6.708568371231811,2029,7.71,75.86,Held constant at latest observed country value
+MDV,Maldives,South-East Asia,SEAR,2024,17.87058655723221,2023,31.78,260.24,Held constant at latest observed country value
+MDV,Maldives,South-East Asia,SEAR,2025,18.59147012238444,2024,31.78,260.24,Held constant at latest observed country value
+MDV,Maldives,South-East Asia,SEAR,2026,19.33750018251363,2025,31.78,260.24,Held constant at latest observed country value
+MDV,Maldives,South-East Asia,SEAR,2027,20.10814931894149,2026,31.78,260.24,Held constant at latest observed country value
+MDV,Maldives,South-East Asia,SEAR,2028,20.90389493925179,2027,31.78,260.24,Held constant at latest observed country value
+MDV,Maldives,South-East Asia,SEAR,2029,21.725692011889876,2028,31.78,260.24,Held constant at latest observed country value
+MDV,Maldives,South-East Asia,SEAR,2030,22.574701418517474,2029,31.78,260.24,Held constant at latest observed country value
+MEX,Mexico,Americas,AMR,2024,37.35780351849002,2023,42.02,406.47,Held constant at latest observed country value
+MEX,Mexico,Americas,AMR,2025,38.01544050915698,2024,42.02,406.47,Held constant at latest observed country value
+MEX,Mexico,Americas,AMR,2026,38.679418963771234,2025,42.02,406.47,Held constant at latest observed country value
+MEX,Mexico,Americas,AMR,2027,39.351092525322926,2026,42.02,406.47,Held constant at latest observed country value
+MEX,Mexico,Americas,AMR,2028,40.03171810268628,2027,42.02,406.47,Held constant at latest observed country value
+MEX,Mexico,Americas,AMR,2029,40.72252103754073,2028,42.02,406.47,Held constant at latest observed country value
+MEX,Mexico,Americas,AMR,2030,41.424719897311356,2029,42.02,406.47,Held constant at latest observed country value
+MHL,Marshall Islands,Western Pacific,WPR,2024,41.970560141977614,2023,69.74,238.44,Held constant at latest observed country value
+MHL,Marshall Islands,Western Pacific,WPR,2025,42.11599189808065,2024,69.74,238.44,Held constant at latest observed country value
+MHL,Marshall Islands,Western Pacific,WPR,2026,42.266895014774235,2025,69.74,238.44,Held constant at latest observed country value
+MHL,Marshall Islands,Western Pacific,WPR,2027,42.42491384234911,2026,69.74,238.44,Held constant at latest observed country value
+MHL,Marshall Islands,Western Pacific,WPR,2028,42.591678799813536,2027,69.74,238.44,Held constant at latest observed country value
+MHL,Marshall Islands,Western Pacific,WPR,2029,42.76878302478239,2028,69.74,238.44,Held constant at latest observed country value
+MHL,Marshall Islands,Western Pacific,WPR,2030,42.957795660694785,2029,69.74,238.44,Held constant at latest observed country value
+MKD,North Macedonia,Europe,EUR,2024,26.824420842750754,2023,59.29,439.93,Held constant at latest observed country value
+MKD,North Macedonia,Europe,EUR,2025,27.217293214660735,2024,59.29,439.93,Held constant at latest observed country value
+MKD,North Macedonia,Europe,EUR,2026,27.61774665715472,2025,59.29,439.93,Held constant at latest observed country value
+MKD,North Macedonia,Europe,EUR,2027,28.026748460699842,2026,59.29,439.93,Held constant at latest observed country value
+MKD,North Macedonia,Europe,EUR,2028,28.44548744566494,2027,59.29,439.93,Held constant at latest observed country value
+MKD,North Macedonia,Europe,EUR,2029,28.875265023051945,2028,59.29,439.93,Held constant at latest observed country value
+MKD,North Macedonia,Europe,EUR,2030,29.317436379338133,2029,59.29,439.93,Held constant at latest observed country value
+MLT,Malta,Europe,EUR,2024,30.621658783246357,2023,83.59,414.88,Held constant at latest observed country value
+MLT,Malta,Europe,EUR,2025,30.595776948053146,2024,83.59,414.88,Held constant at latest observed country value
+MLT,Malta,Europe,EUR,2026,30.573953896897834,2025,83.59,414.88,Held constant at latest observed country value
+MLT,Malta,Europe,EUR,2027,30.556459460720696,2026,83.59,414.88,Held constant at latest observed country value
+MLT,Malta,Europe,EUR,2028,30.54424743490442,2027,83.59,414.88,Held constant at latest observed country value
+MLT,Malta,Europe,EUR,2029,30.538637156490697,2028,83.59,414.88,Held constant at latest observed country value
+MLT,Malta,Europe,EUR,2030,30.54112516893128,2029,83.59,414.88,Held constant at latest observed country value
+MMR,Myanmar,South-East Asia,SEAR,2024,8.135869113493225,2023,24.91,176.86,Held constant at latest observed country value
+MMR,Myanmar,South-East Asia,SEAR,2025,8.442516245713009,2024,24.91,176.86,Held constant at latest observed country value
+MMR,Myanmar,South-East Asia,SEAR,2026,8.77151733164813,2025,24.91,176.86,Held constant at latest observed country value
+MMR,Myanmar,South-East Asia,SEAR,2027,9.125387415125669,2026,24.91,176.86,Held constant at latest observed country value
+MMR,Myanmar,South-East Asia,SEAR,2028,9.506138712603175,2027,24.91,176.86,Held constant at latest observed country value
+MMR,Myanmar,South-East Asia,SEAR,2029,9.915533162528833,2028,24.91,176.86,Held constant at latest observed country value
+MMR,Myanmar,South-East Asia,SEAR,2030,10.355218741232342,2029,24.91,176.86,Held constant at latest observed country value
+MNE,Montenegro,Europe,EUR,2024,17.101002990964236,2023,126.26,299.05,Held constant at latest observed country value
+MNE,Montenegro,Europe,EUR,2025,17.33761695572902,2024,126.26,299.05,Held constant at latest observed country value
+MNE,Montenegro,Europe,EUR,2026,17.58910792853965,2025,126.26,299.05,Held constant at latest observed country value
+MNE,Montenegro,Europe,EUR,2027,17.856951278004647,2026,126.26,299.05,Held constant at latest observed country value
+MNE,Montenegro,Europe,EUR,2028,18.142565049754076,2027,126.26,299.05,Held constant at latest observed country value
+MNE,Montenegro,Europe,EUR,2029,18.447406411639847,2028,126.26,299.05,Held constant at latest observed country value
+MNE,Montenegro,Europe,EUR,2030,18.77297375119754,2029,126.26,299.05,Held constant at latest observed country value
+MNG,Mongolia,Western Pacific,WPR,2024,25.099295842038778,2023,88.57,191.27,Held constant at latest observed country value
+MNG,Mongolia,Western Pacific,WPR,2025,25.805271247978148,2024,88.57,191.27,Held constant at latest observed country value
+MNG,Mongolia,Western Pacific,WPR,2026,26.532630880150016,2025,88.57,191.27,Held constant at latest observed country value
+MNG,Mongolia,Western Pacific,WPR,2027,27.283419129907127,2026,88.57,191.27,Held constant at latest observed country value
+MNG,Mongolia,Western Pacific,WPR,2028,28.05920574819288,2027,88.57,191.27,Held constant at latest observed country value
+MNG,Mongolia,Western Pacific,WPR,2029,28.86138141158081,2028,88.57,191.27,Held constant at latest observed country value
+MNG,Mongolia,Western Pacific,WPR,2030,29.691273678264082,2029,88.57,191.27,Held constant at latest observed country value
+MOZ,Mozambique,Africa,AFR,2024,10.65047542478445,2023,6.98,62.68,Held constant at latest observed country value
+MOZ,Mozambique,Africa,AFR,2025,11.146908652969302,2024,6.98,62.68,Held constant at latest observed country value
+MOZ,Mozambique,Africa,AFR,2026,11.671969658919338,2025,6.98,62.68,Held constant at latest observed country value
+MOZ,Mozambique,Africa,AFR,2027,12.227582588541795,2026,6.98,62.68,Held constant at latest observed country value
+MOZ,Mozambique,Africa,AFR,2028,12.815438645260498,2027,6.98,62.68,Held constant at latest observed country value
+MOZ,Mozambique,Africa,AFR,2029,13.43711505076519,2028,6.98,62.68,Held constant at latest observed country value
+MOZ,Mozambique,Africa,AFR,2030,14.094135600825037,2029,6.98,62.68,Held constant at latest observed country value
+MRT,Mauritania,Africa,AFR,2024,24.087191641574105,2023,37.59,378.03,Held constant at latest observed country value
+MRT,Mauritania,Africa,AFR,2025,24.744736910433097,2024,37.59,378.03,Held constant at latest observed country value
+MRT,Mauritania,Africa,AFR,2026,25.422470330403314,2025,37.59,378.03,Held constant at latest observed country value
+MRT,Mauritania,Africa,AFR,2027,26.123168224405124,2026,37.59,378.03,Held constant at latest observed country value
+MRT,Mauritania,Africa,AFR,2028,26.848874607295173,2027,37.59,378.03,Held constant at latest observed country value
+MRT,Mauritania,Africa,AFR,2029,27.601244166688435,2028,37.59,378.03,Held constant at latest observed country value
+MRT,Mauritania,Africa,AFR,2030,28.381746313845916,2029,37.59,378.03,Held constant at latest observed country value
+MUS,Mauritius,Africa,AFR,2024,21.06751350346526,2023,39.75,315.13,Held constant at latest observed country value
+MUS,Mauritius,Africa,AFR,2025,21.585547181842287,2024,39.75,315.13,Held constant at latest observed country value
+MUS,Mauritius,Africa,AFR,2026,22.127748373266947,2025,39.75,315.13,Held constant at latest observed country value
+MUS,Mauritius,Africa,AFR,2027,22.6952602240123,2026,39.75,315.13,Held constant at latest observed country value
+MUS,Mauritius,Africa,AFR,2028,23.28940965229755,2027,39.75,315.13,Held constant at latest observed country value
+MUS,Mauritius,Africa,AFR,2029,23.911595835302357,2028,39.75,315.13,Held constant at latest observed country value
+MUS,Mauritius,Africa,AFR,2030,24.563242475154784,2029,39.75,315.13,Held constant at latest observed country value
+MWI,Malawi,Africa,AFR,2024,8.000631060254877,2023,10.22,99.24,Held constant at latest observed country value
+MWI,Malawi,Africa,AFR,2025,8.380263429093784,2024,10.22,99.24,Held constant at latest observed country value
+MWI,Malawi,Africa,AFR,2026,8.788067449458019,2025,10.22,99.24,Held constant at latest observed country value
+MWI,Malawi,Africa,AFR,2027,9.226630047165328,2026,10.22,99.24,Held constant at latest observed country value
+MWI,Malawi,Africa,AFR,2028,9.69798503999378,2027,10.22,99.24,Held constant at latest observed country value
+MWI,Malawi,Africa,AFR,2029,10.203898740398966,2028,10.22,99.24,Held constant at latest observed country value
+MWI,Malawi,Africa,AFR,2030,10.746016947794157,2029,10.22,99.24,Held constant at latest observed country value
+MYS,Malaysia,Western Pacific,WPR,2024,23.332326811786835,2023,44.4,422.46,Held constant at latest observed country value
+MYS,Malaysia,Western Pacific,WPR,2025,24.017684600135805,2024,44.4,422.46,Held constant at latest observed country value
+MYS,Malaysia,Western Pacific,WPR,2026,24.722967297591477,2025,44.4,422.46,Held constant at latest observed country value
+MYS,Malaysia,Western Pacific,WPR,2027,25.450100165976995,2026,44.4,422.46,Held constant at latest observed country value
+MYS,Malaysia,Western Pacific,WPR,2028,26.200658749712645,2027,44.4,422.46,Held constant at latest observed country value
+MYS,Malaysia,Western Pacific,WPR,2029,26.976058819816394,2028,44.4,422.46,Held constant at latest observed country value
+MYS,Malaysia,Western Pacific,WPR,2030,27.777647709418147,2029,44.4,422.46,Held constant at latest observed country value
+NAM,Namibia,Africa,AFR,2024,18.267415040474027,2023,76.22,344.41,Held constant at latest observed country value
+NAM,Namibia,Africa,AFR,2025,18.688936168934386,2024,76.22,344.41,Held constant at latest observed country value
+NAM,Namibia,Africa,AFR,2026,19.135357086507078,2025,76.22,344.41,Held constant at latest observed country value
+NAM,Namibia,Africa,AFR,2027,19.608968009828587,2026,76.22,344.41,Held constant at latest observed country value
+NAM,Namibia,Africa,AFR,2028,20.111506608085598,2027,76.22,344.41,Held constant at latest observed country value
+NAM,Namibia,Africa,AFR,2029,20.644533711500998,2028,76.22,344.41,Held constant at latest observed country value
+NAM,Namibia,Africa,AFR,2030,21.209561561356875,2029,76.22,344.41,Held constant at latest observed country value
+NER,Niger,Africa,AFR,2024,6.7734007720950125,2023,5.29,53.17,Held constant at latest observed country value
+NER,Niger,Africa,AFR,2025,7.137684392899201,2024,5.29,53.17,Held constant at latest observed country value
+NER,Niger,Africa,AFR,2026,7.530867501937514,2025,5.29,53.17,Held constant at latest observed country value
+NER,Niger,Africa,AFR,2027,7.955433311851786,2026,5.29,53.17,Held constant at latest observed country value
+NER,Niger,Africa,AFR,2028,8.413388657316304,2027,5.29,53.17,Held constant at latest observed country value
+NER,Niger,Africa,AFR,2029,8.906501253651633,2028,5.29,53.17,Held constant at latest observed country value
+NER,Niger,Africa,AFR,2030,9.436427706380535,2029,5.29,53.17,Held constant at latest observed country value
+NGA,Nigeria,Africa,AFR,2024,13.673834542482217,2023,7.45,74.63,Held constant at latest observed country value
+NGA,Nigeria,Africa,AFR,2025,14.213807119844528,2024,7.45,74.63,Held constant at latest observed country value
+NGA,Nigeria,Africa,AFR,2026,14.780246040135031,2025,7.45,74.63,Held constant at latest observed country value
+NGA,Nigeria,Africa,AFR,2027,15.375389468252052,2026,7.45,74.63,Held constant at latest observed country value
+NGA,Nigeria,Africa,AFR,2028,16.0010655282859,2027,7.45,74.63,Held constant at latest observed country value
+NGA,Nigeria,Africa,AFR,2029,16.658891909243618,2028,7.45,74.63,Held constant at latest observed country value
+NGA,Nigeria,Africa,AFR,2030,17.35038690159307,2029,7.45,74.63,Held constant at latest observed country value
+NIC,Nicaragua,Americas,AMR,2024,34.89333445476599,2023,50.02,375.75,Held constant at latest observed country value
+NIC,Nicaragua,Americas,AMR,2025,35.4911507895291,2024,50.02,375.75,Held constant at latest observed country value
+NIC,Nicaragua,Americas,AMR,2026,36.0963135527533,2025,50.02,375.75,Held constant at latest observed country value
+NIC,Nicaragua,Americas,AMR,2027,36.710545030152204,2026,50.02,375.75,Held constant at latest observed country value
+NIC,Nicaragua,Americas,AMR,2028,37.335224591779166,2027,50.02,375.75,Held constant at latest observed country value
+NIC,Nicaragua,Americas,AMR,2029,37.97163094078459,2028,50.02,375.75,Held constant at latest observed country value
+NIC,Nicaragua,Americas,AMR,2030,38.62102261483837,2029,50.02,375.75,Held constant at latest observed country value
+NLD,Netherlands (Kingdom of the),Europe,EUR,2024,14.688961386230416,2023,49.4,456.88,Held constant at latest observed country value
+NLD,Netherlands (Kingdom of the),Europe,EUR,2025,14.806756185197067,2024,49.4,456.88,Held constant at latest observed country value
+NLD,Netherlands (Kingdom of the),Europe,EUR,2026,14.936127974982533,2025,49.4,456.88,Held constant at latest observed country value
+NLD,Netherlands (Kingdom of the),Europe,EUR,2027,15.078585278117481,2026,49.4,456.88,Held constant at latest observed country value
+NLD,Netherlands (Kingdom of the),Europe,EUR,2028,15.235657906563201,2027,49.4,456.88,Held constant at latest observed country value
+NLD,Netherlands (Kingdom of the),Europe,EUR,2029,15.408905258631409,2028,49.4,456.88,Held constant at latest observed country value
+NLD,Netherlands (Kingdom of the),Europe,EUR,2030,15.599908237761538,2029,49.4,456.88,Held constant at latest observed country value
+NOR,Norway,Europe,EUR,2024,20.188614467775672,2023,65.58,326.48,Held constant at latest observed country value
+NOR,Norway,Europe,EUR,2025,20.530224803667597,2024,65.58,326.48,Held constant at latest observed country value
+NOR,Norway,Europe,EUR,2026,20.883447520367902,2025,65.58,326.48,Held constant at latest observed country value
+NOR,Norway,Europe,EUR,2027,21.249437249951793,2026,65.58,326.48,Held constant at latest observed country value
+NOR,Norway,Europe,EUR,2028,21.629496050951516,2027,65.58,326.48,Held constant at latest observed country value
+NOR,Norway,Europe,EUR,2029,22.025007869194464,2028,65.58,326.48,Held constant at latest observed country value
+NOR,Norway,Europe,EUR,2030,22.43739785331722,2029,65.58,326.48,Held constant at latest observed country value
+NPL,Nepal,South-East Asia,SEAR,2024,7.965481972910554,2023,7.48,72.73,Held constant at latest observed country value
+NPL,Nepal,South-East Asia,SEAR,2025,8.463384391822967,2024,7.48,72.73,Held constant at latest observed country value
+NPL,Nepal,South-East Asia,SEAR,2026,8.986906022979742,2025,7.48,72.73,Held constant at latest observed country value
+NPL,Nepal,South-East Asia,SEAR,2027,9.537390815075383,2026,7.48,72.73,Held constant at latest observed country value
+NPL,Nepal,South-East Asia,SEAR,2028,10.116305516832693,2027,7.48,72.73,Held constant at latest observed country value
+NPL,Nepal,South-East Asia,SEAR,2029,10.725136101263175,2028,7.48,72.73,Held constant at latest observed country value
+NPL,Nepal,South-East Asia,SEAR,2030,11.365361217124832,2029,7.48,72.73,Held constant at latest observed country value
+NRU,Nauru,Western Pacific,WPR,2024,71.33873000885724,2023,85.38,435.03,Held constant at latest observed country value
+NRU,Nauru,Western Pacific,WPR,2025,71.54566176921617,2024,85.38,435.03,Held constant at latest observed country value
+NRU,Nauru,Western Pacific,WPR,2026,71.7275612627809,2025,85.38,435.03,Held constant at latest observed country value
+NRU,Nauru,Western Pacific,WPR,2027,71.89293916353351,2026,85.38,435.03,Held constant at latest observed country value
+NRU,Nauru,Western Pacific,WPR,2028,72.0465609189868,2027,85.38,435.03,Held constant at latest observed country value
+NRU,Nauru,Western Pacific,WPR,2029,72.19127506936736,2028,85.38,435.03,Held constant at latest observed country value
+NRU,Nauru,Western Pacific,WPR,2030,72.32905597983353,2029,85.38,435.03,Held constant at latest observed country value
+NZL,New Zealand,Western Pacific,WPR,2024,34.02856087211519,2023,55.1,498.83,Held constant at latest observed country value
+NZL,New Zealand,Western Pacific,WPR,2025,34.413853114510346,2024,55.1,498.83,Held constant at latest observed country value
+NZL,New Zealand,Western Pacific,WPR,2026,34.81103040218573,2025,55.1,498.83,Held constant at latest observed country value
+NZL,New Zealand,Western Pacific,WPR,2027,35.221404541693595,2026,55.1,498.83,Held constant at latest observed country value
+NZL,New Zealand,Western Pacific,WPR,2028,35.646356249076064,2027,55.1,498.83,Held constant at latest observed country value
+NZL,New Zealand,Western Pacific,WPR,2029,36.087296403439595,2028,55.1,498.83,Held constant at latest observed country value
+NZL,New Zealand,Western Pacific,WPR,2030,36.54564933931701,2029,55.1,498.83,Held constant at latest observed country value
+OMN,Oman,Eastern Mediterranean,EMR,2024,30.426895171357337,2023,29.16,248.93,Held constant at latest observed country value
+OMN,Oman,Eastern Mediterranean,EMR,2025,30.771167592319753,2024,29.16,248.93,Held constant at latest observed country value
+OMN,Oman,Eastern Mediterranean,EMR,2026,31.12373223454678,2025,29.16,248.93,Held constant at latest observed country value
+OMN,Oman,Eastern Mediterranean,EMR,2027,31.479498462198006,2026,29.16,248.93,Held constant at latest observed country value
+OMN,Oman,Eastern Mediterranean,EMR,2028,31.83627954740775,2027,29.16,248.93,Held constant at latest observed country value
+OMN,Oman,Eastern Mediterranean,EMR,2029,32.1937094698592,2028,29.16,248.93,Held constant at latest observed country value
+OMN,Oman,Eastern Mediterranean,EMR,2030,32.55237274645099,2029,29.16,248.93,Held constant at latest observed country value
+PAK,Pakistan,Eastern Mediterranean,EMR,2024,24.51790775232539,2023,28.04,283.47,Held constant at latest observed country value
+PAK,Pakistan,Eastern Mediterranean,EMR,2025,25.607567290044702,2024,28.04,283.47,Held constant at latest observed country value
+PAK,Pakistan,Eastern Mediterranean,EMR,2026,26.705535608966038,2025,28.04,283.47,Held constant at latest observed country value
+PAK,Pakistan,Eastern Mediterranean,EMR,2027,27.81138875356487,2026,28.04,283.47,Held constant at latest observed country value
+PAK,Pakistan,Eastern Mediterranean,EMR,2028,28.925425221752427,2027,28.04,283.47,Held constant at latest observed country value
+PAK,Pakistan,Eastern Mediterranean,EMR,2029,30.04830574340813,2028,28.04,283.47,Held constant at latest observed country value
+PAK,Pakistan,Eastern Mediterranean,EMR,2030,31.180856290933956,2029,28.04,283.47,Held constant at latest observed country value
+PAN,Panama,Americas,AMR,2024,37.716265276437134,2023,65.57,336.8,Held constant at latest observed country value
+PAN,Panama,Americas,AMR,2025,38.647696329058185,2024,65.57,336.8,Held constant at latest observed country value
+PAN,Panama,Americas,AMR,2026,39.58963659809136,2025,65.57,336.8,Held constant at latest observed country value
+PAN,Panama,Americas,AMR,2027,40.543005438230665,2026,65.57,336.8,Held constant at latest observed country value
+PAN,Panama,Americas,AMR,2028,41.50872496221769,2027,65.57,336.8,Held constant at latest observed country value
+PAN,Panama,Americas,AMR,2029,42.48777306833527,2028,65.57,336.8,Held constant at latest observed country value
+PAN,Panama,Americas,AMR,2030,43.481171646819114,2029,65.57,336.8,Held constant at latest observed country value
+PER,Peru,Americas,AMR,2024,29.151235279702025,2023,20.61,203.14,Held constant at latest observed country value
+PER,Peru,Americas,AMR,2025,30.074218202962033,2024,20.61,203.14,Held constant at latest observed country value
+PER,Peru,Americas,AMR,2026,31.009686078901233,2025,20.61,203.14,Held constant at latest observed country value
+PER,Peru,Americas,AMR,2027,31.959544711642366,2026,20.61,203.14,Held constant at latest observed country value
+PER,Peru,Americas,AMR,2028,32.925244538206215,2027,20.61,203.14,Held constant at latest observed country value
+PER,Peru,Americas,AMR,2029,33.90802778721195,2028,20.61,203.14,Held constant at latest observed country value
+PER,Peru,Americas,AMR,2030,34.90904893754162,2029,20.61,203.14,Held constant at latest observed country value
+PHL,Philippines,Western Pacific,WPR,2024,9.619259959808666,2023,28.3,269.05,Held constant at latest observed country value
+PHL,Philippines,Western Pacific,WPR,2025,10.03045025805963,2024,28.3,269.05,Held constant at latest observed country value
+PHL,Philippines,Western Pacific,WPR,2026,10.466888782019302,2025,28.3,269.05,Held constant at latest observed country value
+PHL,Philippines,Western Pacific,WPR,2027,10.930973144932773,2026,28.3,269.05,Held constant at latest observed country value
+PHL,Philippines,Western Pacific,WPR,2028,11.424605182439166,2027,28.3,269.05,Held constant at latest observed country value
+PHL,Philippines,Western Pacific,WPR,2029,11.949461891480288,2028,28.3,269.05,Held constant at latest observed country value
+PHL,Philippines,Western Pacific,WPR,2030,12.507124346716125,2029,28.3,269.05,Held constant at latest observed country value
+PNG,Papua New Guinea,Western Pacific,WPR,2024,27.985452440816236,2023,9.61,89.89,Held constant at latest observed country value
+PNG,Papua New Guinea,Western Pacific,WPR,2025,28.521595941885835,2024,9.61,89.89,Held constant at latest observed country value
+PNG,Papua New Guinea,Western Pacific,WPR,2026,29.07394554198421,2025,9.61,89.89,Held constant at latest observed country value
+PNG,Papua New Guinea,Western Pacific,WPR,2027,29.643840098054056,2026,9.61,89.89,Held constant at latest observed country value
+PNG,Papua New Guinea,Western Pacific,WPR,2028,30.23265230225814,2027,9.61,89.89,Held constant at latest observed country value
+PNG,Papua New Guinea,Western Pacific,WPR,2029,30.84175859735719,2028,9.61,89.89,Held constant at latest observed country value
+PNG,Papua New Guinea,Western Pacific,WPR,2030,31.472532740559146,2029,9.61,89.89,Held constant at latest observed country value
+POL,Poland,Europe,EUR,2024,21.798247780672014,2023,55.83,554.59,Held constant at latest observed country value
+POL,Poland,Europe,EUR,2025,21.826307260243574,2024,55.83,554.59,Held constant at latest observed country value
+POL,Poland,Europe,EUR,2026,21.861270470143033,2025,55.83,554.59,Held constant at latest observed country value
+POL,Poland,Europe,EUR,2027,21.904332360644865,2026,55.83,554.59,Held constant at latest observed country value
+POL,Poland,Europe,EUR,2028,21.956874425023447,2027,55.83,554.59,Held constant at latest observed country value
+POL,Poland,Europe,EUR,2029,22.02039814439469,2028,55.83,554.59,Held constant at latest observed country value
+POL,Poland,Europe,EUR,2030,22.09647124824697,2029,55.83,554.59,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2019,9.43860277918936,2018,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2020,9.905511073217703,2019,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2021,10.389307146583363,2020,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2022,10.891213166236044,2021,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2023,11.412559304625034,2022,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2024,11.954725848151105,2023,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2025,12.519114490485084,2024,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2026,13.107135106605826,2025,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2027,13.720199815058393,2026,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2028,14.359720179475863,2027,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2029,15.027105657259451,2028,4.03,41.29,Held constant at latest observed country value
+PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,2030,15.723762501527203,2029,4.03,41.29,Held constant at latest observed country value
+PRT,Portugal,Europe,EUR,2024,18.074432769487142,2023,23.33,189.38,Held constant at latest observed country value
+PRT,Portugal,Europe,EUR,2025,17.977428809336025,2024,23.33,189.38,Held constant at latest observed country value
+PRT,Portugal,Europe,EUR,2026,17.88781483589974,2025,23.33,189.38,Held constant at latest observed country value
+PRT,Portugal,Europe,EUR,2027,17.806990558198915,2026,23.33,189.38,Held constant at latest observed country value
+PRT,Portugal,Europe,EUR,2028,17.736538008413568,2027,23.33,189.38,Held constant at latest observed country value
+PRT,Portugal,Europe,EUR,2029,17.678115224785014,2028,23.33,189.38,Held constant at latest observed country value
+PRT,Portugal,Europe,EUR,2030,17.633412689705352,2029,23.33,189.38,Held constant at latest observed country value
+PRY,Paraguay,Americas,AMR,2024,34.67350141398571,2023,26.85,217.98,Held constant at latest observed country value
+PRY,Paraguay,Americas,AMR,2025,35.51717877713054,2024,26.85,217.98,Held constant at latest observed country value
+PRY,Paraguay,Americas,AMR,2026,36.36991594131368,2025,26.85,217.98,Held constant at latest observed country value
+PRY,Paraguay,Americas,AMR,2027,37.233331407449086,2026,26.85,217.98,Held constant at latest observed country value
+PRY,Paraguay,Americas,AMR,2028,38.10875034643301,2027,26.85,217.98,Held constant at latest observed country value
+PRY,Paraguay,Americas,AMR,2029,38.99737209442554,2028,26.85,217.98,Held constant at latest observed country value
+PRY,Paraguay,Americas,AMR,2030,39.90034690962358,2029,26.85,217.98,Held constant at latest observed country value
+PYF,French Polynesia,Western Pacific,WPR,2024,49.15738866795647,2023,37.35,258.58,Held constant at latest observed country value
+PYF,French Polynesia,Western Pacific,WPR,2025,49.678657065046224,2024,37.35,258.58,Held constant at latest observed country value
+PYF,French Polynesia,Western Pacific,WPR,2026,50.20364101461024,2025,37.35,258.58,Held constant at latest observed country value
+PYF,French Polynesia,Western Pacific,WPR,2027,50.733388608008,2026,37.35,258.58,Held constant at latest observed country value
+PYF,French Polynesia,Western Pacific,WPR,2028,51.269142962602686,2027,37.35,258.58,Held constant at latest observed country value
+PYF,French Polynesia,Western Pacific,WPR,2029,51.8121939478486,2028,37.35,258.58,Held constant at latest observed country value
+PYF,French Polynesia,Western Pacific,WPR,2030,52.36383839885375,2029,37.35,258.58,Held constant at latest observed country value
+QAT,Qatar,Eastern Mediterranean,EMR,2024,41.93144126407648,2023,35.12,256.19,Held constant at latest observed country value
+QAT,Qatar,Eastern Mediterranean,EMR,2025,42.11272701908531,2024,35.12,256.19,Held constant at latest observed country value
+QAT,Qatar,Eastern Mediterranean,EMR,2026,42.277895754775074,2025,35.12,256.19,Held constant at latest observed country value
+QAT,Qatar,Eastern Mediterranean,EMR,2027,42.430350193089595,2026,35.12,256.19,Held constant at latest observed country value
+QAT,Qatar,Eastern Mediterranean,EMR,2028,42.57210269190212,2027,35.12,256.19,Held constant at latest observed country value
+QAT,Qatar,Eastern Mediterranean,EMR,2029,42.704689673997024,2028,35.12,256.19,Held constant at latest observed country value
+QAT,Qatar,Eastern Mediterranean,EMR,2030,42.82951270848821,2029,35.12,256.19,Held constant at latest observed country value
+ROU,Romania,Europe,EUR,2024,32.41680266362618,2023,30.13,297.5,Held constant at latest observed country value
+ROU,Romania,Europe,EUR,2025,33.29484454356921,2024,30.13,297.5,Held constant at latest observed country value
+ROU,Romania,Europe,EUR,2026,34.180942595388856,2025,30.13,297.5,Held constant at latest observed country value
+ROU,Romania,Europe,EUR,2027,35.07567536425556,2026,30.13,297.5,Held constant at latest observed country value
+ROU,Romania,Europe,EUR,2028,35.97988365824528,2027,30.13,297.5,Held constant at latest observed country value
+ROU,Romania,Europe,EUR,2029,36.89454288263813,2028,30.13,297.5,Held constant at latest observed country value
+ROU,Romania,Europe,EUR,2030,37.82069176354597,2029,30.13,297.5,Held constant at latest observed country value
+RUS,Russian Federation,Europe,EUR,2024,17.609636787815596,2023,66.55,419.21,Held constant at latest observed country value
+RUS,Russian Federation,Europe,EUR,2025,17.35554569537618,2024,66.55,419.21,Held constant at latest observed country value
+RUS,Russian Federation,Europe,EUR,2026,17.10895598426552,2025,66.55,419.21,Held constant at latest observed country value
+RUS,Russian Federation,Europe,EUR,2027,16.87135780173108,2026,66.55,419.21,Held constant at latest observed country value
+RUS,Russian Federation,Europe,EUR,2028,16.644355932166988,2027,66.55,419.21,Held constant at latest observed country value
+RUS,Russian Federation,Europe,EUR,2029,16.429649088573694,2028,66.55,419.21,Held constant at latest observed country value
+RUS,Russian Federation,Europe,EUR,2030,16.22899410596429,2029,66.55,419.21,Held constant at latest observed country value
+RWA,Rwanda,Africa,AFR,2024,5.587477461013513,2023,20.86,162.1,Held constant at latest observed country value
+RWA,Rwanda,Africa,AFR,2025,5.950040562298192,2024,20.86,162.1,Held constant at latest observed country value
+RWA,Rwanda,Africa,AFR,2026,6.342987962396716,2025,20.86,162.1,Held constant at latest observed country value
+RWA,Rwanda,Africa,AFR,2027,6.768638792049359,2026,20.86,162.1,Held constant at latest observed country value
+RWA,Rwanda,Africa,AFR,2028,7.228881448925186,2027,20.86,162.1,Held constant at latest observed country value
+RWA,Rwanda,Africa,AFR,2029,7.72542124095904,2028,20.86,162.1,Held constant at latest observed country value
+RWA,Rwanda,Africa,AFR,2030,8.259888540233167,2029,20.86,162.1,Held constant at latest observed country value
+SAU,Saudi Arabia,Eastern Mediterranean,EMR,2024,40.00164751863448,2023,34.66,347.95,Held constant at latest observed country value
+SAU,Saudi Arabia,Eastern Mediterranean,EMR,2025,40.175656392335114,2024,34.66,347.95,Held constant at latest observed country value
+SAU,Saudi Arabia,Eastern Mediterranean,EMR,2026,40.33005697909057,2025,34.66,347.95,Held constant at latest observed country value
+SAU,Saudi Arabia,Eastern Mediterranean,EMR,2027,40.470330439857335,2026,34.66,347.95,Held constant at latest observed country value
+SAU,Saudi Arabia,Eastern Mediterranean,EMR,2028,40.599688908728055,2027,34.66,347.95,Held constant at latest observed country value
+SAU,Saudi Arabia,Eastern Mediterranean,EMR,2029,40.72027052580902,2028,34.66,347.95,Held constant at latest observed country value
+SAU,Saudi Arabia,Eastern Mediterranean,EMR,2030,40.83375523092923,2029,34.66,347.95,Held constant at latest observed country value
+SEN,Senegal,Africa,AFR,2024,11.587326433087783,2023,19.92,190.29,Held constant at latest observed country value
+SEN,Senegal,Africa,AFR,2025,12.089255962358934,2024,19.92,190.29,Held constant at latest observed country value
+SEN,Senegal,Africa,AFR,2026,12.621601522838324,2025,19.92,190.29,Held constant at latest observed country value
+SEN,Senegal,Africa,AFR,2027,13.185130498759712,2026,19.92,190.29,Held constant at latest observed country value
+SEN,Senegal,Africa,AFR,2028,13.780963845096327,2027,19.92,190.29,Held constant at latest observed country value
+SEN,Senegal,Africa,AFR,2029,14.410420619423952,2028,19.92,190.29,Held constant at latest observed country value
+SEN,Senegal,Africa,AFR,2030,15.074913806521327,2029,19.92,190.29,Held constant at latest observed country value
+SLB,Solomon Islands,Western Pacific,WPR,2024,21.828816292814277,2023,13.49,120.15,Held constant at latest observed country value
+SLB,Solomon Islands,Western Pacific,WPR,2025,22.20158253391281,2024,13.49,120.15,Held constant at latest observed country value
+SLB,Solomon Islands,Western Pacific,WPR,2026,22.59213486721481,2025,13.49,120.15,Held constant at latest observed country value
+SLB,Solomon Islands,Western Pacific,WPR,2027,23.002347082934765,2026,13.49,120.15,Held constant at latest observed country value
+SLB,Solomon Islands,Western Pacific,WPR,2028,23.433922803992218,2027,13.49,120.15,Held constant at latest observed country value
+SLB,Solomon Islands,Western Pacific,WPR,2029,23.888456214250166,2028,13.49,120.15,Held constant at latest observed country value
+SLB,Solomon Islands,Western Pacific,WPR,2030,24.367483722567183,2029,13.49,120.15,Held constant at latest observed country value
+SLE,Sierra Leone,Africa,AFR,2024,8.193948933970512,2023,13.18,124.53,Held constant at latest observed country value
+SLE,Sierra Leone,Africa,AFR,2025,8.485714866851238,2024,13.18,124.53,Held constant at latest observed country value
+SLE,Sierra Leone,Africa,AFR,2026,8.803943494290175,2025,13.18,124.53,Held constant at latest observed country value
+SLE,Sierra Leone,Africa,AFR,2027,9.151752631887431,2026,13.18,124.53,Held constant at latest observed country value
+SLE,Sierra Leone,Africa,AFR,2028,9.531425205882044,2027,13.18,124.53,Held constant at latest observed country value
+SLE,Sierra Leone,Africa,AFR,2029,9.944853720032981,2028,13.18,124.53,Held constant at latest observed country value
+SLE,Sierra Leone,Africa,AFR,2030,10.393760982352497,2029,13.18,124.53,Held constant at latest observed country value
+SLV,El Salvador,Americas,AMR,2024,32.15875273369032,2023,32.67,327.21,Held constant at latest observed country value
+SLV,El Salvador,Americas,AMR,2025,32.73636256880444,2024,32.67,327.21,Held constant at latest observed country value
+SLV,El Salvador,Americas,AMR,2026,33.323163075070305,2025,32.67,327.21,Held constant at latest observed country value
+SLV,El Salvador,Americas,AMR,2027,33.92027103425089,2026,32.67,327.21,Held constant at latest observed country value
+SLV,El Salvador,Americas,AMR,2028,34.52888477602032,2027,32.67,327.21,Held constant at latest observed country value
+SLV,El Salvador,Americas,AMR,2029,35.150249274286736,2028,32.67,327.21,Held constant at latest observed country value
+SLV,El Salvador,Americas,AMR,2030,35.78563405798739,2029,32.67,327.21,Held constant at latest observed country value
+SRB,Serbia,Europe,EUR,2024,21.83648060319117,2023,13.36,131.83,Held constant at latest observed country value
+SRB,Serbia,Europe,EUR,2025,22.189363292103756,2024,13.36,131.83,Held constant at latest observed country value
+SRB,Serbia,Europe,EUR,2026,22.551886482000484,2025,13.36,131.83,Held constant at latest observed country value
+SRB,Serbia,Europe,EUR,2027,22.924852310333318,2026,13.36,131.83,Held constant at latest observed country value
+SRB,Serbia,Europe,EUR,2028,23.30941685553893,2027,13.36,131.83,Held constant at latest observed country value
+SRB,Serbia,Europe,EUR,2029,23.706898116124908,2028,13.36,131.83,Held constant at latest observed country value
+SRB,Serbia,Europe,EUR,2030,24.11868421538685,2029,13.36,131.83,Held constant at latest observed country value
+STP,Sao Tome and Principe,Africa,AFR,2024,17.93322128949854,2023,31.21,190.35,Held constant at latest observed country value
+STP,Sao Tome and Principe,Africa,AFR,2025,18.616038658532005,2024,31.21,190.35,Held constant at latest observed country value
+STP,Sao Tome and Principe,Africa,AFR,2026,19.32534084480044,2025,31.21,190.35,Held constant at latest observed country value
+STP,Sao Tome and Principe,Africa,AFR,2027,20.062833372587228,2026,31.21,190.35,Held constant at latest observed country value
+STP,Sao Tome and Principe,Africa,AFR,2028,20.830079191746545,2027,31.21,190.35,Held constant at latest observed country value
+STP,Sao Tome and Principe,Africa,AFR,2029,21.628539519087646,2028,31.21,190.35,Held constant at latest observed country value
+STP,Sao Tome and Principe,Africa,AFR,2030,22.45961681969358,2029,31.21,190.35,Held constant at latest observed country value
+SUR,Suriname,Americas,AMR,2024,30.797386760236435,2023,123.35,458.86,Held constant at latest observed country value
+SUR,Suriname,Americas,AMR,2025,31.504671741296825,2024,123.35,458.86,Held constant at latest observed country value
+SUR,Suriname,Americas,AMR,2026,32.22746881227644,2025,123.35,458.86,Held constant at latest observed country value
+SUR,Suriname,Americas,AMR,2027,32.96642387160251,2026,123.35,458.86,Held constant at latest observed country value
+SUR,Suriname,Americas,AMR,2028,33.722421908451864,2027,123.35,458.86,Held constant at latest observed country value
+SUR,Suriname,Americas,AMR,2029,34.496523802658515,2028,123.35,458.86,Held constant at latest observed country value
+SUR,Suriname,Americas,AMR,2030,35.289888839285965,2029,123.35,458.86,Held constant at latest observed country value
+SVK,Slovakia,Europe,EUR,2024,26.079440600835127,2023,79.41,359.9,Held constant at latest observed country value
+SVK,Slovakia,Europe,EUR,2025,26.565308108375174,2024,79.41,359.9,Held constant at latest observed country value
+SVK,Slovakia,Europe,EUR,2026,27.06152326439326,2025,79.41,359.9,Held constant at latest observed country value
+SVK,Slovakia,Europe,EUR,2027,27.56901465310186,2026,79.41,359.9,Held constant at latest observed country value
+SVK,Slovakia,Europe,EUR,2028,28.088784952341545,2027,79.41,359.9,Held constant at latest observed country value
+SVK,Slovakia,Europe,EUR,2029,28.621979752452212,2028,79.41,359.9,Held constant at latest observed country value
+SVK,Slovakia,Europe,EUR,2030,29.169846158625713,2029,79.41,359.9,Held constant at latest observed country value
+SVN,Slovenia,Europe,EUR,2024,19.766214920056235,2023,56.31,280.36,Held constant at latest observed country value
+SVN,Slovenia,Europe,EUR,2025,20.249533055972687,2024,56.31,280.36,Held constant at latest observed country value
+SVN,Slovenia,Europe,EUR,2026,20.74994122562251,2025,56.31,280.36,Held constant at latest observed country value
+SVN,Slovenia,Europe,EUR,2027,21.266236707894404,2026,56.31,280.36,Held constant at latest observed country value
+SVN,Slovenia,Europe,EUR,2028,21.798582496981314,2027,56.31,280.36,Held constant at latest observed country value
+SVN,Slovenia,Europe,EUR,2029,22.347828973835533,2028,56.31,280.36,Held constant at latest observed country value
+SVN,Slovenia,Europe,EUR,2030,22.91513952217941,2029,56.31,280.36,Held constant at latest observed country value
+SWE,Sweden,Europe,EUR,2024,17.50928902038189,2023,45.71,340.11,Held constant at latest observed country value
+SWE,Sweden,Europe,EUR,2025,17.790267537019627,2024,45.71,340.11,Held constant at latest observed country value
+SWE,Sweden,Europe,EUR,2026,18.08282725728531,2025,45.71,340.11,Held constant at latest observed country value
+SWE,Sweden,Europe,EUR,2027,18.388291716628178,2026,45.71,340.11,Held constant at latest observed country value
+SWE,Sweden,Europe,EUR,2028,18.708086380086634,2027,45.71,340.11,Held constant at latest observed country value
+SWE,Sweden,Europe,EUR,2029,19.043679632794525,2028,45.71,340.11,Held constant at latest observed country value
+SWE,Sweden,Europe,EUR,2030,19.396558097459817,2029,45.71,340.11,Held constant at latest observed country value
+SWZ,Eswatini,Africa,AFR,2024,29.60801563813851,2023,48.26,307.99,Held constant at latest observed country value
+SWZ,Eswatini,Africa,AFR,2025,30.24189269743814,2024,48.26,307.99,Held constant at latest observed country value
+SWZ,Eswatini,Africa,AFR,2026,30.894941067600904,2025,48.26,307.99,Held constant at latest observed country value
+SWZ,Eswatini,Africa,AFR,2027,31.568837319818982,2026,48.26,307.99,Held constant at latest observed country value
+SWZ,Eswatini,Africa,AFR,2028,32.26508954540862,2027,48.26,307.99,Held constant at latest observed country value
+SWZ,Eswatini,Africa,AFR,2029,32.98511112745177,2028,48.26,307.99,Held constant at latest observed country value
+SWZ,Eswatini,Africa,AFR,2030,33.730268221107046,2029,48.26,307.99,Held constant at latest observed country value
+SYC,Seychelles,Africa,AFR,2024,33.837220132458185,2023,63.7,295.8,Held constant at latest observed country value
+SYC,Seychelles,Africa,AFR,2025,34.716531179895654,2024,63.7,295.8,Held constant at latest observed country value
+SYC,Seychelles,Africa,AFR,2026,35.61934021906926,2025,63.7,295.8,Held constant at latest observed country value
+SYC,Seychelles,Africa,AFR,2027,36.5450874025488,2026,63.7,295.8,Held constant at latest observed country value
+SYC,Seychelles,Africa,AFR,2028,37.49407413098616,2027,63.7,295.8,Held constant at latest observed country value
+SYC,Seychelles,Africa,AFR,2029,38.46707861352387,2028,63.7,295.8,Held constant at latest observed country value
+SYC,Seychelles,Africa,AFR,2030,39.465108434493416,2029,63.7,295.8,Held constant at latest observed country value
+SYR,Syrian Arab Republic,Eastern Mediterranean,EMR,2024,32.974087584086966,2023,13.16,73.57,Held constant at latest observed country value
+SYR,Syrian Arab Republic,Eastern Mediterranean,EMR,2025,33.17803657352484,2024,13.16,73.57,Held constant at latest observed country value
+SYR,Syrian Arab Republic,Eastern Mediterranean,EMR,2026,33.37622372303146,2025,13.16,73.57,Held constant at latest observed country value
+SYR,Syrian Arab Republic,Eastern Mediterranean,EMR,2027,33.56883479389891,2026,13.16,73.57,Held constant at latest observed country value
+SYR,Syrian Arab Republic,Eastern Mediterranean,EMR,2028,33.75675140896258,2027,13.16,73.57,Held constant at latest observed country value
+SYR,Syrian Arab Republic,Eastern Mediterranean,EMR,2029,33.9411672743568,2028,13.16,73.57,Held constant at latest observed country value
+SYR,Syrian Arab Republic,Eastern Mediterranean,EMR,2030,34.12341092678588,2029,13.16,73.57,Held constant at latest observed country value
+THA,Thailand,South-East Asia,SEAR,2024,16.3544627573081,2023,52.79,435.39,Held constant at latest observed country value
+THA,Thailand,South-East Asia,SEAR,2025,17.113341564001313,2024,52.79,435.39,Held constant at latest observed country value
+THA,Thailand,South-East Asia,SEAR,2026,17.896125441066225,2025,52.79,435.39,Held constant at latest observed country value
+THA,Thailand,South-East Asia,SEAR,2027,18.70387764242142,2026,52.79,435.39,Held constant at latest observed country value
+THA,Thailand,South-East Asia,SEAR,2028,19.537810302509648,2027,52.79,435.39,Held constant at latest observed country value
+THA,Thailand,South-East Asia,SEAR,2029,20.39918673371609,2028,52.79,435.39,Held constant at latest observed country value
+THA,Thailand,South-East Asia,SEAR,2030,21.289283625638642,2029,52.79,435.39,Held constant at latest observed country value
+TJK,Tajikistan,Europe,EUR,2024,23.07383398240497,2023,17.04,168.05,Held constant at latest observed country value
+TJK,Tajikistan,Europe,EUR,2025,23.658066677947872,2024,17.04,168.05,Held constant at latest observed country value
+TJK,Tajikistan,Europe,EUR,2026,24.252223936663498,2025,17.04,168.05,Held constant at latest observed country value
+TJK,Tajikistan,Europe,EUR,2027,24.85765209422374,2026,17.04,168.05,Held constant at latest observed country value
+TJK,Tajikistan,Europe,EUR,2028,25.4756668629202,2027,17.04,168.05,Held constant at latest observed country value
+TJK,Tajikistan,Europe,EUR,2029,26.1075690429951,2028,17.04,168.05,Held constant at latest observed country value
+TJK,Tajikistan,Europe,EUR,2030,26.754654090217144,2029,17.04,168.05,Held constant at latest observed country value
+TKM,Turkmenistan,Europe,EUR,2024,22.215225782760122,2023,16.98,168.13,Held constant at latest observed country value
+TKM,Turkmenistan,Europe,EUR,2025,22.64279386237658,2024,16.98,168.13,Held constant at latest observed country value
+TKM,Turkmenistan,Europe,EUR,2026,23.07826622613369,2025,16.98,168.13,Held constant at latest observed country value
+TKM,Turkmenistan,Europe,EUR,2027,23.52370807815907,2026,16.98,168.13,Held constant at latest observed country value
+TKM,Turkmenistan,Europe,EUR,2028,23.980797210916336,2027,16.98,168.13,Held constant at latest observed country value
+TKM,Turkmenistan,Europe,EUR,2029,24.451034749338483,2028,16.98,168.13,Held constant at latest observed country value
+TKM,Turkmenistan,Europe,EUR,2030,24.935849432197323,2029,16.98,168.13,Held constant at latest observed country value
+TLS,Timor-Leste,South-East Asia,SEAR,2024,3.6111331832598523,2023,13.29,109.65,Held constant at latest observed country value
+TLS,Timor-Leste,South-East Asia,SEAR,2025,3.9312362066878492,2024,13.29,109.65,Held constant at latest observed country value
+TLS,Timor-Leste,South-East Asia,SEAR,2026,4.277503649777703,2025,13.29,109.65,Held constant at latest observed country value
+TLS,Timor-Leste,South-East Asia,SEAR,2027,4.651596534025792,2026,13.29,109.65,Held constant at latest observed country value
+TLS,Timor-Leste,South-East Asia,SEAR,2028,5.055295066779793,2027,13.29,109.65,Held constant at latest observed country value
+TLS,Timor-Leste,South-East Asia,SEAR,2029,5.490325627908279,2028,13.29,109.65,Held constant at latest observed country value
+TLS,Timor-Leste,South-East Asia,SEAR,2030,5.9583505612438525,2029,13.29,109.65,Held constant at latest observed country value
+TON,Tonga,Western Pacific,WPR,2024,73.86561170545716,2023,47.22,206.29,Held constant at latest observed country value
+TON,Tonga,Western Pacific,WPR,2025,74.747388363568,2024,47.22,206.29,Held constant at latest observed country value
+TON,Tonga,Western Pacific,WPR,2026,75.61886559638036,2025,47.22,206.29,Held constant at latest observed country value
+TON,Tonga,Western Pacific,WPR,2027,76.48223665276785,2026,47.22,206.29,Held constant at latest observed country value
+TON,Tonga,Western Pacific,WPR,2028,77.33906764607879,2027,47.22,206.29,Held constant at latest observed country value
+TON,Tonga,Western Pacific,WPR,2029,78.19059073771922,2028,47.22,206.29,Held constant at latest observed country value
+TON,Tonga,Western Pacific,WPR,2030,79.03788501375261,2029,47.22,206.29,Held constant at latest observed country value
+TTO,Trinidad and Tobago,Americas,AMR,2024,30.89631458880709,2023,38.87,361.15,Held constant at latest observed country value
+TTO,Trinidad and Tobago,Americas,AMR,2025,31.40726314980885,2024,38.87,361.15,Held constant at latest observed country value
+TTO,Trinidad and Tobago,Americas,AMR,2026,31.927617166294258,2025,38.87,361.15,Held constant at latest observed country value
+TTO,Trinidad and Tobago,Americas,AMR,2027,32.458497821936724,2026,38.87,361.15,Held constant at latest observed country value
+TTO,Trinidad and Tobago,Americas,AMR,2028,33.001192860603005,2027,38.87,361.15,Held constant at latest observed country value
+TTO,Trinidad and Tobago,Americas,AMR,2029,33.55703401841684,2028,38.87,361.15,Held constant at latest observed country value
+TTO,Trinidad and Tobago,Americas,AMR,2030,34.127361371111135,2029,38.87,361.15,Held constant at latest observed country value
+TUN,Tunisia,Eastern Mediterranean,EMR,2024,26.077870912763,2023,27.57,272.66,Held constant at latest observed country value
+TUN,Tunisia,Eastern Mediterranean,EMR,2025,26.36113214208666,2024,27.57,272.66,Held constant at latest observed country value
+TUN,Tunisia,Eastern Mediterranean,EMR,2026,26.643042832006117,2025,27.57,272.66,Held constant at latest observed country value
+TUN,Tunisia,Eastern Mediterranean,EMR,2027,26.92415082676623,2026,27.57,272.66,Held constant at latest observed country value
+TUN,Tunisia,Eastern Mediterranean,EMR,2028,27.205495654382375,2027,27.57,272.66,Held constant at latest observed country value
+TUN,Tunisia,Eastern Mediterranean,EMR,2029,27.48833026371532,2028,27.57,272.66,Held constant at latest observed country value
+TUN,Tunisia,Eastern Mediterranean,EMR,2030,27.773997764080438,2029,27.57,272.66,Held constant at latest observed country value
+TUR,Türkiye,Europe,EUR,2024,28.770112039273968,2023,28.93,288.78,Held constant at latest observed country value
+TUR,Türkiye,Europe,EUR,2025,28.611321515665765,2024,28.93,288.78,Held constant at latest observed country value
+TUR,Türkiye,Europe,EUR,2026,28.454205133999842,2025,28.93,288.78,Held constant at latest observed country value
+TUR,Türkiye,Europe,EUR,2027,28.299322812330193,2026,28.93,288.78,Held constant at latest observed country value
+TUR,Türkiye,Europe,EUR,2028,28.14781655264277,2027,28.93,288.78,Held constant at latest observed country value
+TUR,Türkiye,Europe,EUR,2029,28.00113209134784,2028,28.93,288.78,Held constant at latest observed country value
+TUR,Türkiye,Europe,EUR,2030,27.86086147917684,2029,28.93,288.78,Held constant at latest observed country value
+TUV,Tuvalu,Western Pacific,WPR,2024,65.07822819472707,2023,61.8,528.05,Held constant at latest observed country value
+TUV,Tuvalu,Western Pacific,WPR,2025,65.53609811213009,2024,61.8,528.05,Held constant at latest observed country value
+TUV,Tuvalu,Western Pacific,WPR,2026,65.98649207063579,2025,61.8,528.05,Held constant at latest observed country value
+TUV,Tuvalu,Western Pacific,WPR,2027,66.43109921046208,2026,61.8,528.05,Held constant at latest observed country value
+TUV,Tuvalu,Western Pacific,WPR,2028,66.87131137119631,2027,61.8,528.05,Held constant at latest observed country value
+TUV,Tuvalu,Western Pacific,WPR,2029,67.30841404796384,2028,61.8,528.05,Held constant at latest observed country value
+TUV,Tuvalu,Western Pacific,WPR,2030,67.74366392850547,2029,61.8,528.05,Held constant at latest observed country value
+TZA,United Republic of Tanzania,Africa,AFR,2024,11.509108057345204,2023,9.55,95.52,Held constant at latest observed country value
+TZA,United Republic of Tanzania,Africa,AFR,2025,12.019315824748269,2024,9.55,95.52,Held constant at latest observed country value
+TZA,United Republic of Tanzania,Africa,AFR,2026,12.558854944415895,2025,9.55,95.52,Held constant at latest observed country value
+TZA,United Republic of Tanzania,Africa,AFR,2027,13.12901478105243,2026,9.55,95.52,Held constant at latest observed country value
+TZA,United Republic of Tanzania,Africa,AFR,2028,13.731195569669218,2027,9.55,95.52,Held constant at latest observed country value
+TZA,United Republic of Tanzania,Africa,AFR,2029,14.366846986467324,2028,9.55,95.52,Held constant at latest observed country value
+TZA,United Republic of Tanzania,Africa,AFR,2030,15.0374363454792,2029,9.55,95.52,Held constant at latest observed country value
+UGA,Uganda,Africa,AFR,2024,9.465175782925224,2023,12.7,117.72,Held constant at latest observed country value
+UGA,Uganda,Africa,AFR,2025,10.02600821158458,2024,12.7,117.72,Held constant at latest observed country value
+UGA,Uganda,Africa,AFR,2026,10.618429439373205,2025,12.7,117.72,Held constant at latest observed country value
+UGA,Uganda,Africa,AFR,2027,11.24345538937481,2026,12.7,117.72,Held constant at latest observed country value
+UGA,Uganda,Africa,AFR,2028,11.902357658565368,2027,12.7,117.72,Held constant at latest observed country value
+UGA,Uganda,Africa,AFR,2029,12.596523272844756,2028,12.7,117.72,Held constant at latest observed country value
+UGA,Uganda,Africa,AFR,2030,13.327384085183203,2029,12.7,117.72,Held constant at latest observed country value
+UKR,Ukraine,Europe,EUR,2024,22.811087937398035,2023,68.19,362.08,Held constant at latest observed country value
+UKR,Ukraine,Europe,EUR,2025,22.824949932465106,2024,68.19,362.08,Held constant at latest observed country value
+UKR,Ukraine,Europe,EUR,2026,22.846025111825856,2025,68.19,362.08,Held constant at latest observed country value
+UKR,Ukraine,Europe,EUR,2027,22.875500920876195,2026,68.19,362.08,Held constant at latest observed country value
+UKR,Ukraine,Europe,EUR,2028,22.914759036049134,2027,68.19,362.08,Held constant at latest observed country value
+UKR,Ukraine,Europe,EUR,2029,22.96530656409002,2028,68.19,362.08,Held constant at latest observed country value
+UKR,Ukraine,Europe,EUR,2030,23.028719819946165,2029,68.19,362.08,Held constant at latest observed country value
+URY,Uruguay,Americas,AMR,2024,34.94550735287917,2023,46.08,403.05,Held constant at latest observed country value
+URY,Uruguay,Americas,AMR,2025,35.830466942128666,2024,46.08,403.05,Held constant at latest observed country value
+URY,Uruguay,Americas,AMR,2026,36.7256837594709,2025,46.08,403.05,Held constant at latest observed country value
+URY,Uruguay,Americas,AMR,2027,37.63225473137007,2026,46.08,403.05,Held constant at latest observed country value
+URY,Uruguay,Americas,AMR,2028,38.551316831369604,2027,46.08,403.05,Held constant at latest observed country value
+URY,Uruguay,Americas,AMR,2029,39.4839996871726,2028,46.08,403.05,Held constant at latest observed country value
+URY,Uruguay,Americas,AMR,2030,40.43142111981837,2029,46.08,403.05,Held constant at latest observed country value
+USA,United States of America,Americas,AMR,2024,40.96092433197277,2023,62.95,569.31,Held constant at latest observed country value
+USA,United States of America,Americas,AMR,2025,41.227853365925654,2024,62.95,569.31,Held constant at latest observed country value
+USA,United States of America,Americas,AMR,2026,41.497185704520255,2025,62.95,569.31,Held constant at latest observed country value
+USA,United States of America,Americas,AMR,2027,41.76956405549092,2026,62.95,569.31,Held constant at latest observed country value
+USA,United States of America,Americas,AMR,2028,42.046040927640654,2027,62.95,569.31,Held constant at latest observed country value
+USA,United States of America,Americas,AMR,2029,42.327878343784235,2028,62.95,569.31,Held constant at latest observed country value
+USA,United States of America,Americas,AMR,2030,42.61643830959301,2029,62.95,569.31,Held constant at latest observed country value
+UZB,Uzbekistan,Europe,EUR,2024,31.228824828143114,2023,19.72,190.28,Held constant at latest observed country value
+UZB,Uzbekistan,Europe,EUR,2025,32.120288714888964,2024,19.72,190.28,Held constant at latest observed country value
+UZB,Uzbekistan,Europe,EUR,2026,33.01956380214409,2025,19.72,190.28,Held constant at latest observed country value
+UZB,Uzbekistan,Europe,EUR,2027,33.92776164820759,2026,19.72,190.28,Held constant at latest observed country value
+UZB,Uzbekistan,Europe,EUR,2028,34.845979174354426,2027,19.72,190.28,Held constant at latest observed country value
+UZB,Uzbekistan,Europe,EUR,2029,35.77530330924199,2028,19.72,190.28,Held constant at latest observed country value
+UZB,Uzbekistan,Europe,EUR,2030,36.71681674150365,2029,19.72,190.28,Held constant at latest observed country value
+VCT,Saint Vincent and the Grenadines,Americas,AMR,2024,34.6009696986421,2023,73.83,382.89,Held constant at latest observed country value
+VCT,Saint Vincent and the Grenadines,Americas,AMR,2025,35.30972656253928,2024,73.83,382.89,Held constant at latest observed country value
+VCT,Saint Vincent and the Grenadines,Americas,AMR,2026,36.02782389705291,2025,73.83,382.89,Held constant at latest observed country value
+VCT,Saint Vincent and the Grenadines,Americas,AMR,2027,36.75697538140439,2026,73.83,382.89,Held constant at latest observed country value
+VCT,Saint Vincent and the Grenadines,Americas,AMR,2028,37.49856118826354,2027,73.83,382.89,Held constant at latest observed country value
+VCT,Saint Vincent and the Grenadines,Americas,AMR,2029,38.253841403989085,2028,73.83,382.89,Held constant at latest observed country value
+VCT,Saint Vincent and the Grenadines,Americas,AMR,2030,39.02403845739893,2029,73.83,382.89,Held constant at latest observed country value
+VEN,Venezuela (Bolivarian Republic of),Americas,AMR,2024,22.98933625474889,2023,35.26,345.27,Held constant at latest observed country value
+VEN,Venezuela (Bolivarian Republic of),Americas,AMR,2025,22.998182805741695,2024,35.26,345.27,Held constant at latest observed country value
+VEN,Venezuela (Bolivarian Republic of),Americas,AMR,2026,23.01699230045576,2025,35.26,345.27,Held constant at latest observed country value
+VEN,Venezuela (Bolivarian Republic of),Americas,AMR,2027,23.047086239564447,2026,35.26,345.27,Held constant at latest observed country value
+VEN,Venezuela (Bolivarian Republic of),Americas,AMR,2028,23.08992563168461,2027,35.26,345.27,Held constant at latest observed country value
+VEN,Venezuela (Bolivarian Republic of),Americas,AMR,2029,23.14706740626995,2028,35.26,345.27,Held constant at latest observed country value
+VEN,Venezuela (Bolivarian Republic of),Americas,AMR,2030,23.220123023757978,2029,35.26,345.27,Held constant at latest observed country value
+VNM,Viet Nam,Western Pacific,WPR,2024,2.4009381128268004,2023,29.6,247.23,Held constant at latest observed country value
+VNM,Viet Nam,Western Pacific,WPR,2025,2.61351625276502,2024,29.6,247.23,Held constant at latest observed country value
+VNM,Viet Nam,Western Pacific,WPR,2026,2.8536448912462156,2025,29.6,247.23,Held constant at latest observed country value
+VNM,Viet Nam,Western Pacific,WPR,2027,3.1240701788891165,2026,29.6,247.23,Held constant at latest observed country value
+VNM,Viet Nam,Western Pacific,WPR,2028,3.426963869461108,2027,29.6,247.23,Held constant at latest observed country value
+VNM,Viet Nam,Western Pacific,WPR,2029,3.7642134329801316,2028,29.6,247.23,Held constant at latest observed country value
+VNM,Viet Nam,Western Pacific,WPR,2030,4.1375766071357845,2029,29.6,247.23,Held constant at latest observed country value
+VUT,Vanuatu,Western Pacific,WPR,2024,22.56026520360608,2023,18.49,165.12,Held constant at latest observed country value
+VUT,Vanuatu,Western Pacific,WPR,2025,22.973903248507977,2024,18.49,165.12,Held constant at latest observed country value
+VUT,Vanuatu,Western Pacific,WPR,2026,23.40511622504681,2025,18.49,165.12,Held constant at latest observed country value
+VUT,Vanuatu,Western Pacific,WPR,2027,23.85596082753201,2026,18.49,165.12,Held constant at latest observed country value
+VUT,Vanuatu,Western Pacific,WPR,2028,24.32815170823697,2027,18.49,165.12,Held constant at latest observed country value
+VUT,Vanuatu,Western Pacific,WPR,2029,24.82325126585654,2028,18.49,165.12,Held constant at latest observed country value
+VUT,Vanuatu,Western Pacific,WPR,2030,25.34275909667751,2029,18.49,165.12,Held constant at latest observed country value
+WSM,Samoa,Western Pacific,WPR,2024,64.28953753742546,2023,41.63,326.05,Held constant at latest observed country value
+WSM,Samoa,Western Pacific,WPR,2025,64.94098830975211,2024,41.63,326.05,Held constant at latest observed country value
+WSM,Samoa,Western Pacific,WPR,2026,65.59159453368838,2025,41.63,326.05,Held constant at latest observed country value
+WSM,Samoa,Western Pacific,WPR,2027,66.24039638256438,2026,41.63,326.05,Held constant at latest observed country value
+WSM,Samoa,Western Pacific,WPR,2028,66.88751144371972,2027,41.63,326.05,Held constant at latest observed country value
+WSM,Samoa,Western Pacific,WPR,2029,67.5336233902728,2028,41.63,326.05,Held constant at latest observed country value
+WSM,Samoa,Western Pacific,WPR,2030,68.17968511392007,2029,41.63,326.05,Held constant at latest observed country value
+YEM,Yemen,Eastern Mediterranean,EMR,2024,13.310516796418085,2023,25.08,238.16,Held constant at latest observed country value
+YEM,Yemen,Eastern Mediterranean,EMR,2025,13.665936818168863,2024,25.08,238.16,Held constant at latest observed country value
+YEM,Yemen,Eastern Mediterranean,EMR,2026,14.028685235073265,2025,25.08,238.16,Held constant at latest observed country value
+YEM,Yemen,Eastern Mediterranean,EMR,2027,14.399402606464191,2026,25.08,238.16,Held constant at latest observed country value
+YEM,Yemen,Eastern Mediterranean,EMR,2028,14.779122586341568,2027,25.08,238.16,Held constant at latest observed country value
+YEM,Yemen,Eastern Mediterranean,EMR,2029,15.169085469093673,2028,25.08,238.16,Held constant at latest observed country value
+YEM,Yemen,Eastern Mediterranean,EMR,2030,15.570630838615898,2029,25.08,238.16,Held constant at latest observed country value
+ZAF,South Africa,Africa,AFR,2024,31.779849192179682,2023,34.4,273.96,Held constant at latest observed country value
+ZAF,South Africa,Africa,AFR,2025,32.12658767841268,2024,34.4,273.96,Held constant at latest observed country value
+ZAF,South Africa,Africa,AFR,2026,32.48920578231004,2025,34.4,273.96,Held constant at latest observed country value
+ZAF,South Africa,Africa,AFR,2027,32.86878914133596,2026,34.4,273.96,Held constant at latest observed country value
+ZAF,South Africa,Africa,AFR,2028,33.26668699345912,2027,34.4,273.96,Held constant at latest observed country value
+ZAF,South Africa,Africa,AFR,2029,33.68434302209721,2028,34.4,273.96,Held constant at latest observed country value
+ZAF,South Africa,Africa,AFR,2030,34.12323166521249,2029,34.4,273.96,Held constant at latest observed country value
+ZMB,Zambia,Africa,AFR,2024,11.58016739887084,2023,10.69,105.86,Held constant at latest observed country value
+ZMB,Zambia,Africa,AFR,2025,12.081559890052182,2024,10.69,105.86,Held constant at latest observed country value
+ZMB,Zambia,Africa,AFR,2026,12.610840416309902,2025,10.69,105.86,Held constant at latest observed country value
+ZMB,Zambia,Africa,AFR,2027,13.170035308983968,2026,10.69,105.86,Held constant at latest observed country value
+ZMB,Zambia,Africa,AFR,2028,13.760893181533199,2027,10.69,105.86,Held constant at latest observed country value
+ZMB,Zambia,Africa,AFR,2029,14.385016723723403,2028,10.69,105.86,Held constant at latest observed country value
+ZMB,Zambia,Africa,AFR,2030,15.043937679575517,2029,10.69,105.86,Held constant at latest observed country value
+ZWE,Zimbabwe,Africa,AFR,2024,14.712470089614177,2023,27.6,188.81,Held constant at latest observed country value
+ZWE,Zimbabwe,Africa,AFR,2025,15.181798001125461,2024,27.6,188.81,Held constant at latest observed country value
+ZWE,Zimbabwe,Africa,AFR,2026,15.677052434591488,2025,27.6,188.81,Held constant at latest observed country value
+ZWE,Zimbabwe,Africa,AFR,2027,16.200408219482064,2026,27.6,188.81,Held constant at latest observed country value
+ZWE,Zimbabwe,Africa,AFR,2028,16.753647205891454,2027,27.6,188.81,Held constant at latest observed country value
+ZWE,Zimbabwe,Africa,AFR,2029,17.33837600313153,2028,27.6,188.81,Held constant at latest observed country value
+ZWE,Zimbabwe,Africa,AFR,2030,17.956126926562018,2029,27.6,188.81,Held constant at latest observed country value
