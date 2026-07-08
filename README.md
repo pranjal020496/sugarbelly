@@ -1,9 +1,9 @@
 # Sugar Belly  
 ## Global Obesity Analytics & Sugar-Sensitivity Forecasting Platform
 
-Sugar Belly is an end-to-end data analytics and machine learning platform that explores global obesity trends, country-level sugar and sweeteners availability, and forward-looking obesity risk scenarios across countries and WHO regions.
+Sugar Belly is an end-to-end data analytics and machine learning application that explores global obesity trends, country-level sugar and sweeteners availability, and forward-looking obesity risk scenarios across countries and WHO regions.
 
-The project combines data engineering, PostgreSQL analytics, SQL-based feature engineering, interactive dashboarding, machine learning model benchmarking, and scenario-based forecasting to 2030.
+The project combines data engineering, PostgreSQL analytics, SQL-based feature engineering, interactive dashboarding, machine learning model benchmarking, and sugar-sensitivity forecasting to 2030.
 
 > **Important interpretation note:** This project analyzes associations and forecast scenarios, not causation. FAOSTAT sugar values represent national food supply availability, not exact individual-level consumption.
 
@@ -13,7 +13,7 @@ The project combines data engineering, PostgreSQL analytics, SQL-based feature e
 
 Obesity is a major global public-health challenge. At the same time, national food supply patterns provide useful context for understanding long-term population health trends.
 
-Sugar Belly was built as a professional analytics product that integrates public-health and food-availability datasets into a structured intelligence platform. It enables users to explore global obesity prevalence, compare sugar availability patterns, evaluate regional trends, and forecast obesity outcomes under different sugar-availability scenarios.
+Sugar Belly was built as a professional analytics product that integrates public-health and food-availability datasets into a structured intelligence platform. It enables users to explore global obesity prevalence, compare sugar availability patterns, evaluate regional differences, and forecast obesity outcomes under different sugar-availability scenarios.
 
 The platform supports:
 
@@ -22,9 +22,9 @@ The platform supports:
 - Country-level trend exploration
 - SQL-backed analytics views
 - Machine learning model benchmarking
-- Trend-based obesity forecasting
 - Sugar-sensitivity scenario forecasting
 - 2030 obesity risk comparison across countries and WHO regions
+- Scenario impact analysis versus a constant-sugar baseline
 
 This project demonstrates an end-to-end analytics workflow from raw public datasets to a PostgreSQL-backed dashboard and applied ML forecasting layer.
 
@@ -43,10 +43,6 @@ This project demonstrates an end-to-end analytics workflow from raw public datas
 ### Country-Level Trend Explorer
 
 ![Germany sugar and obesity trend](assets/germany_sugarvsobesity.png)
-
-### Trend-Based ML Forecast to 2030
-
-![Sugar Belly ML forecast](assets/sugarbelly_ml_forecast.png)
 
 ### Sugar-Sensitivity ML Scenario Forecast
 
@@ -106,24 +102,20 @@ flowchart LR
     C[FAOSTAT Food Balance Data] --> B
     B --> D[PostgreSQL Database]
     D --> E[SQL Analytics Views]
-    E --> F[Streamlit Dashboard]
-    E --> G1[Trend Forecast Features]
-    E --> G2[Sugar Sensitivity Features]
-    G1 --> H1[Trend Forecast Model]
-    G2 --> H2[Sugar Sensitivity Model]
-    H1 --> I1[2030 Trend Forecasts]
-    H2 --> I2[Sugar Scenario Forecasts]
-    I1 --> F
-    I2 --> F
+    E --> F[ML Feature Engineering]
+    F --> G[Sugar-Sensitivity ML Model]
+    G --> H[2030 Scenario Forecasts]
+    E --> I[Streamlit Dashboard]
+    H --> I
 ```
 
 The system separates responsibilities clearly:
 
-- **Python** handles ingestion, cleaning, loading, model training, and forecasting
+- **Python** handles ingestion, cleaning, database loading, model training, and forecasting
 - **PostgreSQL** stores structured data and powers reusable analytics views
 - **SQL views** create dashboard-ready and ML-ready datasets
-- **Streamlit and Plotly** deliver the interactive analytics interface
 - **Scikit-learn** supports model training, benchmarking, and forecasting
+- **Streamlit and Plotly** deliver the interactive analytics interface
 
 ---
 
@@ -142,7 +134,6 @@ Core database objects include:
 - `v_sugar_obesity_latest`
 - `v_sugar_obesity_region_summary`
 - `v_sugar_obesity_country_change`
-- `v_ml_obesity_features`
 - `v_ml_sugar_sensitivity_features`
 
 This makes the application more scalable and professional than a CSV-only workflow.
@@ -162,84 +153,31 @@ The Streamlit dashboard provides:
 - Obesity ranking
 - Sugar availability ranking
 - Largest obesity increase ranking
-- Trend-based ML forecast to 2030
-- Sugar-sensitivity scenario forecast to 2030
+- Sugar-sensitivity forecast to 2030
 - Scenario impact comparison versus constant sugar
 
 ---
 
 ### 3. Machine Learning Forecasting Layer
 
-Sugar Belly uses two complementary ML approaches.
+Sugar Belly uses a sugar-sensitivity machine learning model to estimate future obesity change under different sugar availability scenarios.
 
-| Model | Purpose |
-|---|---|
-| Trend Forecast Model | Predicts future obesity using historical obesity trajectory, lag features, sugar availability, region, and year |
-| Sugar Sensitivity Model | Estimates future obesity change associated with sugar availability and sugar trend scenarios |
+The model combines both datasets at country-year level:
 
-This separation is intentional.
+- WHO obesity prevalence data
+- FAOSTAT sugar and sweeteners availability data
 
-The trend model is optimized for forecast accuracy, while the sugar-sensitivity model is designed for scenario interpretation and decision-support analysis.
+The model does **not** switch when the user selects different scenarios. The trained model remains fixed. The dashboard changes the sugar availability input assumption, and the same model estimates the associated obesity forecast.
 
 ---
 
-## Model 1: Trend Forecast Model
+## Machine Learning Methodology
 
-The trend forecast model predicts next-year adult obesity prevalence.
+The machine learning model is designed to estimate how future obesity changes are associated with current obesity levels, sugar availability, sugar trends, year, and WHO region.
 
-The model target is:
+Instead of directly predicting next-year obesity prevalence, the model predicts future obesity movement.
 
-```text
-target_obesity_next_year
-```
-
-Features include:
-
-- Current obesity prevalence
-- Obesity lag features from previous years
-- One-year and three-year obesity changes
-- Sugar availability
-- Sugar lag features
-- One-year and three-year sugar changes
-- WHO region
-- Year
-
-Models compared:
-
-| Model | Purpose |
-|---|---|
-| Naive Baseline | Predicts next year equals current year |
-| Linear Regression | Interpretable statistical ML baseline |
-| Random Forest Regressor | Nonlinear tabular ML model |
-
-Time-based model evaluation:
-
-| Split | Years |
-|---|---|
-| Training period | 2013–2020 |
-| Test period | 2021–2022 |
-
-Performance:
-
-| Model | MAE | RMSE | R² |
-|---|---:|---:|---:|
-| Naive Baseline | 0.437 | 0.499 | 0.998 |
-| Linear Regression | 0.007 | 0.026 | 1.000 |
-| Random Forest Regressor | 0.261 | 0.952 | 0.993 |
-
-The Linear Regression model achieved the lowest MAE on the historical test period and was selected for the original trend forecast.
-
-> The strong performance is partly explained by the smooth year-to-year nature of WHO obesity estimates and the inclusion of strong lag and trend features. These results should be interpreted as forecasting of historical estimate patterns, not as deterministic real-world outcomes.
-
----
-
-## Model 2: Sugar Sensitivity Model
-
-The sugar sensitivity model was added to better analyze how future obesity may change under different sugar-availability scenarios.
-
-Instead of directly predicting next-year obesity prevalence, this model predicts future obesity movement.
-
-The target is:
+The target variable is:
 
 ```text
 target_obesity_change_3yr = obesity_pct in year + 3 - obesity_pct in current year
@@ -261,7 +199,7 @@ Input features include:
 - WHO region
 - Year
 
-The forecast is calculated as:
+The final forecast is calculated as:
 
 ```text
 future obesity = current obesity + predicted obesity change
@@ -269,7 +207,45 @@ future obesity = current obesity + predicted obesity change
 
 For yearly forecasts through 2030, the predicted three-year change is annualized.
 
-This model supports sugar-availability scenario analysis, including:
+This approach combines both obesity and sugar availability data into one forecast output while keeping the interpretation focused on association-based scenario analysis.
+
+---
+
+## Model Benchmarking
+
+The sugar-sensitivity model is trained and evaluated using historical country-year observations.
+
+Candidate models include:
+
+| Model | Purpose |
+|---|---|
+| Naive Previous 3-Year Change | Baseline using recent historical obesity change |
+| Linear Regression | Interpretable statistical ML model |
+| Ridge Regression | Regularized linear model |
+| Random Forest Regressor | Nonlinear tabular ML model |
+
+The selected model is saved as:
+
+```text
+models/sugar_sensitivity_model.joblib
+```
+
+Model outputs are saved to:
+
+```text
+reports/sugar_sensitivity_metrics.csv
+reports/sugar_sensitivity_test_predictions.csv
+```
+
+The model is selected for scenario analysis based on predictive performance and interpretability.
+
+---
+
+## Sugar Availability Scenario Forecasting
+
+Because future sugar availability is unknown, the dashboard allows scenario-based analysis.
+
+The scenario options are:
 
 - Sugar -10% by 2030
 - Sugar -5% by 2030
@@ -279,45 +255,29 @@ This model supports sugar-availability scenario analysis, including:
 - Sugar +5% by 2030
 - Sugar +10% by 2030
 
-The dashboard allows the user to compare matched increase/decrease scenarios using:
+In the dashboard, users select:
 
 ```text
-±2%, ±5%, and ±10% sugar availability change by 2030
+±2%, ±5%, or ±10% sugar availability change by 2030
 ```
 
----
+For each selected range, the dashboard compares:
 
-## Forecasting Methodology
+- Reduced sugar scenario
+- Constant sugar scenario
+- Increased sugar scenario
 
-Sugar Belly includes two forecast methodologies.
-
-### Trend Forecast Methodology
-
-The trend forecast model follows an iterative forecasting approach:
+The forecast process is:
 
 1. Start from the latest available country-year data
-2. Predict next-year obesity prevalence
-3. Add the predicted year back into the country history
-4. Use the updated history to predict the following year
-5. Repeat until 2030
-
-This creates a baseline obesity forecast based on historical country trajectory and model-learned patterns.
-
-### Sugar Sensitivity Forecast Methodology
-
-The sugar sensitivity model estimates future obesity change under sugar availability scenarios.
-
-The process is:
-
-1. Start from the latest available country-year data
-2. Apply a sugar scenario through 2030
+2. Apply the selected sugar availability scenario through 2030
 3. Build ML features using current obesity, sugar availability, sugar trend, year, and WHO region
 4. Predict expected three-year obesity change
 5. Annualize the predicted change
-6. Add the annualized change to the current obesity value
+6. Add the annualized change to current obesity prevalence
 7. Repeat until 2030
 
-This allows the dashboard to compare obesity forecasts under lower, constant, and higher sugar availability assumptions.
+The dashboard also shows a scenario impact chart that compares each scenario against the constant-sugar baseline.
 
 ---
 
@@ -348,7 +308,6 @@ sugarbelly/
 │   ├── sugarbelly_dashboard_overview.png
 │   ├── sugarbelly_global_overview.png
 │   ├── germany_sugarvsobesity.png
-│   ├── sugarbelly_ml_forecast.png
 │   ├── sugarbelly_ml_sugar_sensitivity_forecast.png
 │   ├── sugarbelly_scenario_impact.png
 │   └── rankings.png
@@ -357,12 +316,8 @@ sugarbelly/
 │   ├── interim/
 │   └── processed/
 ├── models/
-│   ├── obesity_forecast_model.joblib
 │   └── sugar_sensitivity_model.joblib
 ├── reports/
-│   ├── model_metrics.csv
-│   ├── test_predictions.csv
-│   ├── obesity_forecasts_2030.csv
 │   ├── sugar_sensitivity_metrics.csv
 │   ├── sugar_sensitivity_test_predictions.csv
 │   └── sugar_sensitivity_forecasts_2030.csv
@@ -379,13 +334,13 @@ sugarbelly/
 │   ├── database/
 │   ├── ingestion/
 │   └── models/
-│       ├── train_obesity_forecast.py
-│       ├── forecast_obesity_to_2030.py
 │       ├── train_sugar_sensitivity_model.py
 │       └── forecast_sugar_sensitivity_to_2030.py
 ├── requirements.txt
 └── README.md
 ```
+
+> Note: Trained `.joblib` model files may be excluded from GitHub by `.gitignore`. If the model file is not present locally, retrain it using the commands below.
 
 ---
 
@@ -443,7 +398,7 @@ psql -d sugarbelly -f sql/04_create_sugar_table.sql
 python src/database/load_faostat_sugar.py
 ```
 
-### 6. Create SQL analytics views
+### 6. Create SQL analytics and ML feature views
 
 ```bash
 psql -d sugarbelly -f sql/03_create_obesity_views.sql
@@ -452,31 +407,19 @@ psql -d sugarbelly -f sql/06_create_ml_features.sql
 psql -d sugarbelly -f sql/07_create_sugar_sensitivity_features.sql
 ```
 
-### 7. Train the trend forecast model
-
-```bash
-python src/models/train_obesity_forecast.py
-```
-
-### 8. Generate trend forecasts to 2030
-
-```bash
-python src/models/forecast_obesity_to_2030.py
-```
-
-### 9. Train the sugar sensitivity model
+### 7. Train the sugar-sensitivity model
 
 ```bash
 python src/models/train_sugar_sensitivity_model.py
 ```
 
-### 10. Generate sugar sensitivity forecasts to 2030
+### 8. Generate sugar-sensitivity forecasts to 2030
 
 ```bash
 python src/models/forecast_sugar_sensitivity_to_2030.py
 ```
 
-### 11. Run the dashboard
+### 9. Run the dashboard
 
 ```bash
 streamlit run app/dashboard.py
@@ -496,12 +439,9 @@ http://localhost:8501
 |---|---|
 | Cleaned WHO obesity data | `data/interim/who_obesity_clean.csv` |
 | Cleaned FAOSTAT sugar data | `data/interim/faostat_sugar_supply_clean.csv` |
-| Trend model metrics | `reports/model_metrics.csv` |
-| Trend model test predictions | `reports/test_predictions.csv` |
-| Trend model 2030 forecasts | `reports/obesity_forecasts_2030.csv` |
-| Sugar sensitivity model metrics | `reports/sugar_sensitivity_metrics.csv` |
-| Sugar sensitivity test predictions | `reports/sugar_sensitivity_test_predictions.csv` |
-| Sugar sensitivity 2030 forecasts | `reports/sugar_sensitivity_forecasts_2030.csv` |
+| Sugar-sensitivity model metrics | `reports/sugar_sensitivity_metrics.csv` |
+| Sugar-sensitivity test predictions | `reports/sugar_sensitivity_test_predictions.csv` |
+| Sugar-sensitivity 2030 forecasts | `reports/sugar_sensitivity_forecasts_2030.csv` |
 | Streamlit dashboard | `app/dashboard.py` |
 
 ---
